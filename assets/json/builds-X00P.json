@@ -1,0 +1,10 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-03-16",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/X00P/PBRP-X00P-3.0.0-20210316-1405-BETA.zip/download",
+    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_ASUS_X00P-pbrp/releases/tag/3.0.0",
+    "changelog": "- Initial Release"
+  }
+}
