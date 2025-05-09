@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ page.title | default: site.title }}</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap');
+
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Root colors based on PitchBlack theme with white font */
+  :root {
+    --bg-color: #000000; /* Set background to black */
+    --primary-color: #ff5722; /* Keep primary color as is or change to a lighter shade */
+    --accent-color: #ff3d00; /* Keep accent color as is */
+    --text-color: #ffffff; /* Set text color to white */
+    --text-muted: #dddddd; /* Muted text color */
+    --nav-height: 60px;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
+
+  /* Header & nav */
+  header {
+    background-color: #1e1e1e; /* Darker header */
+    height: var(--nav-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+  }
+
+  .logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    letter-spacing: 0.05em;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  nav ul li {
+    font-weight: 500;
+  }
+
+  nav button.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+  }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #4a0404cc, #ff5722cc),
+      url('https://images.pexels.com/photos/5392387/pexels-photo-5392387.jpeg?auto=compress&cs=tinysrgb&w=1600')
+      no-repeat center/cover;
+    color: white;
+    padding: 100px 20px 100px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px rgba(255,87,34,0.7);
+  }
+  .hero p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-shadow: 0 0 8px rgba(0,0,0,0.7);
+  }
+
+  section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  section h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 8px;
+  }
+  #about p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+  }
+
+  /* Supported Devices Styling */
+  .oem-list, .device-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .oem-list > li {
+    margin-bottom: 15px;
+  }
+  .oem-toggle {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+  }
+  .oem-toggle:hover,
+  .oem-toggle:focus {
+    background-color: var(--accent-color);
+    outline: none;
+  }
+  .device-list {
+    margin-top: 8px;
+    margin-left: 20px;
+  }
+  .device-item {
+    margin-bottom: 6px;
+  }
+  .device-item a {
+    color: var(--text-color);
+    font-weight: 600;
+  }
+  .device-item a:hover,
+  .device-item a:focus {
+    color: var(--primary-color);
+  }
+
+  /* FAQ */
+  .faq-item {
+    margin-bottom: 15px;
+  }
+  .faq-question {
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px;
+    color: var(--primary-color);
+  }
+  .faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+    transition: transform 0.3s ease;
+  }
+  .faq-question.active::after {
+    transform: rotate(45deg);
+  }
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    color: var(--text-muted);
+    padding-left: 10px;
+  }
+  .faq-answer.open {
+    max-height: 300px;
+    margin-top: 5px;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #1e1e1e;
+    color: var(--text-muted);
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 0.9rem;
+  }
+  .social-links {
+    margin-top: 8px;
+  }
+  .social-links a {
+    color: var(--primary-color);
+    margin: 0 10px;
+    font-size: 1.3rem;
+    transition: color 0.3s ease;
+  }
+  .social-links a:hover {
+    color: var(--accent-color);
+  }
+
+  /* Responsive */
+  @media (max-width: 700px) {
+    nav ul {
+      display: none;
+      flex-direction: column;
+      background-color: #1e1e1e;
+      position: absolute;
+      top: var(--nav-height);
+      right: 0;
+      width: 200px;
+      border-left: 2px solid var(--primary-color);
+      padding: 10px;
+    }
+    nav ul.show {
+      display: flex;
+    }
+    nav button.nav-toggle {
+      display: block;
+    }
+    .device-list {
+      margin-left: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">PitchBlack Recovery Project</div>
+  <nav>
+    <button class="nav-toggle" aria-label="Toggle navigation menu">&#9776;</button>
+    <ul>
+      <li><a href="#home" tabindex="0">Home</a></li>
+      <li><a href="#devices" tabindex="0">Devices</a></li>
+      <li><a href="#faq" tabindex="0">FAQ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<footer>
+  <div>© 2024 PitchBlack Recovery Project</div>
+  <div class="social-links" aria-label="Social media links">
+    <a href="https://github.com/PitchBlackRecoveryProject" aria-label="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://x.com/pbrp_recovery" aria-label="X/Twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
+    <a href="https://t.me/pbrpcom" aria-label="Telegram" target="_blank" rel="noopener noreferrer">Telegram</a>
+  </div>
+</footer>
+
+<script>
+  // Navigation toggle for mobile
+  const navToggle = document.querySelector('button.nav-toggle');
+  const navMenu = document.querySelector('nav ul');
+
+  navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+  });
+
+  // FAQ toggle
+  const faqQuestions = document.querySelectorAll('.faq-question');
+  faqQuestions.forEach(question => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      const isOpen = answer.classList.contains('open');
+      if (isOpen) {
+        answer.classList.remove('open');
+        answer.setAttribute('hidden', '');
+        question.setAttribute('aria-expanded', 'false');
+        question.classList.remove('active');
+      } else {
+        answer.classList.add('open');
+        answer.removeAttribute('hidden');
+        question.setAttribute('aria-expanded', 'true');
+        question.classList.add('active');
+      }
+    });
+    question.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        question.click();
+      }
+    });
+  });
+
+  // OEM toggle for device list
+  document.querySelectorAll('.oem-toggle').forEach(button => {
+    button.addEventListener('click', () => {
+      const controls = button.getAttribute('aria-controls');
+      const list = document.getElementById(controls);
+      const expanded = button.getAttribute('aria-expanded') === 'true';
+      if (expanded) {
+        button.setAttribute('aria-expanded', 'false');
+        list.hidden = true;
+      } else {
+        button.setAttribute('aria-expanded', 'true');
+        list.hidden = false;
+      }
+    });
+  });
+
+  // Search filter for devices
+  function filterDevices() {
+    const searchInput = document.getElementById('device-search').value.toLowerCase();
+    const deviceItems = document.querySelectorAll('.device-item');
+
+    deviceItems.forEach(item => {
+      const title = item.getAttribute('data-title');
+      const codename = item.getAttribute('data-codename');
+
+      if (title.includes(searchInput) || codename.includes(searchInput)) {
+        item.style.display = '';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+</script>
+</body>
+</html>

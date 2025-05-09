@@ -1,0 +1,79 @@
+<div id="pbrp-downloads">
+  <div class="loading-spinner">
+    <i class="fas fa-circle-notch fa-spin"></i> Loading downloads...
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+  const container = document.getElementById('pbrp-downloads');
+  const codename = '{{ page.codename }}';
+  
+  try {
+    const response = await fetch(`/assets/json/builds-${codename}.json`);
+    if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+    
+    const data = await response.json();
+    container.innerHTML = `
+      <section class="download-section">
+        <h2>Downloads for {{ page.title }}</h2>
+        ${renderVersion(data.latest, true)}
+        ${data.older_builds?.length ? `
+          <div class="older-builds">
+            <h3>Older Versions</h3>
+            ${data.older_builds.map(build => renderVersion(build, false)).join('')}
+          </div>
+        ` : ''}
+      </section>
+    `;
+  } catch (error) {
+    container.innerHTML = `
+      <div class="error-message">
+        <i class="fas fa-exclamation-triangle"></i>
+        <p>Downloads currently unavailable</p>
+        <small>${error.message}</small>
+      </div>
+    `;
+    console.error('PBRP Download Error:', error);
+  }
+  function renderVersion(build, isLatest) {
+  const buildType = build.build_type || 'OFFICIAL';
+  return `
+    <div class="download-card ${isLatest ? 'latest' : 'older'}">
+      <div class="version-header">
+        <div class="version-info">
+          <span class="version">v${build.version}</span>
+          <span class="build-type ${buildType.toLowerCase()}">${buildType}</span>
+          <span class="date">${new Date(build.date).toLocaleDateString()}</span>
+          <i class="fas fa-chevron-down expand-icon"></i>
+        </div>
+      </div>
+      <div class="version-content">
+        <div class="download-actions">
+          ${isLatest ? `
+            <a href="${build.github_release}" class="btn secondary" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="${build.download_link}" class="btn primary" target="_blank">
+              <i class="fas fa-download"></i> SourceForge
+            </a>
+          ` : `
+            <a href="${build.download_link}" class="btn primary" target="_blank">
+              <i class="fas fa-download"></i> SourceForge
+            </a>
+          `}
+        </div>
+        ${build.changelog ? `
+          <div class="changelog">
+            <details>
+              <summary>Changelog</summary>
+              <div class="changelog-content">${build.changelog.replace(/\n/g, '<br>')}</div>
+            </details>
+          </div>
+        ` : ''}
+      </div>
+    </div>
+  `;
+}
+});
+</script>

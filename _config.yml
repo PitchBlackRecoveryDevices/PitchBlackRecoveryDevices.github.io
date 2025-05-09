@@ -1,0 +1,7 @@
+title: PitchBlack Recovery Project
+theme: null
+
+collections:
+  oem:
+    output: true
+    permalink: /devices/:path/

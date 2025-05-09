@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - PitchBlack Recovery Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    :root {
+      --primary: #ff5722;
+      --primary-dark: #e64a19;
+      --bg-dark: #000000;
+      --bg-card: #1e1e1e;
+      --bg-header: #252525;
+      --text-light: #ffffff;
+      --text-muted: #bdbdbd;
+      --border: #333;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-light);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: var(--bg-card);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+    .site-header {
+      background: var(--bg-card);
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+
+    .page-title {
+      font-size: 1.5rem;
+      margin: 0;
+      color: var(--text-light);
+    }
+
+    .back-btn {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      background: #2c2c2c;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      text-decoration: none;
+      transition: background 0.2s ease;
+    }
+
+    .back-btn:hover {
+      background: var(--bg-header);
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .download-card {
+      background: var(--bg-card);
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      border-left: 4px solid var(--primary);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+
+    .download-card.latest {
+      border-left-color: var(--primary);
+    }
+
+    .download-card.older {
+      border-left-color: #616161;
+    }
+
+    .version-header {
+      padding: 1rem 1.5rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--bg-header);
+    }
+
+    .version-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .build-type {
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .build-type.official { background: #4CAF50; color: white; }
+    .build-type.beta { background: #FFC107; color: #212121; }
+    .build-type.unofficial { background: #F44336; color: white; }
+
+    .expand-icon {
+      transition: transform 0.3s ease;
+      margin-left: 10px;
+    }
+
+    .version-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      padding: 0 1.5rem;
+    }
+
+    .download-card.expanded .version-content {
+      max-height: 1000px;
+      padding-bottom: 1.5rem;
+    }
+
+    .download-card.expanded .expand-icon {
+      transform: rotate(180deg);
+    }
+
+    .download-actions {
+      display: flex;
+      gap: 1rem;
+      margin: 1.5rem 0;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn.primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn.secondary {
+      background: #333;
+      color: white;
+      border: 1px solid var(--border);
+    }
+
+    .changelog {
+      margin: 1rem 0;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+
+    footer {
+      background: var(--bg-card);
+      padding: 1rem;
+      text-align: center;
+      color: var(--text-muted);
+      margin-top: auto;
+    }
+
+    @media (max-width: 768px) {
+      .download-actions {
+        flex-direction: column;
+      }
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-left">
+      <h1 class="page-title">{{ page.title }}</h1>
+    </div>
+    <div class="header-right">
+      <a href="{{ '/' | relative_url }}" class="btn back-btn">
+        <i class="fas fa-arrow-left"></i> Home
+      </a>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>© 2024 PitchBlack Recovery Project</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialize all cards
+      const cards = document.querySelectorAll('.download-card');
+      
+      cards.forEach(card => {
+        const header = card.querySelector('.version-header');
+        const content = card.querySelector('.version-content');
+        
+        // Set initial state
+        header.setAttribute('aria-expanded', 'false');
+        content.style.maxHeight = '0';
+        
+        // Click handler
+        header.addEventListener('click', function() {
+          const isExpanded = this.getAttribute('aria-expanded') === 'true';
+          
+          // Toggle state
+          if (isExpanded) {
+            this.setAttribute('aria-expanded', 'false');
+            card.classList.remove('expanded');
+            content.style.maxHeight = '0';
+          } else {
+            this.setAttribute('aria-expanded', 'true');
+            card.classList.add('expanded');
+            content.style.maxHeight = content.scrollHeight + 'px';
+          }
+        });
+      });
+
+      // Handle potential dynamic content loading
+      const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.addedNodes.length) {
+            initCards();
+          }
+        });
+      });
+
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+
+      function initCards() {
+        const newCards = document.querySelectorAll('.download-card:not([data-initialized])');
+        
+        newCards.forEach(card => {
+          const header = card.querySelector('.version-header');
+          const content = card.querySelector('.version-content');
+          
+          header.setAttribute('aria-expanded', 'false');
+          content.style.maxHeight = '0';
+          card.setAttribute('data-initialized', 'true');
+          
+          header.addEventListener('click', function() {
+            const isExpanded = this.getAttribute('aria-expanded') === 'true';
+            
+            if (isExpanded) {
+              this.setAttribute('aria-expanded', 'false');
+              card.classList.remove('expanded');
+              content.style.maxHeight = '0';
+            } else {
+              this.setAttribute('aria-expanded', 'true');
+              card.classList.add('expanded');
+              content.style.maxHeight = content.scrollHeight + 'px';
+            }
+          });
+        });
+      }
+    });
+  </script>
+</body>
+</html>
