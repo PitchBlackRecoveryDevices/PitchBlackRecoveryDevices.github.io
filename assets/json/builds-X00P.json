@@ -2,12 +2,19 @@
   "latest": {
     "version": "3.1.0",
     "build_type": "OFFICIAL",
-    "date": "2021-03-28",
-    "download_link": "https://sourceforge.net/projects/pbrp/files/X00P/PBRP-X00P-3.1.0-20210328-1857-OFFICIAL.zip/download",
+    "date": "2021-05-11",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/X00P/PBRP-X00P-3.1.0-20210511-1112-OFFICIAL.zip/download",
     "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_ASUS_X00P-pbrp/releases/tag/3.1.0",
-    "changelog": "- Bump to 3.1\n - Fixed Decryption"
+    "changelog": "- Sync Latest Source"
   },
   "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00P/PBRP-X00P-3.1.0-20210328-1857-OFFICIAL.zip/download",
+      "changelog": "- Bump to 3.1\n - Fixed Decryption"
+    },
     {
       "version": "3.0.0",
       "build_type": "OFFICIAL",
