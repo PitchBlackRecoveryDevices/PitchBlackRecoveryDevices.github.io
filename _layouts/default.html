@@ -4,72 +4,119 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{{ page.title | default: site.title }}</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;500;700&display=swap');
 
-  /* Reset */
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-  /* Root colors based on PitchBlack theme with white font */
   :root {
-    --bg-color: #000000; /* Set background to black */
-    --primary-color: #ff5722; /* Keep primary color as is or change to a lighter shade */
-    --accent-color: #ff3d00; /* Keep accent color as is */
-    --text-color: #ffffff; /* Set text color to white */
-    --text-muted: #dddddd; /* Muted text color */
-    --nav-height: 60px;
+    --bg-color: #000000;
+    --primary-gradient: linear-gradient(135deg, #4169E1, #9400D3);
+    --primary-color: #4169E1;
+    --accent-color: #9400D3;
+    --text-light: #ffffff;
+    --text-muted: #dddddd;
+    --nav-height: 70px;
+    --card-bg: #121212;
+    --card-hover: #1e1e1e;
+    --bg-header: #1a1a1a;
   }
 
   body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--bg-color);
-    color: var(--text-color);
+    color: var(--text-light);
     line-height: 1.6;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
   }
 
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--text-light);
+  }
+
+  .logo:hover {
+    color: var(--text-light);
+    transform: none;
+  }
+
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
   a {
     color: var(--primary-color);
     text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease;
   }
+  
   a:hover,
   a:focus {
-    color: var(--accent-color);
-    text-decoration: underline;
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-2px);
   }
 
-  /* Header & nav */
   header {
-    background-color: #1e1e1e; /* Darker header */
+    background: var(--card-bg);
     height: var(--nav-height);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 30px;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
-  }
-
-  .logo {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    letter-spacing: 0.05em;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    border-bottom: 1px solid var(--border-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   nav ul {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 30px;
   }
+  
   nav ul li {
     font-weight: 500;
+  }
+
+  nav ul li a {
+    color: var(--text-light);
+    position: relative;
+    padding: 5px 0;
+  }
+
+  nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-gradient);
+    transition: width 0.3s ease;
+  }
+
+  nav ul li a:hover::after {
+    width: 100%;
   }
 
   nav button.nav-toggle {
@@ -81,264 +128,649 @@
     font-size: 1.6rem;
   }
 
-  /* Hero */
-  .hero {
-    background: linear-gradient(135deg, #4a0404cc, #ff5722cc),
-      url('https://images.pexels.com/photos/5392387/pexels-photo-5392387.jpeg?auto=compress&cs=tinysrgb&w=1600')
-      no-repeat center/cover;
-    color: white;
-    padding: 100px 20px 100px;
-    text-align: center;
+  main {
+    margin-top: var(--nav-height);
+    flex: 1;
   }
+
+  .hero {
+    background: linear-gradient(135deg, rgba(0,0,0,0.9), rgba(142,36,170,0.2));
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at center, transparent, var(--bg-color));
+    pointer-events: none;
+  }
+  
   .hero h1 {
     font-family: 'Orbitron', sans-serif;
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
     letter-spacing: 0.1em;
-    text-shadow: 0 0 10px rgba(255,87,34,0.7);
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
   }
+  
   .hero p {
     font-size: 1.25rem;
-    max-width: 600px;
-    margin: 0 auto;
-    text-shadow: 0 0 8px rgba(0,0,0,0.7);
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    text-shadow: 0 0 10px rgba(0,0,0,0.9);
+    position: relative;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+  }
+
+  .btn {
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
+
+  .btn.primary {
+    background: var(--primary-gradient);
+    color: white;
+    box-shadow: 0 4px 15px rgba(142,36,170,0.3);
+  }
+
+  .btn.primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(142,36,170,0.4);
+    color: white;
+    -webkit-text-fill-color: white;
+  }
+
+  .btn.secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid;
+    border-image: var(--primary-gradient) 1;
+  }
+
+  .btn.secondary:hover {
+    background: rgba(142,36,170,0.1);
+    transform: translateY(-3px);
+    color: white;
+    -webkit-text-fill-color: white;
   }
 
   section {
-    padding: 50px 20px;
-    max-width: 900px;
+    padding: 80px 20px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 
   section h2 {
     font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
     font-weight: 700;
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    border-bottom: 2px solid var(--primary-color);
-    padding-bottom: 8px;
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
   }
-  #about p {
-    font-size: 1.1rem;
+
+  section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: var(--primary-gradient);
+    border-radius: 3px;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .feature-item {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+  }
+
+  .feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(142,36,170,0.1);
+    border-image: var(--primary-gradient) 1;
+  }
+
+  .feature-item i {
+    font-size: 2.5rem;
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+  }
+
+  .feature-item h3 {
+    color: var(--text-light);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .search-container {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto 40px;
+  }
+
+  #device-search {
+    width: 100%;
+    padding: 12px 20px;
+    padding-right: 50px;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--card-bg);
+    color: var(--text-light);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  #device-search:focus {
+    border-image: var(--primary-gradient) 1;
+    outline: none;
+    box-shadow: 0 0 10px rgba(142,36,170,0.2);
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
     color: var(--text-muted);
   }
 
-  /* Supported Devices Styling */
-  .oem-list, .device-list {
+  .oem-list {
     list-style: none;
-    padding-left: 0;
-  }
-  .oem-list > li {
-    margin-bottom: 15px;
-  }
-  .oem-toggle {
-    background: none;
-    border: none;
-    color: var(--primary-color);
-    font-weight: 700;
-    font-size: 1.1rem;
-    cursor: pointer;
-    padding: 6px 10px;
-    border-radius: 5px;
-    width: 100%;
-    text-align: left;
-  }
-  .oem-toggle:hover,
-  .oem-toggle:focus {
-    background-color: var(--accent-color);
-    outline: none;
-  }
-  .device-list {
-    margin-top: 8px;
-    margin-left: 20px;
-  }
-  .device-item {
-    margin-bottom: 6px;
-  }
-  .device-item a {
-    color: var(--text-color);
-    font-weight: 600;
-  }
-  .device-item a:hover,
-  .device-item a:focus {
-    color: var(--primary-color);
+    max-width: 800px;
+    margin: 0 auto;
   }
 
-  /* FAQ */
-  .faq-item {
-    margin-bottom: 15px;
-  }
-  .faq-question {
-    font-weight: 600;
+  .oem-toggle {
+    width: 100%;
+    padding: 15px 20px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-light);
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: left;
     cursor: pointer;
-    position: relative;
-    padding-right: 20px;
-    color: var(--primary-color);
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  .faq-question::after {
-    content: '+';
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-weight: 700;
-    font-size: 1.3rem;
+
+  .oem-toggle::after {
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     transition: transform 0.3s ease;
   }
-  .faq-question.active::after {
-    transform: rotate(45deg);
+
+  .oem-toggle[aria-expanded="true"]::after {
+    transform: rotate(180deg);
   }
-  .faq-answer {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-    color: var(--text-muted);
+
+  .oem-toggle:hover {
+    background: var(--card-hover);
+    border-image: var(--primary-gradient) 1;
+  }
+
+  .device-list {
+    list-style: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background: var(--card-bg);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+  }
+
+  .device-item {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .device-item:last-child {
+    border-bottom: none;
+  }
+
+  .device-item a {
+    color: var(--text-light);
+    transition: all 0.3s ease;
+  }
+
+  .device-item a:hover {
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding-left: 10px;
   }
-  .faq-answer.open {
-    max-height: 300px;
-    margin-top: 5px;
+
+  /* Donation Section Styles */
+  #donate {
+  background: linear-gradient(135deg, rgba(65,105,225,0.1), rgba(148,0,211,0.1));
+  border-radius: 16px;
+  margin: 40px auto;
+  padding: 40px;
+  text-align: center;
   }
 
-  /* Footer */
-  footer {
-    background-color: #1e1e1e;
-    color: var(--text-muted);
-    text-align: center;
-    padding: 15px 20px;
-    font-size: 0.9rem;
+  .donation-content {
+    max-width: 800px;
+    margin: 0 auto;
   }
-  .social-links {
-    margin-top: 8px;
+
+  .donation-text h3 {
+    font-size: 1.5rem;
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
-  .social-links a {
+
+  .donation-text p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: var(--text-light);
+  }
+
+  .donation-methods {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .donation-methods .btn {
+    padding: 15px 30px;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  @media (max-width: 768px) {
+  #donate {
+    padding: 30px 20px;
+  }
+  
+  .donation-methods {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .donation-methods .btn {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+}
+
+  /* FAQ Styles */
+  .faq-item {
+    background: var(--card-bg);
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .faq-item:hover {
+    box-shadow: 0 4px 20px rgba(142,36,170,0.1);
+  }
+
+  .faq-question {
+    padding: 1.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text-light);
+    background: var(--bg-header);
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .faq-question::after {
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     color: var(--primary-color);
-    margin: 0 10px;
-    font-size: 1.3rem;
-    transition: color 0.3s ease;
-  }
-  .social-links a:hover {
-    color: var(--accent-color);
+    transition: transform 0.3s ease;
   }
 
-  /* Responsive */
-  @media (max-width: 700px) {
+  .faq-question:hover {
+    background: var(--card-hover);
+  }
+
+  .faq-question.active {
+    background: var(--card-hover);
+    color: var(--primary-color);
+  }
+
+  .faq-question.active::after {
+    transform: rotate(180deg);
+  }
+
+  .faq-answer {
+    padding: 1.5rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    background: var(--card-bg);
+    border-top: 1px solid var(--border-color);
+  }
+
+  .requirements-list {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+  }
+
+  .requirements-list li {
+    background: var(--card-bg);
+    padding: 1rem 1.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+    color: var(--text-light);
+  }
+
+  .warning-box {
+    background: linear-gradient(135deg, rgba(142,36,170,0.1), rgba(123,31,162,0.1));
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .warning-box p {
+    color: var(--text-light);
+    margin: 0;
+  }
+
+  .community-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .community-item {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+    text-align: center;
+    color: var(--text-light);
+    text-decoration: none;
+  }
+
+  .community-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(142,36,170,0.1);
+    border-image: var(--primary-gradient) 1;
+    color: var(--text-light);
+  }
+
+  .community-item i {
+    font-size: 2.5rem;
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+  }
+
+  .community-item h3 {
+    color: var(--text-light);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  footer {
+    background: var(--card-bg);
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: auto;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .social-links {
+    margin-top: 20px;
+  }
+
+  .social-links a {
+    margin: 0 15px;
+    font-size: 1.5rem;
+    color: var(--text-muted);
+    transition: all 0.3s ease;
+  }
+
+  .social-links a:hover {
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-3px);
+  }
+
+  @media (max-width: 768px) {
+    header {
+      padding: 0 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
     nav ul {
       display: none;
       flex-direction: column;
-      background-color: #1e1e1e;
       position: absolute;
       top: var(--nav-height);
       right: 0;
+      background: var(--card-bg);
       width: 200px;
-      border-left: 2px solid var(--primary-color);
-      padding: 10px;
+      padding: 20px;
+      border-left: 2px solid;
+      border-image: var(--primary-gradient) 1;
+      box-shadow: -5px 5px 15px rgba(0,0,0,0.3);
     }
+
     nav ul.show {
       display: flex;
     }
+
     nav button.nav-toggle {
       display: block;
     }
-    .device-list {
-      margin-left: 10px;
+
+    .feature-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .btn {
+      width: 100%;
+      max-width: 300px;
+      justify-content: center;
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    section h2 {
+      font-size: 2rem;
+    }
+
+    .community-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>
 </head>
 <body>
-<header>
-  <div class="logo">PitchBlack Recovery Project</div>
-  <nav>
-    <button class="nav-toggle" aria-label="Toggle navigation menu">&#9776;</button>
-    <ul>
-      <li><a href="#home" tabindex="0">Home</a></li>
-      <li><a href="#devices" tabindex="0">Devices</a></li>
-      <li><a href="#faq" tabindex="0">FAQ</a></li>
-    </ul>
-  </nav>
-</header>
+  <header>
+    <a href="{{ '/' | relative_url }}" class="logo">
+      <img src="/assets/images/Gradient-Red-Logo-1.png" alt="PBRP Logo">
+      <span>PitchBlack Recovery Project</span>
+    </a>
+    <nav>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">&#9776;</button>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#devices">Devices</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<main>
-  {{ content }}
-</main>
+  <main>
+    {{ content }}
+  </main>
 
-<footer>
-  <div>© 2024 PitchBlack Recovery Project</div>
-  <div class="social-links" aria-label="Social media links">
-    <a href="https://github.com/PitchBlackRecoveryProject" aria-label="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>
-    <a href="https://x.com/pbrp_recovery" aria-label="X/Twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
-    <a href="https://t.me/pbrpcom" aria-label="Telegram" target="_blank" rel="noopener noreferrer">Telegram</a>
-  </div>
-</footer>
+  <footer>
+    <div>© 2024 PitchBlack Recovery Project</div>
+    <div class="social-links">
+      <a href="https://github.com/PitchBlackRecoveryProject" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://t.me/pbrpcom" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-telegram"></i>
+      </a>
+    </div>
+  </footer>
 
-<script>
-  // Navigation toggle for mobile
-  const navToggle = document.querySelector('button.nav-toggle');
-  const navMenu = document.querySelector('nav ul');
+  <script>
+    // Navigation toggle
+    const navToggle = document.querySelector('button.nav-toggle');
+    const navMenu = document.querySelector('nav ul');
 
-  navToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('show');
-  });
-
-  // FAQ toggle
-  const faqQuestions = document.querySelectorAll('.faq-question');
-  faqQuestions.forEach(question => {
-    question.addEventListener('click', () => {
-      const answer = question.nextElementSibling;
-      const isOpen = answer.classList.contains('open');
-      if (isOpen) {
-        answer.classList.remove('open');
-        answer.setAttribute('hidden', '');
-        question.setAttribute('aria-expanded', 'false');
-        question.classList.remove('active');
-      } else {
-        answer.classList.add('open');
-        answer.removeAttribute('hidden');
-        question.setAttribute('aria-expanded', 'true');
-        question.classList.add('active');
-      }
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('show');
     });
-    question.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        question.click();
-      }
+
+    // FAQ toggle
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', () => {
+        const answer = question.nextElementSibling;
+        const isOpen = answer.classList.contains('open');
+        
+        // Close all other answers
+        document.querySelectorAll('.faq-answer').forEach(a => {
+          a.classList.remove('open');
+          a.hidden = true;
+        });
+        document.querySelectorAll('.faq-question').forEach(q => {
+          q.classList.remove('active');
+          q.setAttribute('aria-expanded', 'false');
+        });
+        
+        if (!isOpen) {
+          answer.classList.add('open');
+          answer.hidden = false;
+          question.classList.add('active');
+          question.setAttribute('aria-expanded', 'true');
+        }
+      });
     });
-  });
 
-  // OEM toggle for device list
-  document.querySelectorAll('.oem-toggle').forEach(button => {
-    button.addEventListener('click', () => {
-      const controls = button.getAttribute('aria-controls');
-      const list = document.getElementById(controls);
-      const expanded = button.getAttribute('aria-expanded') === 'true';
-      if (expanded) {
-        button.setAttribute('aria-expanded', 'false');
-        list.hidden = true;
-      } else {
-        button.setAttribute('aria-expanded', 'true');
-        list.hidden = false;
-      }
+    // Device list toggle
+    document.querySelectorAll('.oem-toggle').forEach(button => {
+      button.addEventListener('click', () => {
+        const controls = button.getAttribute('aria-controls');
+        const list = document.getElementById(controls);
+        const expanded = button.getAttribute('aria-expanded') === 'true';
+        
+        if (expanded) {
+          button.setAttribute('aria-expanded', 'false');
+          list.hidden = true;
+        } else {
+          button.setAttribute('aria-expanded', 'true');
+          list.hidden = false;
+        }
+      });
     });
-  });
 
-  // Search filter for devices
-  function filterDevices() {
-    const searchInput = document.getElementById('device-search').value.toLowerCase();
-    const deviceItems = document.querySelectorAll('.device-item');
-
-    deviceItems.forEach(item => {
-      const title = item.getAttribute('data-title');
-      const codename = item.getAttribute('data-codename');
-
-      if (title.includes(searchInput) || codename.includes(searchInput)) {
-        item.style.display = '';
-      } else {
-        item.style.display = 'none';
-      }
-    });
-  }
-</script>
+    // Search functionality
+    function filterDevices() {
+      const searchInput = document.getElementById('device-search').value.toLowerCase();
+      const deviceItems = document.querySelectorAll('.device-item');
+      
+      deviceItems.forEach(item => {
+        const title = item.getAttribute('data-title').toLowerCase();
+        const codename = item.getAttribute('data-codename').toLowerCase();
+        
+        if (title.includes(searchInput) || codename.includes(searchInput)) {
+          item.style.display = '';
+          // Show parent OEM section
+          const oemList = item.closest('.device-list');
+          if (oemList) {
+            oemList.hidden = false;
+            const oemToggle = document.querySelector(`[aria-controls="${oemList.id}"]`);
+            if (oemToggle) {
+              oemToggle.setAttribute('aria-expanded', 'true');
+            }
+          }
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+  </script>
 </body>
 </html>
