@@ -1,0 +1,10 @@
+{
+  "latest": {
+    "version": "4.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2023-08-10",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/guamp/PBRP-guamp-4.0-20230810-0420-OFFICIAL.zip/download",
+    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_motorola_guamp-pbrp/releases/tag/4.0",
+    "changelog": "- Initial Release"
+  }
+}
