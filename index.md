@@ -40,7 +40,7 @@ title: "PitchBlack Recovery Project"
     <div class="feature-item">
       <i class="fas fa-sync"></i>
       <h3>Latest TWRP Base</h3>
-      <p>Based on TWRP 3.7.0 with support for both modern and legacy devices.</p>
+      <p>Based on TWRP 3.7.1 with support for both modern and legacy devices.</p>
     </div>
     <div class="feature-item">
       <i class="fas fa-language"></i>
