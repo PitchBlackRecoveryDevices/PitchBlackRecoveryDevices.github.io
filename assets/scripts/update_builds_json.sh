@@ -1,12 +1,13 @@
 #!/bin/bash
 #
 # JSON Build Update Script for PBRP (GitHub Actions Compatible)
+# With Integrated Device Page Creation
 #
 # Copyright (C) 2019 - 2020, PitchBlack Recovery Project
-# This script updates the builds JSON file for PBRP releases
+# This script updates the builds JSON file for PBRP releases and creates device pages
 # Only updates for BETA and OFFICIAL builds, always auto-pushes
 #
-# Usage: ./update_builds_json.sh CODENAME VERSION DEPLOY_TYPE SF_LINK GH_LINK [CHANGELOG]
+# Usage: ./update_builds_json.sh VENDOR CODENAME VERSION DEPLOY_TYPE SF_LINK GH_LINK [CHANGELOG]
 #
 
 # Color definitions
@@ -21,10 +22,11 @@ white='\e[0;37m'
 
 # Function to show usage
 show_usage() {
-    echo -e "${cyan}Usage: $0 CODENAME VERSION DEPLOY_TYPE SF_LINK GH_LINK [CHANGELOG]${nocol}"
-    echo -e "${cyan}Example: $0 rolex 3.1.0 OFFICIAL 'https://sf.net/...' 'https://github.com/...' 'Updated recovery'${nocol}"
+    echo -e "${cyan}Usage: $0 VENDOR CODENAME VERSION DEPLOY_TYPE SF_LINK GH_LINK [CHANGELOG]${nocol}"
+    echo -e "${cyan}Example: $0 xiaomi rolex 3.1.0 OFFICIAL 'https://sf.net/...' 'https://github.com/...' 'Updated recovery'${nocol}"
     echo
     echo -e "${yellow}Arguments:${nocol}"
+    echo -e "  VENDOR      : Device vendor/OEM (e.g., xiaomi, samsung)"
     echo -e "  CODENAME    : Device codename (e.g., rolex)"
     echo -e "  VERSION     : PBRP version (e.g., 3.1.0)"
     echo -e "  DEPLOY_TYPE : Build type (OFFICIAL/BETA only - TEST builds are ignored)"
@@ -36,19 +38,20 @@ show_usage() {
 }
 
 # Check arguments
-if [ $# -lt 5 ]; then
+if [ $# -lt 6 ]; then
     echo -e "${red}Error: Insufficient arguments${nocol}"
     show_usage
     exit 1
 fi
 
 # Parse arguments
-CODENAME=$1
-VERSION=$2
-DEPLOY_TYPE=$3
-SF_LINK=$4
-GH_LINK=$5
-CHANGELOG=${6:-""}
+VENDOR=$1
+CODENAME=$2
+VERSION=$3
+DEPLOY_TYPE=$4
+SF_LINK=$5
+GH_LINK=$6
+CHANGELOG=${7:-""}
 
 # Check if build type is BETA or OFFICIAL only
 if [[ ! "$DEPLOY_TYPE" =~ ^(OFFICIAL|BETA)$ ]]; then
@@ -65,6 +68,7 @@ GITHUB_EMAIL=${GITHUB_EMAIL:-"pitchblackrecovery@gmail.com"}
 # Repository settings
 TARGET_REPO="PitchBlackRecoveryProject/PitchBlackRecoveryProject.github.io"
 TARGET_REPO_URL="https://github.com/${TARGET_REPO}"
+DEVICES_JSON_URL="https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_utils/refs/heads/pb/pb_devices.json"
 
 # Check if jq is installed
 if ! command -v jq &> /dev/null; then
@@ -92,11 +96,13 @@ if ! command -v jq &> /dev/null; then
     fi
 fi
 
-# Check if git is available
-if ! command -v git &> /dev/null; then
-    echo -e "${red}Error: git is required but not installed.${nocol}"
-    exit 1
-fi
+# Check if git and curl are available
+for cmd in git curl; do
+    if ! command -v $cmd &> /dev/null; then
+        echo -e "${red}Error: $cmd is required but not installed.${nocol}"
+        exit 1
+    fi
+done
 
 # Generate BUILD_DATE if not set
 if [ -z "$BUILD_DATE" ]; then
@@ -104,13 +110,117 @@ if [ -z "$BUILD_DATE" ]; then
     BUILD_DATE=$(date +%Y%m%d)
 fi
 
+# Function to fetch device info from pb_devices.json
+fetch_device_info() {
+    local vendor=$1
+    local codename=$2
+    local temp_devices_file="/tmp/pb_devices.json"
+    
+    echo -e "${cyan}Fetching device information for ${vendor}/${codename}...${nocol}"
+    
+    # Download devices JSON
+    if ! curl -s -L "$DEVICES_JSON_URL" -o "$temp_devices_file"; then
+        echo -e "${red}❌ Failed to download devices JSON${nocol}"
+        return 1
+    fi
+    
+    # Validate JSON
+    if ! jq empty "$temp_devices_file" 2>/dev/null; then
+        echo -e "${red}❌ Invalid devices JSON format${nocol}"
+        rm -f "$temp_devices_file"
+        return 1
+    fi
+    
+    # Extract device info using the new JSON structure
+    local device_info=$(jq -r --arg vendor "$vendor" --arg codename "$codename" '
+        .[$vendor]?[$codename]? // null
+    ' "$temp_devices_file")
+    
+    rm -f "$temp_devices_file"
+    
+    if [ "$device_info" = "null" ] || [ -z "$device_info" ]; then
+        echo -e "${yellow}⚠️  Device ${vendor}/${codename} not found in pb_devices.json${nocol}"
+        return 1
+    fi
+    
+    # Export device info as global variables
+    DEVICE_NAME=$(echo "$device_info" | jq -r '.name // "Unknown Device"')
+    DEVICE_MAINTAINER=$(echo "$device_info" | jq -r '.maintainer // "Unknown"')
+    
+    echo -e "${green}✅ Device info found:${nocol}"
+    echo -e "${cyan}  Name: ${DEVICE_NAME}${nocol}"
+    echo -e "${cyan}  Vendor: ${vendor}${nocol}"
+    echo -e "${cyan}  Maintainer: ${DEVICE_MAINTAINER}${nocol}"
+    
+    return 0
+}
+
+# Function to create device page if it doesn't exist
+create_device_page() {
+    local codename=$1
+    local vendor=$2
+    local name=$3
+    local maintainer=$4
+    
+    local device_dir="${REPO_DIR}/_oem/${vendor}"
+    local device_file="${device_dir}/${codename}.md"
+    
+    # Create vendor directory if it doesn't exist
+    mkdir -p "$device_dir"
+    
+    # Check if device page already exists
+    if [ -f "$device_file" ]; then
+        echo -e "${cyan}Device page already exists: ${device_file}${nocol}"
+        return 0
+    fi
+    
+    echo -e "${cyan}Creating device page: ${device_file}${nocol}"
+    
+    # Create device page content
+    cat > "$device_file" << EOF
+---
+layout: device
+title: "${name}"
+codename: ${codename}
+oem: ${vendor}
+supportstatus: Current
+maintainer: ${maintainer}
+devicetree: "https://github.com/PitchBlackRecoveryProject/android_device_${vendor}_${codename}-pbrp"
+---
+
+{% include disclaimer.html %}
+
+{% include supportstatus.html %}
+
+{% include download.html %}
+
+{% include pbrpinstall.html %}
+EOF
+    
+    if [ $? -eq 0 ]; then
+        echo -e "${green}✅ Device page created successfully${nocol}"
+        return 0
+    else
+        echo -e "${red}❌ Failed to create device page${nocol}"
+        return 1
+    fi
+}
+
 # JSON Build Update Function
 function update_builds_json() {
     echo -e "${cyan}=== Starting JSON Update Process ===${nocol}"
+    echo -e "${cyan}Vendor: ${VENDOR}${nocol}"
     echo -e "${cyan}Device: ${CODENAME}${nocol}"
     echo -e "${cyan}Version: ${VERSION}${nocol}"
     echo -e "${cyan}Build Type: ${DEPLOY_TYPE}${nocol}"
     echo
+
+    # Fetch device information
+    if ! fetch_device_info "$VENDOR" "$CODENAME"; then
+        echo -e "${yellow}⚠️  Continuing with default device information${nocol}"
+        DEVICE_NAME="Unknown Device"
+        DEVICE_MAINTAINER="Unknown"
+    fi
 
     # Clone the target repository
     REPO_DIR="PitchBlackRecoveryProject.github.io"
@@ -158,7 +268,14 @@ function update_builds_json() {
     if [ ! -f "$JSON_FILE" ]; then
         echo -e "${yellow}JSON file doesn't exist, creating new one...${nocol}"
         echo '{"latest": {}, "older_builds": []}' > "$JSON_FILE"
-        echo -e "${yellow}⚠️  Please create _oem/\${VENDOR}/\${CODENAME}.md & submit PR to: https://github.com/PitchBlackRecoveryProject/PitchBlackRecoveryProject.github.io${nocol}"
+        
+        # Create device page if device info is available
+        if [ "$DEVICE_NAME" != "Unknown Device" ]; then
+            create_device_page "$CODENAME" "$VENDOR" "$DEVICE_NAME" "$DEVICE_MAINTAINER"
+        else
+            echo -e "${yellow}⚠️  Device page not created due to missing device information${nocol}"
+            echo -e "${yellow}⚠️  Please manually create _oem/${VENDOR}/${CODENAME}.md & submit PR to: https://github.com/PitchBlackRecoveryProject/PitchBlackRecoveryProject.github.io${nocol}"
+        fi
     fi
     
     # Validate JSON file
@@ -245,62 +362,75 @@ function update_builds_json() {
 
 # Commit and push JSON changes to target repository
 function commit_and_push_changes() {
-    echo -e "${cyan}=== Committing and Pushing JSON Changes ===${nocol}"
+    echo -e "${cyan}=== Committing and Pushing Changes ===${nocol}"
     
-    cd "$REPO_DIR"
-    
+    cd "$REPO_DIR" || return 1
+
     # Configure git for GitHub Actions
     git config user.name "$GITHUB_ACTOR"
     git config user.email "$GITHUB_EMAIL"
-    
-    # Set up authentication for GitHub Actions
+
+    # Set up GitHub authentication if token is available
     if [ -n "$GH_BOT_TOKEN" ]; then
         git remote set-url origin "https://${GH_BOT_TOKEN}@github.com/${TARGET_REPO}.git"
     fi
-    
-    # Add the JSON file
+
+    # Track staged changes
+    DEVICE_PAGE="_oem/${VENDOR}/${CODENAME}.md"
+    device_page_msg=""
+    device_page_note=""
+
+    # Add main build JSON file
     git add "assets/json/builds-${CODENAME}.json"
-    
-    # Check if there are changes to commit
+
+    # Conditionally add device page if it's new (not tracked yet)
+    if [ -f "$DEVICE_PAGE" ]; then
+        if ! git ls-files --error-unmatch "$DEVICE_PAGE" >/dev/null 2>&1; then
+            git add "$DEVICE_PAGE"
+            echo -e "${cyan}Added new device page to commit${nocol}"
+            device_page_msg=" + device page"
+            device_page_note="- Device Page: Created ${DEVICE_PAGE}"
+        fi
+    fi
+
+    # Exit early if nothing to commit
     if git diff --cached --quiet; then
         echo -e "${yellow}No changes to commit${nocol}"
         cd ..
         return 0
     fi
-    
-    # Commit the changes
-    COMMIT_MSG="🤖 Update ${CODENAME} to ${VERSION} (${DEPLOY_TYPE})
+
+    # Compose commit message
+    COMMIT_MSG="🤖 Update On ${BUILD_DATE_FORMATTED} ${CODENAME} to ${VERSION} (${DEPLOY_TYPE})${device_page_msg}
 
 - Device: ${CODENAME}
 - Version: ${VERSION}
 - Build Type: ${DEPLOY_TYPE}
 - Build Date: ${BUILD_DATE_FORMATTED}
+${device_page_note:+$device_page_note}
 
 Automated update from PBRP build system"
-    
-    git commit -m "$COMMIT_MSG"
-    
-    if [ $? -ne 0 ]; then
+
+    # Commit changes
+    if git commit -m "$COMMIT_MSG"; then
+        echo -e "${green}✅ Changes committed successfully${nocol}"
+    else
         echo -e "${red}❌ Failed to commit changes${nocol}"
         cd ..
         return 1
     fi
-    
-    echo -e "${green}✅ Changes committed successfully${nocol}"
-    
-    # Always push changes (auto-push is always enabled)
+
+    # Push to GitHub
     echo -e "${cyan}Pushing changes to repository...${nocol}"
-    
-    # Push Changes To GitHub
-    if git push origin 2>/dev/null; then
-        echo -e "${green}✅ Changes pushed to github successfully${nocol}"
+    if git push origin; then
+        echo -e "${green}✅ Changes pushed to GitHub successfully${nocol}"
     else
         echo -e "${red}❌ Failed to push changes${nocol}"
-        echo -e "${yellow}Please check your git credentials or GH_BOT_TOKEN${nocol}"
+        echo -e "${yellow}⚠️  Please check your git credentials or GH_BOT_TOKEN${nocol}"
         cd ..
         return 1
     fi
-    
+
     cd ..
     return 0
 }
@@ -309,6 +439,7 @@ Automated update from PBRP build system"
 cleanup() {
     echo -e "${cyan}Cleaning up temporary files...${nocol}"
     rm -f "/tmp/builds-${CODENAME}-temp.json"
+    rm -f "/tmp/pb_devices.json"
     # Clean up cloned repository
     if [ -d "PitchBlackRecoveryProject.github.io" ]; then
         rm -rf "PitchBlackRecoveryProject.github.io"
@@ -319,7 +450,7 @@ cleanup() {
 trap cleanup EXIT
 
 # Main execution
-echo -e "${green}=== PBRP JSON Build Updater (GitHub Actions) ===${nocol}"
+echo -e "${green}=== PBRP JSON Build Updater with Device Page Creation (GitHub Actions) ===${nocol}"
 echo -e "${cyan}Only OFFICIAL and BETA builds will be processed${nocol}"
 echo
 
@@ -330,6 +461,9 @@ if update_builds_json; then
     echo -e "${green}✅ Device: ${CODENAME}${nocol}"
     echo -e "${green}✅ Version: ${VERSION} (${DEPLOY_TYPE})${nocol}"
     echo -e "${green}✅ JSON file updated and pushed to ${TARGET_REPO}${nocol}"
+    if [ "$DEVICE_NAME" != "Unknown Device" ]; then
+        echo -e "${green}✅ Device page: _oem/${VENDOR}/${CODENAME}.md${nocol}"
+    fi
     echo
     exit 0
 else
