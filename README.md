@@ -11,7 +11,6 @@
    title: "{Device Name}"
    codename: {codename}
    oem: {OEM Name}
-   downloadfolder: {codename}
    supportstatus: Current/Discontinued
    maintainer: {Your GitHub Username}
    ddof: "/dev/block/bootdevice/by-name/recovery"

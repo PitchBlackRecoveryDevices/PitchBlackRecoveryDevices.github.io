@@ -3,7 +3,6 @@ layout: device
 title: "Motorola G9"
 codename: guamp
 oem: motorola
-downloadfolder: guamp
 supportstatus: Current
 maintainer: MD Raza (DelightReza)
 ddof: "/dev/block/bootdevice/by-name/recovery_a"
