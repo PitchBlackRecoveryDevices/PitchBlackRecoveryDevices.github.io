@@ -7,7 +7,7 @@
 # This script updates the builds JSON file for PBRP releases and creates device pages
 # Only updates for BETA and OFFICIAL builds, always auto-pushes
 #
-# Usage: ./update_builds_json.sh VENDOR CODENAME VERSION DEPLOY_TYPE SF_LINK GH_LINK [CHANGELOG]
+# Usage: ./update_builds_json.sh VENDOR CODENAME VERSION DEPLOY_TYPE SF_LINK [CHANGELOG]
 #
 
 # Color definitions
@@ -22,8 +22,8 @@ white='\e[0;37m'
 
 # Function to show usage
 show_usage() {
-    echo -e "${cyan}Usage: $0 VENDOR CODENAME VERSION DEPLOY_TYPE SF_LINK GH_LINK [CHANGELOG]${nocol}"
-    echo -e "${cyan}Example: $0 xiaomi rolex 3.1.0 OFFICIAL 'https://sf.net/...' 'https://github.com/...' 'Updated recovery'${nocol}"
+    echo -e "${cyan}Usage: $0 VENDOR CODENAME VERSION DEPLOY_TYPE SF_LINK [CHANGELOG]${nocol}"
+    echo -e "${cyan}Example: $0 xiaomi rolex 3.1.0 OFFICIAL 'https://sf.net/...' 'Updated recovery'${nocol}"
     echo
     echo -e "${yellow}Arguments:${nocol}"
     echo -e "  VENDOR      : Device vendor/OEM (e.g., xiaomi, samsung)"
@@ -31,14 +31,13 @@ show_usage() {
     echo -e "  VERSION     : PBRP version (e.g., 3.1.0)"
     echo -e "  DEPLOY_TYPE : Build type (OFFICIAL/BETA only - TEST builds are ignored)"
     echo -e "  SF_LINK     : SourceForge download link"
-    echo -e "  GH_LINK     : GitHub release link"
     echo -e "  CHANGELOG   : Build changelog (optional)"
     echo
     echo -e "${yellow}Note: Only OFFICIAL and BETA builds will update JSON. TEST builds are skipped.${nocol}"
 }
 
 # Check arguments
-if [ $# -lt 6 ]; then
+if [ $# -lt 5 ]; then
     echo -e "${red}Error: Insufficient arguments${nocol}"
     show_usage
     exit 1
@@ -50,8 +49,10 @@ CODENAME=$2
 VERSION=$3
 DEPLOY_TYPE=$4
 SF_LINK=$5
-GH_LINK=$6
-CHANGELOG=${7:-""}
+CHANGELOG=${6:-""}
+
+# Generate GitHub release link
+GH_LINK="https://github.com/PitchBlackRecoveryProject/android_device_${VENDOR}_${CODENAME}-pbrp/releases/tag/${VERSION}"
 
 # Check if build type is BETA or OFFICIAL only
 if [[ ! "$DEPLOY_TYPE" =~ ^(OFFICIAL|BETA)$ ]]; then
@@ -213,6 +214,7 @@ function update_builds_json() {
     echo -e "${cyan}Device: ${CODENAME}${nocol}"
     echo -e "${cyan}Version: ${VERSION}${nocol}"
     echo -e "${cyan}Build Type: ${DEPLOY_TYPE}${nocol}"
+    echo -e "${cyan}GitHub Release: ${GH_LINK}${nocol}"
     echo
 
     # Fetch device information
