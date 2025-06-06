@@ -451,6 +451,60 @@
         gap: 10px;
       }
     }
+    
+    /* Warning class styles */
+    .warning {
+      background: linear-gradient(135deg, rgba(255, 193, 7, 0.1), rgba(255, 152, 0, 0.1));
+      border: 1px solid #FFC107;
+      border-left: 4px solid #FFC107;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      position: relative;
+    }
+
+    .warning::before {
+      content: '\f071';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      color: #FFC107;
+      font-size: 1.2rem;
+      margin-right: 0.5rem;
+    }
+
+    .warning p {
+      color: var(--text-light);
+      margin: 0;
+    }
+
+    .warning p:first-child {
+      margin-top: 0;
+    }
+
+    .warning p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Alternative: Simple warning style */
+    .warning-simple {
+      background: rgba(255, 193, 7, 0.1);
+      border: 1px solid #FFC107;
+      border-radius: 6px;
+      padding: 1rem;
+      margin: 1rem 0;
+      color: var(--text-light);
+    }
+
+    /* Inline warning text */
+    .warning-text {
+      color: #FFC107;
+      font-weight: 500;
+    }
+
+    ol {
+       padding-left: 20px;
+       margin-left: 0;
+    }
   </style>
 </head>
 <body>

@@ -2,6 +2,21 @@
 <div class='page-heading'>Odin Install Method (No Root Required):</div>
 <a id='odin'></a>
 <hr />
-<p class="text">You will need to download and install Odin on your PC. Once you have Odin installed, download the proper .tar file for your device from the download link above. Power off your device. Turn on your device using the proper key combo to get into download mode and attach the device to your computer via a USB cable. Use the PDA tab or button to browse to and select the tar file that you downloaded and flash the device.</p>
-<p class="text">Note many devices will replace your custom recovery automatically during first boot. To prevent this, use <a href="http://www.google.com">Google</a> to find the proper key combo to enter recovery. After typing fastboot reboot, hold the key combo and boot to PBPR. Once PBPR is booted, PBPR will patch the stock ROM to prevent the stock ROM from replacing PBPR. If you don't follow this step, you will have to repeat the install.</p>
+
+<p class="text">You will need to download and install Odin on your PC. Download the proper PBRP-*-ODIN.tar.md5 file for your device from the download link above.</p>
+
+<p class="text"><strong>Installation Steps:</strong></p>
+<ol>
+<li>Power off your device completely</li>
+<li>Enter download mode using the proper key combination for your device</li>
+<li>Connect your device to your computer via USB cable</li>
+<li>Open Odin on your computer</li>
+<li>Use the AP/PDA tab to browse and select the PBRP .tar.md5 file you downloaded</li>
+<li>Click Start to flash the device</li>
+<li>Once flashing is complete, immediately boot to recovery using the proper key combination</li>
+</ol>
+
+<p class="text"><strong>Important:</strong> Many Samsung devices will replace your custom recovery automatically during first boot. To prevent this, use <a href="http://www.google.com">Google</a> to find the proper key combo to enter recovery. After flashing with Odin, immediately hold the key combo and boot to PBRP. Once PBRP is booted, PBRP will patch the stock ROM to prevent the stock ROM from replacing PBRP. If you don't follow this step, you will have to repeat the install.</p>
+
+<p class="text"><strong>File Format:</strong> Samsung devices use the special Odin format: PBRP-*-ODIN.tar.md5</p>
 </html>
