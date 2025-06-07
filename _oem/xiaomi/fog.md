@@ -15,3 +15,5 @@ devicetree: "https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_
 {% include download.html %}
 
 {% include pbrpinstall.html %}
+
+{% include fastbootabinstall.html %}
