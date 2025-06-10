@@ -800,30 +800,57 @@
       });
     });
 
-    // Search functionality
+    // Enhanced search functionality
     function filterDevices() {
       const searchInput = document.getElementById('device-search').value.toLowerCase();
-      const deviceItems = document.querySelectorAll('.device-item');
+      const oemSections = document.querySelectorAll('.oem-list > li');
       
-      deviceItems.forEach(item => {
-        const title = item.getAttribute('data-title').toLowerCase();
-        const codename = item.getAttribute('data-codename').toLowerCase();
+      oemSections.forEach(oemSection => {
+        const oemToggle = oemSection.querySelector('.oem-toggle');
+        const deviceList = oemSection.querySelector('.device-list');
+        const deviceItems = oemSection.querySelectorAll('.device-item');
         
-        if (title.includes(searchInput) || codename.includes(searchInput)) {
-          item.style.display = '';
-          // Show parent OEM section
-          const oemList = item.closest('.device-list');
-          if (oemList) {
-            oemList.hidden = false;
-            const oemToggle = document.querySelector(`[aria-controls="${oemList.id}"]`);
-            if (oemToggle) {
-              oemToggle.setAttribute('aria-expanded', 'true');
-            }
+        let hasVisibleDevices = false;
+        
+        // Filter individual devices
+        deviceItems.forEach(item => {
+          const title = item.getAttribute('data-title').toLowerCase();
+          const codename = item.getAttribute('data-codename').toLowerCase();
+          
+          if (title.includes(searchInput) || codename.includes(searchInput)) {
+            item.style.display = '';
+            hasVisibleDevices = true;
+          } else {
+            item.style.display = 'none';
+          }
+        });
+        
+        // Show/hide OEM section based on whether it has visible devices
+        if (hasVisibleDevices || searchInput === '') {
+          oemSection.style.display = '';
+          
+          // If searching and has results, expand the section
+          if (searchInput !== '' && hasVisibleDevices) {
+            oemToggle.setAttribute('aria-expanded', 'true');
+            deviceList.hidden = false;
           }
         } else {
-          item.style.display = 'none';
+          // Hide the entire OEM section if no devices match
+          oemSection.style.display = 'none';
         }
       });
+      
+      // If search is cleared, reset all sections to collapsed state
+      if (searchInput === '') {
+        oemSections.forEach(oemSection => {
+          const oemToggle = oemSection.querySelector('.oem-toggle');
+          const deviceList = oemSection.querySelector('.device-list');
+          
+          oemSection.style.display = '';
+          oemToggle.setAttribute('aria-expanded', 'false');
+          deviceList.hidden = true;
+        });
+      }
     }
   </script>
 </body>
