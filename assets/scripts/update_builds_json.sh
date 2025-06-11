@@ -51,8 +51,13 @@ DEPLOY_TYPE=$4
 SF_LINK=$5
 CHANGELOG=${6:-""}
 
-# Generate GitHub release link
-GH_LINK="https://github.com/PitchBlackRecoveryProject/android_device_${VENDOR}_${CODENAME}-pbrp/releases/tag/${VERSION}"
+# Generate GitHub release link based on deploy type
+if [[ "$DEPLOY_TYPE" == "BETA" ]]; then
+    GH_LINK="https://github.com/PitchBlackRecoveryProject/android_device_${VENDOR}_${CODENAME}-pbrp/releases/tag/${VERSION}-${DEPLOY_TYPE}"
+else
+    # For OFFICIAL builds, use version only
+    GH_LINK="https://github.com/PitchBlackRecoveryProject/android_device_${VENDOR}_${CODENAME}-pbrp/releases/tag/${VERSION}"
+fi
 
 # Check if build type is BETA or OFFICIAL only
 if [[ ! "$DEPLOY_TYPE" =~ ^(OFFICIAL|BETA)$ ]]; then
