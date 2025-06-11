@@ -4,7 +4,7 @@
     "build_type": "BETA",
     "date": "2025-06-10",
     "download_link": "https://sourceforge.net/projects/pbrp/files/a15/PBRP-a15-4.0-20250610-0742-BETA.zip/download",
-    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_samsung_a15-pbrp/releases/tag/4.0",
+    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_samsung_a15-pbrp/releases/tag/4.0-beta",
     "changelog": "- update blobs from  oneui 7"
   },
   "older_builds": [
