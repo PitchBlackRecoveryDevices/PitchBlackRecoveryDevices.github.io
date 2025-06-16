@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2025-06-16",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/surya/PBRP-surya-4.0-20250616-1023-OFFICIAL.zip/download",
+    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_surya-pbrp/releases/tag/4.0",
+    "changelog": "Sync Latest Source"
+  },
+  "older_builds": []
+}
