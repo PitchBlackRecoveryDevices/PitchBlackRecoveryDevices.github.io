@@ -1,6 +1,9 @@
 <div id="pbrp-downloads">
   <div class="loading-spinner">
-    <i class="fas fa-circle-notch fa-spin"></i> Loading downloads...
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <span class="ms-2">Loading downloads...</span>
   </div>
 </div>
 
@@ -36,44 +39,57 @@ document.addEventListener('DOMContentLoaded', async () => {
     `;
     console.error('PBRP Download Error:', error);
   }
+  
   function renderVersion(build, isLatest) {
-  const buildType = build.build_type || 'OFFICIAL';
-  return `
-    <div class="download-card ${isLatest ? 'latest' : 'older'}">
-      <div class="version-header">
-        <div class="version-info">
-          <span class="version">v${build.version}</span>
-          <span class="build-type ${buildType.toLowerCase()}">${buildType}</span>
-          <span class="date">${new Date(build.date).toLocaleDateString()}</span>
-          <i class="fas fa-chevron-down expand-icon"></i>
-        </div>
-      </div>
-      <div class="version-content">
-        <div class="download-actions">
-          ${isLatest ? `
-            <a href="${build.github_release}" class="btn secondary" target="_blank">
-              <i class="fab fa-github"></i> GitHub
-            </a>
-            <a href="${build.download_link}" class="btn primary" target="_blank">
-              <i class="fas fa-download"></i> SourceForge
-            </a>
-          ` : `
-            <a href="${build.download_link}" class="btn primary" target="_blank">
-              <i class="fas fa-download"></i> SourceForge
-            </a>
-          `}
-        </div>
-        ${build.changelog ? `
-          <div class="changelog">
-            <details>
-              <summary>Changelog</summary>
-              <div class="changelog-content">${build.changelog.replace(/\n/g, '<br>')}</div>
-            </details>
+    const buildType = build.build_type || 'OFFICIAL';
+    return `
+      <div class="card download-card ${isLatest ? 'latest' : 'older'}">
+        <div class="card-header version-header">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3 flex-wrap">
+              <span class="version">v${build.version}</span>
+              <span class="badge build-type ${buildType.toLowerCase()}">${buildType}</span>
+              <span class="text-muted">${new Date(build.date).toLocaleDateString()}</span>
+            </div>
+            <i class="fas fa-chevron-down expand-icon"></i>
           </div>
-        ` : ''}
+        </div>
+        <div class="card-body version-content">
+          <div class="download-buttons">
+            ${isLatest ? `
+              <a href="${build.github_release}" class="btn btn-outline-secondary" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a href="${build.download_link}" class="btn btn-gradient" target="_blank">
+                <i class="fas fa-download"></i> SourceForge
+              </a>
+            ` : `
+              <a href="${build.download_link}" class="btn btn-gradient" target="_blank" style="grid-column: 1 / -1;">
+                <i class="fas fa-download"></i> SourceForge Download
+              </a>
+            `}
+          </div>
+          ${build.changelog ? `
+            <div class="changelog">
+              <div class="card">
+                <div class="card-header">
+                  <h6 class="mb-0">
+                    <button class="btn btn-link text-decoration-none p-0 text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#changelog-${build.version.replace(/\./g, '-')}" aria-expanded="false">
+                      <i class="fas fa-list-ul me-2"></i> Changelog
+                    </button>
+                  </h6>
+                </div>
+                <div id="changelog-${build.version.replace(/\./g, '-')}" class="collapse">
+                  <div class="card-body">
+                    <div class="changelog-content">${build.changelog.replace(/\n/g, '<br>')}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ` : ''}
+        </div>
       </div>
-    </div>
-  `;
-}
+    `;
+  }
 });
 </script>
