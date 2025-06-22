@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2025-06-22",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/ginkgo/recovery.img/download",
+    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_ginkgo-pbrp/releases/tag/4.0",
+    "changelog": "Add Support A16"
+  },
+  "older_builds": []
+}
