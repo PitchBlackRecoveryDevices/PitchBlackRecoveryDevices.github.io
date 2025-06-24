@@ -2,10 +2,18 @@
   "latest": {
     "version": "4.0",
     "build_type": "OFFICIAL",
-    "date": "2025-06-22",
-    "download_link": "https://sourceforge.net/projects/pbrp/files/vayu/recovery.img/download",
+    "date": "2025-06-24",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/vayu/PBRP-vayu-4.0-20250624-0845-OFFICIAL.zip/download",
     "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_vayu-pbrp/releases/tag/4.0",
-    "changelog": "Add Support A16"
+    "changelog": "Set Render 90"
   },
-  "older_builds": []
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2025-06-22",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/vayu/recovery.img/download",
+      "changelog": "Add Support A16"
+    }
+  ]
 }
