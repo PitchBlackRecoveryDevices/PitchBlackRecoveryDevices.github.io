@@ -2,10 +2,18 @@
   "latest": {
     "version": "4.0",
     "build_type": "OFFICIAL",
-    "date": "2025-06-24",
-    "download_link": "https://sourceforge.net/projects/pbrp/files/r5x/PBRP-r5x-4.0-20250623-1739-OFFICIAL.zip/download",
+    "date": "2025-06-26",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/r5x/PBRP-r5x-4.0-20250626-1051-OFFICIAL.zip/download",
     "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_realme_r5x-pbrp/releases/tag/4.0",
-    "changelog": "Sync Latest Source"
+    "changelog": "- Based On r_kernel\n\nNotes:\\- For FBEv2 ROMs Only"
   },
-  "older_builds": []
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2025-06-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/r5x/PBRP-r5x-4.0-20250623-1739-OFFICIAL.zip/download",
+      "changelog": "Sync Latest Source"
+    }
+  ]
 }
