@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2025-06-26",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/garnet/PBRP-garnet-4.0-20250625-2100-OFFICIAL.zip/download",
+    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_garnet-pbrp/releases/tag/4.0",
+    "changelog": "- Initial Official Release"
+  },
+  "older_builds": []
+}
