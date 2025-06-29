@@ -12,3 +12,7 @@ permalink: pretty  # Enables clean URLs like /about/ instead of /about.html
 
 # Optional: Add GitHub repo info for Jekyll SEO or metadata plugins
 repository: PitchBlackRecoveryProject/PitchBlackRecoveryProject.github.io
+
+# Plugins for GitHub Pages
+plugins:
+  - jekyll-redirect-from
