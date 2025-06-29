@@ -4,7 +4,7 @@ theme: null
 collections:
   oem:
     output: true
-    permalink: /devices/:path/
+    permalink: /:name/
 
 url: "https://PitchBlackRecoveryProject.github.io"
 baseurl: ""  # Leave empty for root, or set to "/repo-name" for GitHub Pages under username
