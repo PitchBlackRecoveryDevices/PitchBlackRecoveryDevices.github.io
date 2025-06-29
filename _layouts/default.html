@@ -639,6 +639,16 @@
     display: flex;
     justify-content: center;
   }
+
+  /* Documentation-specific styles */
+  .page-heading {
+    font-family: 'Orbitron', monospace;
+    color: var(--bs-primary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0.5rem 0 2rem;
+    padding-bottom: 0.5rem;
+  }
 </style>
 </head>
 <body>
@@ -657,19 +667,22 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="{{ '/' | relative_url }}#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="{{ '/' | relative_url }}#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#devices">Devices</a>
+            <a class="nav-link" href="{{ '/' | relative_url }}#devices">Devices</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#donate">Donate</a>
+            <a class="nav-link" href="/docs/">Docs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#faq">FAQ</a>
+            <a class="nav-link" href="{{ '/' | relative_url }}#donate">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/' | relative_url }}#faq">FAQ</a>
           </li>
         </ul>
       </div>
