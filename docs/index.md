@@ -27,6 +27,23 @@ permalink: /docs/
             <div class="card h-100">
               <div class="card-body d-flex flex-column">
                 <div class="text-center mb-3">
+                  <i class="fas fa-star feature-icon gradient-text"></i>
+                </div>
+                <h3 class="h5 text-center mb-3">Official Maintainer</h3>
+                <p class="text-muted flex-grow-1">Learn how to become an official PBRP device maintainer and join our team.</p>
+                <div class="text-center mt-auto">
+                  <a href="/official/" class="btn btn-gradient">
+                    <i class="fas fa-crown me-2"></i>Apply Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body d-flex flex-column">
+                <div class="text-center mb-3">
                   <i class="fas fa-cogs feature-icon gradient-text"></i>
                 </div>
                 <h3 class="h5 text-center mb-3">Build Flags</h3>
@@ -34,156 +51,6 @@ permalink: /docs/
                 <div class="text-center mt-auto">
                   <a href="/docs/build-flags/" class="btn btn-gradient">
                     <i class="fas fa-book me-2"></i>View Guide
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="text-center mb-3">
-                  <i class="fas fa-hammer feature-icon gradient-text"></i>
-                </div>
-                <h3 class="h5 text-center mb-3">Building PBRP</h3>
-                <p class="text-muted flex-grow-1">Step-by-step guide on how to build PBRP for your device from source code.</p>
-                <div class="text-center mt-auto">
-                  <a href="/docs/building/" class="btn btn-gradient">
-                    <i class="fas fa-book me-2"></i>Coming Soon
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="text-center mb-3">
-                  <i class="fas fa-mobile-alt feature-icon gradient-text"></i>
-                </div>
-                <h3 class="h5 text-center mb-3">Device Tree Guide</h3>
-                <p class="text-muted flex-grow-1">Learn how to create and maintain device trees for PBRP support.</p>
-                <div class="text-center mt-auto">
-                  <a href="/docs/device-tree/" class="btn btn-gradient">
-                    <i class="fas fa-book me-2"></i>Coming Soon
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- User Documentation -->
-        <div class="row g-4 mt-4">
-          <div class="col-12">
-            <h2 class="h3 gradient-text font-orbitron mb-4">User Documentation</h2>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="text-center mb-3">
-                  <i class="fas fa-download feature-icon gradient-text"></i>
-                </div>
-                <h3 class="h5 text-center mb-3">Installation Guide</h3>
-                <p class="text-muted flex-grow-1">Complete guide on how to install PBRP on your device using various methods.</p>
-                <div class="text-center mt-auto">
-                  <a href="/docs/installation/" class="btn btn-gradient">
-                    <i class="fas fa-book me-2"></i>Coming Soon
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="text-center mb-3">
-                  <i class="fas fa-question-circle feature-icon gradient-text"></i>
-                </div>
-                <h3 class="h5 text-center mb-3">Troubleshooting</h3>
-                <p class="text-muted flex-grow-1">Common issues and their solutions when using PBRP.</p>
-                <div class="text-center mt-auto">
-                  <a href="/docs/troubleshooting/" class="btn btn-gradient">
-                    <i class="fas fa-book me-2"></i>Coming Soon
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="text-center mb-3">
-                  <i class="fas fa-tools feature-icon gradient-text"></i>
-                </div>
-                <h3 class="h5 text-center mb-3">Features Guide</h3>
-                <p class="text-muted flex-grow-1">Detailed explanation of all PBRP features and how to use them.</p>
-                <div class="text-center mt-auto">
-                  <a href="/docs/features/" class="btn btn-gradient">
-                    <i class="fas fa-book me-2"></i>Coming Soon
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Contributing Documentation -->
-        <div class="row g-4 mt-4">
-          <div class="col-12">
-            <h2 class="h3 gradient-text font-orbitron mb-4">Contributing</h2>
-          </div>
-          
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="text-center mb-3">
-                  <i class="fas fa-code-branch feature-icon gradient-text"></i>
-                </div>
-                <h3 class="h5 text-center mb-3">Contributing Guide</h3>
-                <p class="text-muted flex-grow-1">Learn how to contribute to PBRP development and become a maintainer.</p>
-                <div class="text-center mt-auto">
-                  <a href="/docs/contributing/" class="btn btn-gradient">
-                    <i class="fas fa-book me-2"></i>Coming Soon
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="text-center mb-3">
-                  <i class="fas fa-plus-circle feature-icon gradient-text"></i>
-                </div>
-                <h3 class="h5 text-center mb-3">Adding New Devices</h3>
-                <p class="text-muted flex-grow-1">Step-by-step guide on how to add support for new devices to PBRP.</p>
-                <div class="text-center mt-auto">
-                  <a href="/docs/new-device/" class="btn btn-gradient">
-                    <i class="fas fa-book me-2"></i>Coming Soon
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card h-100">
-              <div class="card-body d-flex flex-column">
-                <div class="text-center mb-3">
-                  <i class="fab fa-github feature-icon gradient-text"></i>
-                </div>
-                <h3 class="h5 text-center mb-3">GitHub Workflow</h3>
-                <p class="text-muted flex-grow-1">Understanding PBRP's GitHub workflow and development process.</p>
-                <div class="text-center mt-auto">
-                  <a href="/docs/github-workflow/" class="btn btn-gradient">
-                    <i class="fas fa-book me-2"></i>Coming Soon
                   </a>
                 </div>
               </div>
@@ -224,6 +91,32 @@ permalink: /docs/
                 <a href="https://t.me/pbrpcom" class="btn btn-outline-gradient" target="_blank" rel="noopener noreferrer">
                   <i class="fab fa-telegram me-2"></i>Get Support
                 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contributing Section -->
+        <div class="card mt-4">
+          <div class="card-header">
+            <h2 class="h4 mb-0 gradient-text">Contributing to Documentation</h2>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-8">
+                <p class="mb-3">Help us improve our documentation! If you find errors, have suggestions, or want to contribute new guides, we welcome your contributions.</p>
+                <div class="d-flex flex-column flex-md-row gap-3">
+                  <a href="https://github.com/PitchBlackRecoveryProject/PitchBlackRecoveryProject.github.io" class="btn btn-outline-gradient" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github me-2"></i>Contribute on GitHub
+                  </a>
+                  <a href="https://github.com/PitchBlackRecoveryProject/PitchBlackRecoveryProject.github.io/issues" class="btn btn-outline-gradient" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-bug me-2"></i>Report Issues
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 text-center">
+                <i class="fas fa-edit fs-1 text-primary mb-3"></i>
+                <p class="text-muted">Your contributions make PBRP better for everyone!</p>
               </div>
             </div>
           </div>
