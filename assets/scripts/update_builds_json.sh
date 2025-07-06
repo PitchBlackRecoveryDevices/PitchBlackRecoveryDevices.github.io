@@ -188,6 +188,7 @@ create_device_page() {
 layout: device
 title: "${name}"
 codename: ${codename}
+permalink: /${codename}/
 oem: ${vendor}
 supportstatus: Current
 maintainer: ${maintainer}
