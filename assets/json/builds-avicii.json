@@ -2,10 +2,18 @@
   "latest": {
     "version": "4.0",
     "build_type": "OFFICIAL",
-    "date": "2025-07-25",
-    "download_link": "https://sourceforge.net/projects/pbrp/files/avicii/PBRP-avicii-4.0-20250724-1816-OFFICIAL.zip/download",
+    "date": "2025-10-15",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/avicii/PBRP-avicii-4.0-20251015-1636-OFFICIAL.zip/download",
     "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_oneplus_avicii-pbrp/releases/tag/4.0",
     "changelog": "Sync Latest Source"
   },
-  "older_builds": []
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2025-07-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/avicii/PBRP-avicii-4.0-20250724-1816-OFFICIAL.zip/download",
+      "changelog": "Sync Latest Source"
+    }
+  ]
 }
