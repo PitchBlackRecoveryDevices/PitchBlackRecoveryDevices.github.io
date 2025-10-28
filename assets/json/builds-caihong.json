@@ -1,0 +1,10 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2024-09-12",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/caihong/PBRP-caihong-4.0-20240911-2013-OFFICIAL.zip/download",
+    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_oneplus_caihong-pbrp/releases/tag/4.0",
+    "changelog": "Initial official build for caihong"
+  }
+}

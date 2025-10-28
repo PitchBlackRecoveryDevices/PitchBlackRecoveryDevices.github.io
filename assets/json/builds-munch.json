@@ -1,0 +1,10 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2024-01-21",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/munch/PBRP-munch-4.0-20240121-1641-OFFICIAL.zip/download",
+    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_munch-pbrp/releases/download/4.0",
+    "changelog": "Initial official build for munch"
+  }
+}
