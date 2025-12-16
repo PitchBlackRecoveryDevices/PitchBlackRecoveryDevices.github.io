@@ -1,10 +1,18 @@
 {% if page.ddof %}
-<html>
-<div class='page-heading'>dd Install Method (Requires Root):</div>
-<a id='dd'></a>
-<hr />
-<p class="text">Download the latest zip file (.zip) from the download link above. Extract the zip. Place the image file (.img) in the root of your /sdcard folder and rename it to pbrp.img. Run the following commands via adb shell or a terminal emulator app:</p>
-<p class="code">su</p>
-<p class="code">dd if=/sdcard/pbrp.img of={{ page.ddof }}</p>
-</html>
+<div class="bg-zinc-900 border border-white/10 rounded-xl p-6 mb-6 shadow-lg not-prose">
+  <h3 class="text-xl font-display font-bold text-white mb-4 flex items-center gap-2 border-b border-white/5 pb-2">
+    <i class="fas fa-terminal text-pbrp-red"></i> DD Install (Root)
+  </h3>
+  
+  <p class="text-gray-400 text-sm mb-4">
+    Requires Root access. Place <code>pbrp.img</code> in <code>/sdcard/</code>.
+  </p>
+
+  <div class="bg-black/50 border border-white/10 rounded-lg p-4 relative group">
+    <div class="font-mono text-sm text-red-400 space-y-2">
+      <div class="select-all">su</div>
+      <div class="select-all">dd if=/sdcard/pbrp.img of={{ page.ddof }}</div>
+    </div>
+  </div>
+</div>
 {% endif %}

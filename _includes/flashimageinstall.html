@@ -1,8 +1,14 @@
-<html>
-<div class='page-heading'>flash_image Install Method (Requires Root):</div>
-<a id='flash_image'></a>
-<hr />
-<p class="text">Download the latest image file (.img) from the download link above. Place it in the root of your /sdcard folder and rename it to pbrp.img. Run the following commands via adb shell or a terminal emulator app:</p>
-<p class="code">su</p>
-<p class="code">flash_image recovery /sdcard/pbrp.img</p>
-</html>
+<div class="bg-zinc-900 border border-white/10 rounded-xl p-6 mb-6 shadow-lg not-prose">
+  <h3 class="text-xl font-display font-bold text-white mb-4 flex items-center gap-2 border-b border-white/5 pb-2">
+    <i class="fas fa-terminal text-green-500"></i> Flash Image (Root)
+  </h3>
+  
+  <p class="text-gray-400 text-sm mb-4">
+    Requires Root access and a terminal emulator. Place <code>pbrp.img</code> in <code>/sdcard/</code>.
+  </p>
+
+  <div class="bg-black/60 border border-white/10 rounded-lg p-4 font-mono text-sm">
+    <div class="text-green-400 mb-1">su</div>
+    <div class="text-gray-300">flash_image recovery /sdcard/pbrp.img</div>
+  </div>
+</div>

@@ -1,3 +1,8 @@
-<div class='page-heading'>This device uses dm-verity!</div>
-<hr />
-<p class="text">This means that swiping to allow system modifications will prevent you from being able to boot if you are using the stock kernel. In order to bypass dm-verity's boot prevention, you will have to install a kernel that has dm-verity disabled in the fstab.</p>
+<div class="bg-red-900/20 border-l-4 border-red-500 p-4 rounded-r-lg my-6 not-prose">
+  <h4 class="text-red-500 font-bold mb-2 flex items-center gap-2">
+    <i class="fas fa-lock"></i> DM-Verity
+  </h4>
+  <p class="text-red-100/80 text-sm leading-relaxed">
+    System modifications will prevent booting on stock kernel. You must install a kernel with dm-verity disabled or flash a disabler zip immediately after installing PBRP.
+  </p>
+</div>

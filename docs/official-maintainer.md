@@ -4,895 +4,351 @@ title: "Official Device Maintainer - PitchBlack Recovery Project"
 permalink: /official/
 ---
 
-<!-- Official Device Maintainer Documentation -->
-<section class="py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <h1 class="page-heading gradient-text font-orbitron">Official Device Maintainer</h1>
-        
-        <div class="card mb-4">
-          <div class="card-body">
-            <p class="lead">Become an official PBRP device maintainer and join our team of dedicated developers providing quality recovery builds to the Android community.</p>
-          </div>
+<div class="max-w-3xl mx-auto py-10 px-4">
+  
+  <div class="text-center mb-10">
+    <h1 class="text-3xl md:text-4xl font-display font-bold text-white mb-2">Maintainer Application</h1>
+    <p class="text-gray-400">Join the official roster and bring PitchBlack to your device.</p>
+  </div>
+
+  <!-- Form Container -->
+  <div class="bg-zinc-900 border border-white/10 rounded-2xl overflow-hidden shadow-2xl relative">
+    
+    <!-- Progress Header -->
+    <div class="bg-black/30 p-6 border-b border-white/5">
+      <div class="flex justify-between items-center relative max-w-sm mx-auto">
+        <div class="absolute top-1/2 left-0 w-full h-0.5 bg-zinc-800 -z-0"></div>
+        <div class="relative z-10 flex flex-col items-center step-indicator active" data-step="1">
+          <div class="w-10 h-10 rounded-full bg-pbrp-red text-white flex items-center justify-center font-bold text-sm shadow-lg transition-all ring-4 ring-zinc-900">1</div>
+          <span class="text-xs text-white mt-2 font-medium">Personal</span>
         </div>
-
-        <!-- Multi-Step Application Form -->
-        <div class="card mb-4" id="application-form">
-          <div class="card-header">
-            <h2 class="h4 mb-0 gradient-text">
-              <i class="fas fa-file-alt me-2"></i>Maintainer Application Form
-            </h2>
-          </div>
-          <div class="card-body">
-            <!-- Progress Steps -->
-            <div class="row mb-4">
-              <div class="col-12">
-                <div class="d-flex justify-content-between align-items-center position-relative">
-                  <div class="progress-line"></div>
-                  <div class="step-indicator active" data-step="1">
-                    <div class="step-circle">1</div>
-                    <div class="step-label">General Details</div>
-                  </div>
-                  <div class="step-indicator" data-step="2">
-                    <div class="step-circle">2</div>
-                    <div class="step-label">Device Details</div>
-                  </div>
-                  <div class="step-indicator" data-step="3">
-                    <div class="step-circle">3</div>
-                    <div class="step-label">Personal Details</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <form id="maintainerForm" class="needs-validation" novalidate>
-              <!-- Step 1: General Details -->
-              <div class="form-step active" id="step-1">
-                <h4 class="gradient-text mb-4">Step 1: General Details</h4>
-                
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <label for="fullName" class="form-label">Name *</label>
-                    <input type="text" class="form-control" id="fullName" placeholder="Your full name" required>
-                    <div class="invalid-feedback">Please provide your full name.</div>
-                  </div>
-                  
-                  <div class="col-md-6">
-                    <label for="email" class="form-label">Email *</label>
-                    <input type="email" class="form-control" id="email" placeholder="your.email@example.com" required>
-                    <div class="invalid-feedback">Please provide a valid email address.</div>
-                  </div>
-                  
-                  <div class="col-md-6">
-                    <label for="deviceName" class="form-label">Device Name *</label>
-                    <input type="text" class="form-control" id="deviceName" placeholder="e.g., Xiaomi POCO X3 NFC" required>
-                    <div class="invalid-feedback">Please provide the device name.</div>
-                  </div>
-                  
-                  <div class="col-md-6">
-                    <label for="deviceCodename" class="form-label">Device Codename *</label>
-                    <input type="text" class="form-control" id="deviceCodename" placeholder="e.g., surya" required>
-                    <div class="invalid-feedback">Please provide the device codename.</div>
-                  </div>
-                </div>
-                
-                <!-- FIXED: Consistent button layout for step 1 -->
-                <div class="mt-4">
-                  <div class="d-flex justify-content-end">
-                    <button type="button" class="btn btn-gradient" onclick="nextStep()">
-                      Next <i class="fas fa-arrow-right ms-2"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Step 2: Device Details -->
-              <div class="form-step" id="step-2">
-                <h4 class="gradient-text mb-4">Step 2: Device Details</h4>
-                
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <label for="deviceVendor" class="form-label">Device Vendor/OEM *</label>
-                    <input type="text" class="form-control" id="deviceVendor" placeholder="e.g., xiaomi, samsung, oneplus" required>
-                    <div class="invalid-feedback">Please provide the device vendor.</div>
-                  </div>
-                  
-                  <div class="col-md-6">
-                    <label for="androidVersion" class="form-label">Target Android Version *</label>
-                    <input type="text" class="form-control" id="androidVersion" placeholder="e.g., Android 14, Android 13" required>
-                    <div class="invalid-feedback">Please provide the Android version.</div>
-                  </div>
-                  
-                  <div class="col-12">
-                    <label for="unofficialBuildLink" class="form-label">UNOFFICIAL Build Link *</label>
-                    <input type="url" class="form-control" id="unofficialBuildLink" placeholder="https://example.com/your-unofficial-build" required>
-                    <div class="form-text">Link to your current UNOFFICIAL PBRP build</div>
-                    <div class="invalid-feedback">Please provide a valid build link.</div>
-                  </div>
-                  
-                  <div class="col-12">
-                    <label for="forumLink" class="form-label">Forum Link *</label>
-                    <input type="url" class="form-control" id="forumLink" placeholder="https://forum.xda-developers.com/t/..." required>
-                    <div class="form-text">Forum link where you published your UNOFFICIAL Build</div>
-                    <div class="invalid-feedback">Please provide a valid forum link.</div>
-                  </div>
-                  
-                  <div class="col-md-6">
-                    <label for="testingUsers" class="form-label">Estimated Number of Users *</label>
-                    <input type="number" class="form-control" id="testingUsers" min="50" placeholder="50+" required>
-                    <div class="form-text">Estimate number of users who are using this UNOFFICIAL build</div>
-                    <div class="invalid-feedback">Minimum 50 testing users required.</div>
-                  </div>
-                  
-                  <div class="col-md-6">
-                    <label for="buildStatus" class="form-label">Current Build Status *</label>
-                    <input type="text" class="form-control" id="buildStatus" placeholder="e.g., Fully Working, Minor Issues" required>
-                    <div class="invalid-feedback">Please describe the build status.</div>
-                  </div>
-                  
-                  <div class="col-12">
-                    <label for="deviceTreeUrl" class="form-label">Device Tree Link *</label>
-                    <input type="url" class="form-control" id="deviceTreeUrl" placeholder="https://github.com/username/android_device_vendor_codename" required>
-                    <div class="form-text">Device tree link of the current build</div>
-                    <div class="invalid-feedback">Please provide a valid device tree URL.</div>
-                  </div>
-                </div>
-                
-                <!-- FIXED: Better button layout for step 2 -->
-                <div class="mt-4">
-                  <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
-                    <button type="button" class="btn btn-outline-secondary" onclick="prevStep()">
-                      <i class="fas fa-arrow-left me-2"></i>Previous
-                    </button>
-                    <button type="button" class="btn btn-gradient" onclick="nextStep()">
-                      Next <i class="fas fa-arrow-right ms-2"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Step 3: Personal Details -->
-              <div class="form-step" id="step-3">
-                <h4 class="gradient-text mb-4">Step 3: Personal Details</h4>
-                
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <label for="githubUsername" class="form-label">GitHub Username *</label>
-                    <div class="input-group">
-                      <span class="input-group-text">@</span>
-                      <input type="text" class="form-control" id="githubUsername" placeholder="yourusername" required>
-                      <div class="invalid-feedback">Please provide your GitHub username.</div>
-                    </div>
-                  </div>
-                  
-                  <div class="col-md-6">
-                    <label for="telegramId" class="form-label">Telegram ID</label>
-                    <div class="input-group">
-                      <span class="input-group-text">@</span>
-                      <input type="text" class="form-control" id="telegramId" placeholder="yourusername">
-                    </div>
-                    <div class="form-text">Optional but recommended for communication</div>
-                  </div>
-                  
-                  <div class="col-12">
-                    <label for="communicationMethod" class="form-label">Preferred Communication Method *</label>
-                    <input type="text" class="form-control" id="communicationMethod" placeholder="e.g., Telegram, Email, GitHub, Discord" required>
-                    <div class="invalid-feedback">Please specify your preferred communication method.</div>
-                  </div>
-                  
-                  <div class="col-md-6">
-                    <label for="androidExperience" class="form-label">Android Development Experience *</label>
-                    <input type="text" class="form-control" id="androidExperience" placeholder="e.g., 2 years, Beginner, Advanced" required>
-                    <div class="invalid-feedback">Please describe your experience level.</div>
-                  </div>
-                  
-                  <div class="col-md-6">
-                    <label for="previousMaintainer" class="form-label">Previous Maintainer Experience</label>
-                    <input type="text" class="form-control" id="previousMaintainer" placeholder="e.g., Yes for PBRP, Yes for other projects, No">
-                  </div>
-                  
-                  <div class="col-12">
-                    <label for="commitment" class="form-label">Why do you want to become an official maintainer? *</label>
-                    <textarea class="form-control" id="commitment" rows="4" placeholder="Explain your motivation and commitment to maintaining this device..." required></textarea>
-                    <div class="invalid-feedback">Please provide your motivation statement.</div>
-                  </div>
-                  
-                  <div class="col-12">
-                    <label for="additionalInfo" class="form-label">Additional Information</label>
-                    <textarea class="form-control" id="additionalInfo" rows="3" placeholder="Any additional information you'd like to share (optional)..."></textarea>
-                  </div>
-                  
-                  <!-- Agreements -->
-                  <div class="col-12 mt-4">
-                    <div class="card bg-dark border-warning">
-                      <div class="card-body">
-                        <h6 class="text-warning mb-3">
-                          <i class="fas fa-exclamation-triangle me-2"></i>Maintainer Agreements
-                        </h6>
-                        <div class="form-check mb-2">
-                          <input class="form-check-input" type="checkbox" id="agreeRules" required>
-                          <label class="form-check-label" for="agreeRules">
-                            I agree to follow all PBRP maintainer rules and responsibilities *
-                          </label>
-                          <div class="invalid-feedback">You must agree to the rules.</div>
-                        </div>
-                        
-                        <div class="form-check mb-2">
-                          <input class="form-check-input" type="checkbox" id="agreeMonthly" required>
-                          <label class="form-check-label" for="agreeMonthly">
-                            I commit to providing monthly builds and community support *
-                          </label>
-                          <div class="invalid-feedback">You must commit to monthly builds.</div>
-                        </div>
-                        
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" id="agreeQuality" required>
-                          <label class="form-check-label" for="agreeQuality">
-                            I understand that my device must have 50+ testing users and be bug-free *
-                          </label>
-                          <div class="invalid-feedback">You must acknowledge the quality requirements.</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <!-- FIXED: Better button layout with proper spacing -->
-                <div class="mt-4">
-                  <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
-                    <button type="button" class="btn btn-outline-secondary" onclick="prevStep()">
-                      <i class="fas fa-arrow-left me-2"></i>Previous
-                    </button>
-                    
-                    <div class="d-flex flex-column flex-sm-row gap-2">
-                      <button type="button" class="btn btn-gradient" id="submitTelegram">
-                        <i class="fab fa-telegram me-2"></i>Submit via Telegram
-                      </button>
-                      <button type="button" class="btn btn-outline-gradient" id="submitGitHub">
-                        <i class="fab fa-github me-2"></i>Create GitHub Issue
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
+        <div class="relative z-10 flex flex-col items-center step-indicator opacity-50" data-step="2">
+          <div class="w-10 h-10 rounded-full bg-zinc-800 text-gray-400 border border-zinc-700 flex items-center justify-center font-bold text-sm transition-all ring-4 ring-zinc-900">2</div>
+          <span class="text-xs text-gray-500 mt-2 font-medium">Device</span>
         </div>
-
-        <!-- Benefits Section -->
-        <div class="card mb-4">
-          <div class="card-header">
-            <h2 class="h4 mb-0 gradient-text">Perks of Being an Official Device Maintainer</h2>
-          </div>
-          <div class="card-body">
-            <div class="row g-4">
-              <div class="col-md-6">
-                <div class="d-flex align-items-start">
-                  <div class="flex-shrink-0">
-                    <i class="fas fa-robot text-primary fs-4 me-3"></i>
-                  </div>
-                  <div>
-                    <h5 class="mb-2">Automated CI Builds</h5>
-                    <p class="text-muted mb-0">PBRP builds and deploys automatically. You don't need any personal server infrastructure.</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-md-6">
-                <div class="d-flex align-items-start">
-                  <div class="flex-shrink-0">
-                    <i class="fas fa-flask text-primary fs-4 me-3"></i>
-                  </div>
-                  <div>
-                    <h5 class="mb-2">Next Version Testing</h5>
-                    <p class="text-muted mb-0">Get early access to test new PBRP versions before they're released to the public.</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-md-6">
-                <div class="d-flex align-items-start">
-                  <div class="flex-shrink-0">
-                    <i class="fas fa-shield-alt text-primary fs-4 me-3"></i>
-                  </div>
-                  <div>
-                    <h5 class="mb-2">PBRP Trusted Builds</h5>
-                    <p class="text-muted mb-0">Official PBRP builds give users confidence and trust in the quality of your work.</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-md-6">
-                <div class="d-flex align-items-start">
-                  <div class="flex-shrink-0">
-                    <i class="fas fa-users text-primary fs-4 me-3"></i>
-                  </div>
-                  <div>
-                    <h5 class="mb-2">Community Recognition</h5>
-                    <p class="text-muted mb-0">Join our official team and get recognized in the Android development community.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Requirements Section -->
-        <div class="card mb-4">
-          <div class="card-header">
-            <h2 class="h4 mb-0 gradient-text">Requirements & Rules</h2>
-          </div>
-          <div class="card-body">
-            <p class="mb-4">PBRP Device Maintainers must strictly follow these rules and regulations:</p>
-            
-            <div class="row g-4">
-              <div class="col-12">
-                <div class="card bg-dark border-warning">
-                  <div class="card-body">
-                    <h5 class="text-warning mb-3">
-                      <i class="fas fa-exclamation-triangle me-2"></i>Critical Requirements
-                    </h5>
-                    <ul class="mb-0">
-                      <li class="mb-2"><strong>Bug-Free Unofficial Build:</strong> Your unofficial build must have no critical bugs and should be tested by at least 50 users before applying.</li>
-                      <li class="mb-2"><strong>Android Version:</strong> Device target version must be Android 7.1 (Nougat) or higher.</li>
-                      <li class="mb-2"><strong>Device Tree Maintenance:</strong> Device trees must be properly and regularly maintained with clean commits.</li>
-                      <li class="mb-2"><strong>Monthly Releases:</strong> Maintainers must be active to release monthly builds consistently.</li>
-                      <li class="mb-0"><strong>Bug Responsibility:</strong> Any bugs reported on official builds will result in warnings and potential suspension of maintainership.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="mt-4">
-              <h5 class="mb-3">Additional Guidelines</h5>
-              <ul class="list-unstyled">
-                <li class="d-flex align-items-start mb-3">
-                  <i class="fas fa-code text-primary me-3 mt-1"></i>
-                  <div>
-                    <strong>Code Quality:</strong> Follow PBRP coding standards and maintain clean, well-documented device trees.
-                  </div>
-                </li>
-                <li class="d-flex align-items-start mb-3">
-                  <i class="fas fa-comments text-primary me-3 mt-1"></i>
-                  <div>
-                    <strong>Community Support:</strong> Actively respond to user issues and provide support in community channels.
-                  </div>
-                </li>
-                <li class="d-flex align-items-start mb-3">
-                  <i class="fas fa-sync-alt text-primary me-3 mt-1"></i>
-                  <div>
-                    <strong>Source Updates:</strong> Keep your device tree updated with the latest PBRP source changes.
-                  </div>
-                </li>
-                <li class="d-flex align-items-start">
-                  <i class="fas fa-handshake text-primary me-3 mt-1"></i>
-                  <div>
-                    <strong>Team Collaboration:</strong> Work collaboratively with other maintainers and PBRP team members.
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- Manual Application Process -->
-        <div class="card mb-4">
-          <div class="card-header">
-            <h2 class="h4 mb-0 gradient-text">Manual Application Process</h2>
-          </div>
-          <div class="card-body">
-            <div class="row">
-              <div class="col-md-8">
-                <h5 class="mb-3">Alternative: Manual GitHub Application</h5>
-                <p class="mb-4">If you prefer to apply manually, you can submit a pull request to our vendor utilities repository.</p>
-                
-                <div class="steps">
-                  <div class="d-flex align-items-start mb-4">
-                    <div class="flex-shrink-0">
-                      <span class="badge bg-primary rounded-circle p-2 me-3">1</span>
-                    </div>
-                    <div>
-                      <h6 class="mb-2">Prepare Your Device</h6>
-                      <p class="text-muted mb-0">Ensure your device meets all requirements and has been thoroughly tested by the community.</p>
-                    </div>
-                  </div>
-                  
-                  <div class="d-flex align-items-start mb-4">
-                    <div class="flex-shrink-0">
-                      <span class="badge bg-primary rounded-circle p-2 me-3">2</span>
-                    </div>
-                    <div>
-                      <h6 class="mb-2">Fork the Repository</h6>
-                      <p class="text-muted mb-0">Fork the <code>vendor_utils</code> repository to your GitHub account.</p>
-                    </div>
-                  </div>
-                  
-                  <div class="d-flex align-items-start mb-4">
-                    <div class="flex-shrink-0">
-                      <span class="badge bg-primary rounded-circle p-2 me-3">3</span>
-                    </div>
-                    <div>
-                      <h6 class="mb-2">Edit pb_devices.json</h6>
-                      <p class="text-muted mb-0">Add your device information to the <code>pb_devices.json</code> file following the required format.</p>
-                    </div>
-                  </div>
-                  
-                  <div class="d-flex align-items-start mb-4">
-                    <div class="flex-shrink-0">
-                      <span class="badge bg-primary rounded-circle p-2 me-3">4</span>
-                    </div>
-                    <div>
-                      <h6 class="mb-2">Submit Pull Request</h6>
-                      <p class="text-muted mb-0">Create a pull request with your changes and wait for review by the PBRP team.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-md-4">
-                <div class="card bg-dark">
-                  <div class="card-body text-center">
-                    <i class="fab fa-github fs-1 text-primary mb-3"></i>
-                    <h5 class="mb-3">Manual Application</h5>
-                    <p class="text-muted mb-4">Submit via GitHub pull request</p>
-                    <a href="https://github.com/PitchBlackRecoveryProject/vendor_utils/blob/pb/pb_devices.json" class="btn btn-gradient" target="_blank" rel="noopener noreferrer">
-                      <i class="fab fa-github me-2"></i>View Repository
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Contact Information -->
-        <div class="card">
-          <div class="card-header">
-            <h2 class="h4 mb-0 gradient-text">Need Help?</h2>
-          </div>
-          <div class="card-body">
-            <div class="row">
-              <div class="col-md-8">
-                <p class="mb-3">If you have questions about becoming an official maintainer or need assistance with the application process, don't hesitate to reach out to our community.</p>
-                
-                <div class="d-flex flex-column flex-md-row gap-3">
-                  <a href="https://t.me/pbrpcom" class="btn btn-outline-gradient" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-telegram me-2"></i>Join Telegram
-                  </a>
-                  <a href="https://github.com/PitchBlackRecoveryProject" class="btn btn-outline-gradient" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github me-2"></i>Visit GitHub
-                  </a>
-                </div>
-              </div>
-              
-              <div class="col-md-4 text-center">
-                <i class="fas fa-question-circle fs-1 text-primary mb-3"></i>
-                <p class="text-muted">Our team is here to help you succeed as a maintainer!</p>
-              </div>
-            </div>
-          </div>
+        <div class="relative z-10 flex flex-col items-center step-indicator opacity-50" data-step="3">
+          <div class="w-10 h-10 rounded-full bg-zinc-800 text-gray-400 border border-zinc-700 flex items-center justify-center font-bold text-sm transition-all ring-4 ring-zinc-900">3</div>
+          <span class="text-xs text-gray-500 mt-2 font-medium">Submit</span>
         </div>
       </div>
     </div>
+
+    <!-- Form Content -->
+    <form id="maintainerForm" class="p-6 md:p-8" onsubmit="event.preventDefault();">
+      
+      <!-- STEP 1: Personal Details -->
+      <div class="form-step block" id="step-1">
+        <h3 class="text-lg font-bold text-white mb-6 border-l-4 border-pbrp-red pl-3">Personal Details</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div class="space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Full Name <span class="text-red-500">*</span></label>
+            <input type="text" id="fullName" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none focus:ring-1 focus:ring-pbrp-red transition-all placeholder-gray-700" placeholder="John Doe" required>
+          </div>
+          
+          <div class="space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Email <span class="text-red-500">*</span></label>
+            <input type="email" id="email" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none focus:ring-1 focus:ring-pbrp-red transition-all placeholder-gray-700" placeholder="name@example.com" required>
+          </div>
+          
+          <div class="space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">GitHub Username <span class="text-red-500">*</span></label>
+            <div class="flex">
+              <span class="inline-flex items-center px-3 rounded-l-lg border border-r-0 border-white/10 bg-white/5 text-gray-400">@</span>
+              <input type="text" id="githubUsername" class="w-full bg-black/50 border border-white/10 rounded-r-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none focus:ring-1 focus:ring-pbrp-red transition-all" placeholder="username" required>
+            </div>
+          </div>
+          
+          <div class="space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Telegram ID</label>
+            <div class="flex">
+              <span class="inline-flex items-center px-3 rounded-l-lg border border-r-0 border-white/10 bg-white/5 text-gray-400">@</span>
+              <input type="text" id="telegramId" class="w-full bg-black/50 border border-white/10 rounded-r-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none focus:ring-1 focus:ring-pbrp-red transition-all" placeholder="username">
+            </div>
+          </div>
+
+          <div class="md:col-span-2 space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Preferred Communication <span class="text-red-500">*</span></label>
+            <select id="communication" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none transition-all appearance-none cursor-pointer">
+              <option value="Telegram">Telegram</option>
+              <option value="GitHub">GitHub</option>
+              <option value="Email">Email</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="mt-8 flex justify-end">
+          <button type="button" onclick="nextStep()" class="px-8 py-3 rounded-lg bg-pbrp-red text-white font-bold hover:bg-red-600 transition-colors shadow-lg shadow-red-900/20 flex items-center gap-2">
+            Next <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEP 2: Device Details -->
+      <div class="form-step hidden" id="step-2">
+        <h3 class="text-lg font-bold text-white mb-6 border-l-4 border-pbrp-red pl-3">Device & Build Info</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div class="space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Device Vendor <span class="text-red-500">*</span></label>
+            <input type="text" id="deviceVendor" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none transition-all" placeholder="e.g. Xiaomi" required>
+          </div>
+
+          <div class="space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Device Name <span class="text-red-500">*</span></label>
+            <input type="text" id="deviceName" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none transition-all" placeholder="e.g. Redmi Note 10" required>
+          </div>
+          
+          <div class="space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Codename <span class="text-red-500">*</span></label>
+            <input type="text" id="deviceCodename" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none transition-all" placeholder="e.g. mojito" required>
+          </div>
+
+          <div class="space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Android Version <span class="text-red-500">*</span></label>
+            <input type="text" id="androidVersion" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none transition-all" placeholder="e.g. Android 13" required>
+          </div>
+
+          <!-- Build Info -->
+          <div class="md:col-span-2 space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">UNOFFICIAL Build Link <span class="text-red-500">*</span></label>
+            <input type="url" id="unofficialBuildLink" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none transition-all" placeholder="https://..." required>
+          </div>
+
+          <div class="md:col-span-2 space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Forum/Support Link</label>
+            <input type="url" id="forumLink" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none transition-all" placeholder="https://t.me/..." required>
+          </div>
+
+          <div class="space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Testing Users <span class="text-red-500">*</span></label>
+            <input type="text" id="testingUsers" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none transition-all" placeholder="e.g. 50+" required>
+          </div>
+
+          <div class="space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Build Status <span class="text-red-500">*</span></label>
+            <input type="text" id="buildStatus" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none transition-all" placeholder="e.g. Stable" required>
+          </div>
+          
+          <div class="md:col-span-2 space-y-1">
+            <label class="block text-xs text-gray-500 uppercase font-bold">Device Tree URL <span class="text-red-500">*</span></label>
+            <input type="url" id="deviceTreeUrl" class="w-full bg-black/50 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-pbrp-red focus:outline-none transition-all" placeholder="https://github.com/..." required>
+          </div>
+        </div>
+
+        <div class="mt-8 flex justify-between">
+          <button type="button" onclick="prevStep()" class="px-6 py-3 rounded-lg border border-white/10 text-gray-300 hover:text-white hover:bg-white/5 transition-colors font-medium">Back</button>
+          <button type="button" onclick="nextStep()" class="px-8 py-3 rounded-lg bg-pbrp-red text-white font-bold hover:bg-red-600 transition-colors shadow-lg shadow-red-900/20 flex items-center gap-2">
+            Next <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEP 3: Confirm & Submit -->
+      <div class="form-step hidden" id="step-3">
+        <h3 class="text-lg font-bold text-white mb-6 border-l-4 border-pbrp-red pl-3">Confirmation</h3>
+        
+        <div class="bg-yellow-500/10 border border-yellow-500/20 rounded-xl p-5 mb-8">
+          <h4 class="text-yellow-500 font-bold mb-3 flex items-center gap-2">
+            <i class="fas fa-exclamation-triangle"></i> Requirements Check
+          </h4>
+          <ul class="text-sm text-yellow-100/80 list-disc pl-5 space-y-2">
+            <li>I confirm my unofficial build is stable and bug-free.</li>
+            <li>I commit to providing monthly updates for this device.</li>
+            <li>I will actively support users in the Telegram community.</li>
+          </ul>
+        </div>
+
+        <div class="mb-8">
+          <label class="flex items-center gap-4 p-4 rounded-xl border border-white/10 bg-black/20 hover:bg-white/5 cursor-pointer transition-colors group">
+            <div class="relative flex items-center">
+              <input type="checkbox" id="agreeRules" class="peer h-5 w-5 cursor-pointer appearance-none rounded-md border border-gray-500 bg-zinc-900 transition-all checked:border-pbrp-red checked:bg-pbrp-red" required>
+              <i class="fas fa-check absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-xs text-white opacity-0 peer-checked:opacity-100 pointer-events-none"></i>
+            </div>
+            <span class="text-sm text-gray-300 group-hover:text-white transition-colors">I agree to the requirements above.</span>
+          </label>
+        </div>
+
+        <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
+          <button type="button" onclick="prevStep()" class="w-full sm:w-auto px-6 py-3 rounded-lg border border-white/10 text-gray-300 hover:text-white hover:bg-white/5 transition-colors font-medium">Back</button>
+          
+          <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+            <button type="button" id="submitTelegram" class="flex-1 sm:flex-none px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-bold transition-colors shadow-lg shadow-blue-900/20 flex items-center justify-center gap-2">
+              <i class="fab fa-telegram"></i> Copy & Open Telegram
+            </button>
+            <button type="button" id="submitGitHub" class="flex-1 sm:flex-none px-6 py-3 rounded-lg bg-zinc-800 border border-white/10 hover:bg-zinc-700 text-white font-bold transition-colors flex items-center justify-center gap-2">
+              <i class="fab fa-github"></i> Create Issue
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </form>
   </div>
-</section>
-
-<style>
-/* Multi-step form styles */
-.progress-line {
-  position: absolute;
-  top: 20px;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: var(--bs-border-color);
-  z-index: 1;
-}
-
-.step-indicator {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  z-index: 2;
-  background: var(--bs-body-bg);
-  padding: 0 15px;
-}
-
-.step-circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--bs-border-color);
-  color: var(--text-muted);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  margin-bottom: 8px;
-  transition: all 0.3s ease;
-}
-
-.step-indicator.active .step-circle {
-  background: var(--primary-gradient);
-  color: white;
-}
-
-.step-indicator.completed .step-circle {
-  background: var(--success-color);
-  color: white;
-}
-
-.step-label {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  text-align: center;
-  white-space: nowrap;
-}
-
-.step-indicator.active .step-label {
-  color: var(--bs-primary);
-}
-
-.step-indicator.completed .step-label {
-  color: var(--success-color);
-}
-
-.form-step {
-  display: none;
-  animation: fadeInUp 0.5s ease-out;
-}
-
-.form-step.active {
-  display: block;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* FIXED: Better button spacing and layout for all steps */
-.form-step .mt-4 .d-flex {
-  min-height: 60px; /* Ensure consistent height */
-}
-
-.form-step .btn {
-  white-space: nowrap; /* Prevent text wrapping */
-  min-width: 140px; /* Minimum button width */
-  padding: 0.75rem 1.5rem; /* Consistent padding */
-}
-
-/* FIXED: Ensure proper spacing between buttons */
-.form-step .d-flex.gap-3 {
-  gap: 1rem !important;
-}
-
-.form-step .d-flex.gap-2 {
-  gap: 0.75rem !important;
-}
-
-/* Mobile responsive adjustments */
-@media (max-width: 768px) {
-  .step-label {
-    font-size: 0.75rem;
-  }
-  
-  .step-circle {
-    width: 35px;
-    height: 35px;
-    font-size: 0.875rem;
-  }
-  
-  .step-indicator {
-    padding: 0 10px;
-  }
-  
-  /* FIXED: Stack buttons vertically on mobile */
-  .form-step .d-flex.flex-column.flex-sm-row {
-    width: 100%;
-    flex-direction: column !important;
-  }
-  
-  .form-step .btn {
-    min-width: auto;
-    width: 100%;
-    margin-bottom: 0.5rem;
-  }
-  
-  /* FIXED: Better spacing for navigation buttons */
-  .form-step .d-flex.justify-content-between {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: stretch;
-  }
-}
-
-@media (max-width: 576px) {
-  .step-label {
-    display: none;
-  }
-  
-  .step-indicator {
-    padding: 0 5px;
-  }
-  
-  /* FIXED: Better mobile button layout */
-  .form-step .d-flex.justify-content-between {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: stretch;
-  }
-  
-  .form-step .d-flex.flex-column.flex-sm-row {
-    order: 1;
-    width: 100%;
-  }
-  
-  .form-step .btn-outline-secondary {
-    order: 2;
-    width: 100%;
-  }
-  
-  /* FIXED: Ensure all buttons are full width on small screens */
-  .form-step .btn {
-    width: 100% !important;
-    min-width: auto !important;
-  }
-}
-</style>
+</div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
   let currentStep = 1;
   const totalSteps = 3;
-  
-  const form = document.getElementById('maintainerForm');
-  const submitTelegramBtn = document.getElementById('submitTelegram');
-  const submitGitHubBtn = document.getElementById('submitGitHub');
 
-  // Step navigation functions
-  window.nextStep = function() {
-    if (validateCurrentStep()) {
+  function showStep(step) {
+    document.querySelectorAll('.form-step').forEach(el => {
+        el.classList.add('hidden');
+        el.classList.remove('block');
+    });
+    
+    const current = document.getElementById(`step-${step}`);
+    if(current) {
+        current.classList.remove('hidden');
+        current.classList.add('block');
+    }
+    
+    document.querySelectorAll('.step-indicator').forEach((el, index) => {
+      const circle = el.querySelector('div');
+      const stepNum = index + 1;
+      const label = el.querySelector('span');
+      
+      el.classList.remove('active', 'opacity-50');
+      circle.classList.remove('bg-pbrp-red', 'bg-green-500', 'bg-zinc-800', 'text-gray-400');
+      
+      if (stepNum === step) {
+        el.classList.add('active');
+        circle.classList.add('bg-pbrp-red', 'text-white', 'shadow-lg');
+        label.classList.add('text-white');
+        label.classList.remove('text-gray-500');
+      } else if (stepNum < step) {
+        circle.classList.add('bg-green-500', 'text-white');
+        circle.innerHTML = '<i class="fas fa-check"></i>';
+        label.classList.remove('text-white');
+        label.classList.add('text-gray-500');
+      } else {
+        el.classList.add('opacity-50');
+        circle.classList.add('bg-zinc-800', 'text-gray-400', 'border', 'border-zinc-700');
+        circle.innerText = stepNum;
+        label.classList.remove('text-white');
+        label.classList.add('text-gray-500');
+      }
+    });
+  }
+
+  function validateStep(step) {
+    const el = document.getElementById(`step-${step}`);
+    const inputs = el.querySelectorAll('input[required], select[required]');
+    let valid = true;
+    
+    inputs.forEach(input => {
+      if (!input.value.trim() || (input.type === 'checkbox' && !input.checked)) {
+        input.classList.add('border-red-500', 'ring-1', 'ring-red-500');
+        valid = false;
+      } else {
+        input.classList.remove('border-red-500', 'ring-1', 'ring-red-500');
+        input.classList.add('border-green-500/50');
+      }
+    });
+    return valid;
+  }
+
+  window.nextStep = () => {
+    if (validateStep(currentStep)) {
       if (currentStep < totalSteps) {
         currentStep++;
         showStep(currentStep);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       }
+    } else {
+        alert("Please fill in all required fields.");
     }
   };
 
-  window.prevStep = function() {
+  window.prevStep = () => {
     if (currentStep > 1) {
       currentStep--;
       showStep(currentStep);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
-  function showStep(step) {
-    // Hide all steps
-    document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
-    document.querySelectorAll('.step-indicator').forEach(s => {
-      s.classList.remove('active', 'completed');
-    });
-
-    // Show current step
-    document.getElementById(`step-${step}`).classList.add('active');
-    
-    // Update step indicators
-    for (let i = 1; i <= totalSteps; i++) {
-      const indicator = document.querySelector(`[data-step="${i}"]`);
-      if (i < step) {
-        indicator.classList.add('completed');
-      } else if (i === step) {
-        indicator.classList.add('active');
-      }
-    }
-  }
-
-  function validateCurrentStep() {
-    const currentStepElement = document.getElementById(`step-${currentStep}`);
-    const requiredFields = currentStepElement.querySelectorAll('[required]');
-    let isValid = true;
-
-    requiredFields.forEach(field => {
-      if (field.type === 'checkbox') {
-        if (!field.checked) {
-          field.classList.add('is-invalid');
-          isValid = false;
-        } else {
-          field.classList.remove('is-invalid');
-          field.classList.add('is-valid');
-        }
-      } else {
-        if (!field.value.trim()) {
-          field.classList.add('is-invalid');
-          isValid = false;
-        } else {
-          field.classList.remove('is-invalid');
-          field.classList.add('is-valid');
-        }
-      }
-    });
-
-    // Special validation for testing users
-    if (currentStep === 2) {
-      const testingUsers = document.getElementById('testingUsers');
-      if (testingUsers.value && parseInt(testingUsers.value) < 50) {
-        testingUsers.classList.add('is-invalid');
-        isValid = false;
-      }
-    }
-
-    if (!isValid) {
-      // Scroll to first invalid field
-      const firstInvalid = currentStepElement.querySelector('.is-invalid');
-      if (firstInvalid) {
-        firstInvalid.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-    }
-
-    return isValid;
-  }
-
-  function validateAllSteps() {
-    let allValid = true;
-    for (let i = 1; i <= totalSteps; i++) {
-      const stepElement = document.getElementById(`step-${i}`);
-      const requiredFields = stepElement.querySelectorAll('[required]');
-      
-      requiredFields.forEach(field => {
-        if (field.type === 'checkbox') {
-          if (!field.checked) {
-            allValid = false;
-          }
-        } else {
-          if (!field.value.trim()) {
-            allValid = false;
-          }
-        }
-      });
-    }
-    return allValid;
-  }
-
-  // Generate application text
+  // Generate the formatted text block
   function generateApplicationText() {
-    const fullName = document.getElementById('fullName').value;
+    const name = document.getElementById('fullName').value;
     const email = document.getElementById('email').value;
-    const deviceName = document.getElementById('deviceName').value;
-    const deviceCodename = document.getElementById('deviceCodename').value;
-    const deviceVendor = document.getElementById('deviceVendor').value;
-    const androidVersion = document.getElementById('androidVersion').value;
-    const unofficialBuildLink = document.getElementById('unofficialBuildLink').value;
+    const github = document.getElementById('githubUsername').value;
+    const telegram = document.getElementById('telegramId').value;
+    const comm = document.getElementById('communication').value;
+    
+    const device = document.getElementById('deviceName').value;
+    const codename = document.getElementById('deviceCodename').value;
+    const vendor = document.getElementById('deviceVendor').value;
+    const android = document.getElementById('androidVersion').value;
+    
+    const buildLink = document.getElementById('unofficialBuildLink').value;
     const forumLink = document.getElementById('forumLink').value;
-    const testingUsers = document.getElementById('testingUsers').value;
-    const buildStatus = document.getElementById('buildStatus').value;
-    const deviceTreeUrl = document.getElementById('deviceTreeUrl').value;
-    const githubUsername = document.getElementById('githubUsername').value;
-    const telegramId = document.getElementById('telegramId').value;
-    const communicationMethod = document.getElementById('communicationMethod').value;
-    const androidExperience = document.getElementById('androidExperience').value;
-    const previousMaintainer = document.getElementById('previousMaintainer').value;
-    const commitment = document.getElementById('commitment').value;
-    const additionalInfo = document.getElementById('additionalInfo').value;
+    const users = document.getElementById('testingUsers').value;
+    const status = document.getElementById('buildStatus').value;
+    const tree = document.getElementById('deviceTreeUrl').value;
 
     return `PBRP Official Maintainer Application
 
 Personal Information:
-- Name: ${fullName}
+- Name: ${name}
 - Email: ${email}
-- GitHub Username: @${githubUsername}
-- Telegram ID: ${telegramId ? '@' + telegramId : 'Not provided'}
-- Preferred Communication: ${communicationMethod}
+- GitHub Username: @${github}
+- Telegram ID: ${telegram ? '@' + telegram : 'N/A'}
+- Preferred Communication: ${comm}
 
 Device Information:
-- Device Name: ${deviceName}
-- Device Codename: ${deviceCodename}
-- Vendor/OEM: ${deviceVendor}
-- Target Android Version: ${androidVersion}
+- Device Name: ${device}
+- Device Codename: ${codename}
+- Vendor/OEM: ${vendor}
+- Target Android Version: ${android}
 
 Build Information:
-- UNOFFICIAL Build Link: ${unofficialBuildLink}
+- UNOFFICIAL Build Link: ${buildLink}
 - Forum Link: ${forumLink}
-- Testing Users: ${testingUsers}+ users
-- Build Status: ${buildStatus}
-- Device Tree URL: ${deviceTreeUrl}
-
-Experience & Commitment:
-- Android Development Experience: ${androidExperience}
-- Previous Maintainer Experience: ${previousMaintainer || 'None'}
-
-Why do you want to become an official maintainer?
-${commitment}
-
-${additionalInfo ? `Additional Information:\n${additionalInfo}` : ''}
-
-Agreements:
-✅ I agree to follow all PBRP maintainer rules and responsibilities
-✅ I commit to providing monthly builds and community support
-✅ I understand that my device must have 50+ testing users and be bug-free
-
-Application submitted via PBRP website form`;
+- Testing Users: ${users}
+- Build Status: ${status}
+- Device Tree URL: ${tree}`;
   }
 
-  // Submit via Telegram
-  submitTelegramBtn.addEventListener('click', function() {
-    if (!validateAllSteps()) {
-      alert('Please fill in all required fields correctly in all steps.');
-      return;
+  document.getElementById('submitTelegram').onclick = () => {
+    if(validateStep(3)) {
+      const text = generateApplicationText();
+      navigator.clipboard.writeText(text).then(() => {
+          alert("Application text copied! Redirecting to Telegram...");
+          window.open('https://t.me/pbrpcom', '_blank');
+      }).catch(err => {
+          console.error(err);
+          alert("Copy failed. Please manually copy the text.");
+      });
+    } else {
+        alert("Please accept the requirements.");
     }
+  };
 
-    const applicationText = generateApplicationText();
-    // Use window.open with proper URL encoding for Telegram
-    const telegramUrl = `https://t.me/pbrpcom`;
-    
-    // Copy text to clipboard and open Telegram
-    navigator.clipboard.writeText(applicationText).then(function() {
-      alert('Application text copied to clipboard! Please paste it in the Telegram group.');
-      window.open(telegramUrl, '_blank');
-    }).catch(function() {
-      // Fallback if clipboard API fails
-      const textArea = document.createElement('textarea');
-      textArea.value = applicationText;
-      document.body.appendChild(textArea);
-      textArea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textArea);
-      alert('Application text copied to clipboard! Please paste it in the Telegram group.');
-      window.open(telegramUrl, '_blank');
-    });
+  document.getElementById('submitGitHub').onclick = () => {
+    if(validateStep(3)) {
+      const device = document.getElementById('deviceName').value;
+      const codename = document.getElementById('deviceCodename').value;
+      const github = document.getElementById('githubUsername').value;
+      const telegram = document.getElementById('telegramId').value;
+      
+      // Construct exact Title requested
+      let title = `[MAINTAINER APPLICATION] ${device} (${codename})`;
+      
+      const body = encodeURIComponent(generateApplicationText());
+      window.open(`https://github.com/PitchBlackRecoveryProject/vendor_utils/issues/new?title=${encodeURIComponent(title)}&body=${body}`, '_blank');
+    } else {
+        alert("Please accept the requirements.");
+    }
+  };
+
+  document.querySelectorAll('input').forEach(input => {
+      input.addEventListener('input', function() {
+          if(this.value.trim()) {
+              this.classList.remove('border-red-500', 'ring-1', 'ring-red-500');
+          }
+      });
   });
 
-  // Submit via GitHub Issue
-  submitGitHubBtn.addEventListener('click', function() {
-    if (!validateAllSteps()) {
-      alert('Please fill in all required fields correctly in all steps.');
-      return;
-    }
-
-    const applicationText = generateApplicationText();
-    const deviceCodename = document.getElementById('deviceCodename').value;
-    const deviceName = document.getElementById('deviceName').value;
-    const githubUsername = document.getElementById('githubUsername').value;
-    
-    const issueTitle = `[MAINTAINER APPLICATION] ${deviceName} (${deviceCodename}) - @${githubUsername}`;
-    const issueBody = applicationText;
-    
-    const githubUrl = `https://github.com/PitchBlackRecoveryProject/vendor_utils/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}&labels=maintainer-application`;
-    
-    window.open(githubUrl, '_blank');
-  });
-
-  // Real-time validation
-  form.addEventListener('input', function(e) {
-    if (e.target.hasAttribute('required')) {
-      if (e.target.type === 'checkbox') {
-        if (e.target.checked) {
-          e.target.classList.remove('is-invalid');
-          e.target.classList.add('is-valid');
-        }
-      } else {
-        if (e.target.value.trim()) {
-          e.target.classList.remove('is-invalid');
-          e.target.classList.add('is-valid');
-        } else {
-          e.target.classList.remove('is-valid');
-          e.target.classList.add('is-invalid');
-        }
-      }
-    }
-  });
-
-  // Initialize first step
   showStep(1);
-});
 </script>

@@ -12,15 +12,13 @@
    codename: {codename}
    oem: {OEM Name}
    supportstatus: Current/Discontinued
-   maintainer: {Your GitHub Username}
+   maintainer: {Your GitHub Username/Name} # Without @
    ddof: "/dev/block/bootdevice/by-name/recovery"
-   devicetree: "https://github.com/PitchBlackRecoveryProject/device_{vendor}_{codename}"
+   devicetree: "https://github.com/PitchBlackRecoveryProject/device_{vendor}_{codename}-pbrp"
    xdathread: "https://forum.xda-developers.com/t/..."
    ---
 
    {% include disclaimer.html %}
-
-   {% include supportstatus.html %}
 
    {% include download.html %}
 

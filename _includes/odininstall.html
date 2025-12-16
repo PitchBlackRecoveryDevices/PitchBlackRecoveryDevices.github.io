@@ -1,22 +1,20 @@
-<html>
-<div class='page-heading'>Odin Install Method (No Root Required):</div>
-<a id='odin'></a>
-<hr />
+<div class="bg-zinc-900 border border-white/10 rounded-xl p-6 mb-6 shadow-lg not-prose">
+  <h3 class="text-xl font-display font-bold text-white mb-4 flex items-center gap-2 border-b border-white/5 pb-2">
+    <i class="fas fa-hdd text-pbrp-red"></i> Odin Install
+  </h3>
 
-<p class="text">You will need to download and install Odin on your PC. Download the proper PBRP-*-ODIN.tar.md5 file for your device from the download link above.</p>
+  <p class="text-gray-400 text-sm mb-4">
+    For Samsung devices. Requires <strong>Odin</strong> on PC.
+  </p>
 
-<p class="text"><strong>Installation Steps:</strong></p>
-<ol>
-<li>Power off your device completely</li>
-<li>Enter download mode using the proper key combination for your device</li>
-<li>Connect your device to your computer via USB cable</li>
-<li>Open Odin on your computer</li>
-<li>Use the AP/PDA tab to browse and select the PBRP .tar.md5 file you downloaded</li>
-<li>Click Start to flash the device</li>
-<li>Once flashing is complete, immediately boot to recovery using the proper key combination</li>
-</ol>
-
-<p class="text"><strong>Important:</strong> Many Samsung devices will replace your custom recovery automatically during first boot. To prevent this, use <a href="http://www.google.com">Google</a> to find the proper key combo to enter recovery. After flashing with Odin, immediately hold the key combo and boot to PBRP. Once PBRP is booted, PBRP will patch the stock ROM to prevent the stock ROM from replacing PBRP. If you don't follow this step, you will have to repeat the install.</p>
-
-<p class="text"><strong>File Format:</strong> Samsung devices use the special Odin format: PBRP-*-ODIN.tar.md5</p>
-</html>
+  <ol class="list-decimal pl-5 space-y-2 text-gray-300 text-sm marker:text-pbrp-red">
+    <li>Power off device. Boot into <strong>Download Mode</strong>.</li>
+    <li>Connect to PC via USB.</li>
+    <li>Open Odin. Ensure device is detected (Blue COM port).</li>
+    <li>Click <strong>AP</strong> (or PDA) button.</li>
+    <li>Select the <code>PBRP-*.tar.md5</code> file.</li>
+    <li>Uncheck "Auto Reboot" in options.</li>
+    <li>Click <strong>Start</strong>.</li>
+    <li>Once finished, manually force reboot into Recovery (Vol Up + Power + Home/Bixby).</li>
+  </ol>
+</div>

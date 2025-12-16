@@ -5,18 +5,19 @@ redirect_to: "/#devices"
 ---
 
 <script>
-// Immediate redirect for browsers that don't support meta refresh
-if (window.location.pathname === '/devices' || window.location.pathname === '/devices/') {
+// Immediate redirect
+if (window.location.pathname.includes('/devices')) {
   window.location.replace("/#devices");
 }
 </script>
 
-<noscript>
 <meta http-equiv="refresh" content="0; url=/#devices">
-</noscript>
 
-<!-- Fallback content -->
-<div class="container text-center py-5">
-  <h2>Redirecting to Devices...</h2>
-  <p>If you are not redirected automatically, <a href="/#devices">click here to view supported devices</a>.</p>
+<div class="min-h-[50vh] flex flex-col items-center justify-center text-center">
+  <i class="fas fa-circle-notch fa-spin text-4xl text-pbrp-red mb-4"></i>
+  <h2 class="text-2xl font-bold text-white">Redirecting...</h2>
+  <p class="text-gray-500 mt-2">Taking you to the device list.</p>
+  <p class="text-sm mt-4">
+    <a href="/#devices" class="text-pbrp-purple hover:underline">Click here if not redirected</a>
+  </p>
 </div>

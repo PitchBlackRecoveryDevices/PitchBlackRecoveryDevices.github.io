@@ -5,31 +5,23 @@ redirect_to: "/#devices"
 ---
 
 <script>
-// Handle both hash-based and path-based downloads URLs
+// Handle redirects
 (function() {
-  const currentPath = window.location.pathname;
-  const currentHash = window.location.hash;
-  
-  // If we're on /downloads/ or /downloads, redirect to /#devices
-  if (currentPath === '/downloads' || currentPath === '/downloads/') {
+  const path = window.location.pathname;
+  const hash = window.location.hash;
+  if (path.includes('/downloads') || hash === '#downloads') {
     window.location.replace("/#devices");
-    return;
-  }
-  
-  // If we're on the homepage with #downloads hash, redirect to #devices
-  if (currentHash === '#downloads') {
-    window.location.replace("/#devices");
-    return;
   }
 })();
 </script>
 
-<noscript>
 <meta http-equiv="refresh" content="0; url=/#devices">
-</noscript>
 
-<!-- Fallback content -->
-<div class="container text-center py-5">
-  <h2>Redirecting to Downloads...</h2>
-  <p>If you are not redirected automatically, <a href="/#devices">click here to view downloads</a>.</p>
+<div class="min-h-[50vh] flex flex-col items-center justify-center text-center">
+  <i class="fas fa-download text-4xl text-pbrp-red mb-4 animate-pulse"></i>
+  <h2 class="text-2xl font-bold text-white">Redirecting...</h2>
+  <p class="text-gray-500 mt-2">Moving to downloads section.</p>
+  <p class="text-sm mt-4">
+    <a href="/#devices" class="text-pbrp-purple hover:underline">Click here if not redirected</a>
+  </p>
 </div>

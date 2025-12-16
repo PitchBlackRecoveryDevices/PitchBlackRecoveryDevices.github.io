@@ -1,888 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>{{ page.title | default: site.title }}</title>
-<link rel="icon" type="image/png" href="/assets/images/Gradient-Red-Logo-1.png">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --bs-primary: #4169E1;
-    --bs-primary-rgb: 65, 105, 225;
-    --bs-secondary: #9400D3;
-    --bs-secondary-rgb: 148, 0, 211;
-    --bs-dark: #000000;
-    --bs-dark-rgb: 0, 0, 0;
-    --bs-body-bg: #000000;
-    --bs-body-color: #ffffff;
-    --bs-card-bg: #121212;
-    --bs-border-color: #333333;
-    --primary-gradient: linear-gradient(135deg, #4169E1, #9400D3);
-    --card-hover: #1e1e1e;
-    --text-muted: #e0e0e0;
-    --code-bg: #1a1a1a;
-    --code-border: rgba(65, 105, 225, 0.3);
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
-    font-family: 'Inter', sans-serif;
-    background-color: var(--bs-body-bg);
-    color: var(--bs-body-color);
-    line-height: 1.6;
-    padding-top: 70px; /* For fixed header */
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-
-  .font-orbitron {
-    font-family: 'Orbitron', monospace;
-  }
-
-  .gradient-text {
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-
-  .btn-gradient {
-    background: var(--primary-gradient);
-    border: none;
-    color: white;
-    transition: all 0.3s ease;
-    border-radius: 12px;
-    font-weight: 500;
-    padding: 0.75rem 2rem;
-  }
-
-  .btn-gradient:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(65, 105, 225, 0.4);
-    color: white;
-  }
-
-  .btn-outline-gradient {
-    background: transparent;
-    border: 2px solid;
-    border-image: var(--primary-gradient) 1;
-    color: white;
-    position: relative;
-    overflow: hidden;
-    border-radius: 12px;
-    font-weight: 500;
-    padding: 0.75rem 2rem;
-    transition: all 0.3s ease;
-  }
-
-  .btn-outline-gradient:hover {
-    background: rgba(65, 105, 225, 0.1);
-    color: white;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(65, 105, 225, 0.2);
-  }
-
-  .card {
-    background-color: var(--bs-card-bg);
-    border: 1px solid var(--bs-border-color);
-    transition: all 0.3s ease;
-    border-radius: 16px;
-    overflow: hidden;
-  }
-
-  .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 40px rgba(65, 105, 225, 0.2);
-    border-color: var(--bs-primary);
-  }
-
-  .navbar {
-    background-color: var(--bs-card-bg) !important;
-    backdrop-filter: blur(15px);
-    border-bottom: 1px solid var(--bs-border-color);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
-    padding: 0;
-    height: 70px; /* Fixed height for header */
-  }
-
-  /* UPDATED NAVBAR STYLES */
-  .navbar .container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 30px; /* Match old header padding */
-  }
-
-  .navbar-brand {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-family: 'Orbitron', monospace;
-    font-weight: 700;
-    color: white !important;
-    font-size: 1.3rem; /* Increased font size */
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-  }
-
-  .navbar-brand img {
-    width: 40px;
-    height: 40px;
-    flex-shrink: 0;
-  }
-
-  .navbar-toggler {
-    border: none;
-    padding: 0.25rem 0.5rem;
-    align-self: center;
-  }
-
-  .navbar-toggler:focus {
-    box-shadow: none;
-  }
-
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  }
-
-  .navbar-collapse {
-    background-color: var(--bs-card-bg);
-  }
-
-  /* UPDATED NAV ITEMS STYLES */
-  .navbar-nav {
-    display: flex;
-    gap: 30px; /* Match old header spacing */
-  }
-
-  .navbar-nav .nav-link {
-    color: white !important;
-    font-weight: 500;
-    position: relative;
-    padding: 5px 0 !important; /* Match old header padding */
-    font-size: 1rem;
-    transition: all 0.3s ease;
-    display: inline-block;
-  }
-
-  .navbar-nav .nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: var(--primary-gradient);
-    transition: width 0.3s ease;
-    border-radius: 0;
-  }
-
-  .navbar-nav .nav-link:hover::after {
-    width: 100%;
-  }
-
-  .hero-section {
-    background: linear-gradient(135deg, rgba(0,0,0,0.95), rgba(65,105,225,0.1));
-    min-height: calc(100vh - 70px); /* Adjust for header height */
-    display: flex;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .hero-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: 
-      radial-gradient(circle at 20% 80%, rgba(65, 105, 225, 0.1) 0%, transparent 50%),
-      radial-gradient(circle at 80% 20%, rgba(148, 0, 211, 0.1) 0%, transparent 50%);
-    pointer-events: none;
-  }
-
-  .hero-content {
-    position: relative;
-    z-index: 2;
-  }
-
-  .hero-title {
-    font-size: clamp(2.5rem, 5vw, 4.5rem);
-    font-weight: 900;
-    margin-bottom: 1.5rem;
-    letter-spacing: 0.02em;
-    text-shadow: 0 4px 20px rgba(65, 105, 225, 0.3);
-  }
-
-  .hero-subtitle {
-    font-size: 1.3rem;
-    margin-bottom: 2.5rem;
-    opacity: 0.9;
-    line-height: 1.6;
-    color: var(--text-muted);
-  }
-
-  .feature-icon {
-    font-size: 3.5rem;
-    margin-bottom: 1.5rem;
-    display: block;
-    transition: all 0.3s ease;
-  }
-
-  .card:hover .feature-icon {
-    transform: scale(1.1);
-  }
-
-  .section-title {
-    font-size: 2.75rem;
-    font-weight: 700;
-    margin-bottom: 3.5rem;
-    position: relative;
-    padding-bottom: 1rem;
-  }
-
-  .section-title::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 120px;
-    height: 4px;
-    background: var(--primary-gradient);
-    border-radius: 4px;
-  }
-
-  .oem-toggle {
-    background: var(--bs-card-bg);
-    border: 1px solid var(--bs-border-color);
-    color: white;
-    transition: all 0.3s ease;
-    border-radius: 12px;
-    font-weight: 500;
-    padding: 1rem 1.5rem;
-  }
-
-  .oem-toggle:hover {
-    background: var(--card-hover);
-    border-color: var(--bs-primary);
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(65, 105, 225, 0.15);
-  }
-
-  .device-list {
-    background: var(--bs-card-bg);
-    border: 1px solid var(--bs-border-color);
-    border-radius: 12px;
-    overflow: hidden;
-  }
-
-  .device-item {
-    border-bottom: 1px solid var(--bs-border-color);
-    transition: all 0.3s ease;
-  }
-
-  .device-item:last-child {
-    border-bottom: none;
-  }
-
-  .device-item a {
-    color: white;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    display: block;
-    padding: 1rem 1.5rem;
-    font-weight: 500;
-  }
-
-  .device-item:hover {
-    background: linear-gradient(135deg, rgba(65, 105, 225, 0.1), rgba(148, 0, 211, 0.05));
-  }
-
-  .device-item a:hover {
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-left: 2rem;
-  }
-
-  .faq-item {
-    background: var(--bs-card-bg);
-    border: 1px solid var(--bs-border-color);
-    margin-bottom: 1.5rem;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: all 0.3s ease;
-  }
-
-  .faq-item:hover {
-    border-color: var(--bs-primary);
-    box-shadow: 0 8px 25px rgba(65, 105, 225, 0.1);
-  }
-
-  .faq-question {
-    background: var(--bs-card-bg);
-    border: none;
-    color: white;
-    font-weight: 600;
-    text-align: left;
-    width: 100%;
-    padding: 1.75rem;
-    transition: all 0.3s ease;
-    position: relative;
-    font-size: 1.1rem;
-  }
-
-  .faq-question::after {
-    content: '\f107';
-    font-family: 'Font Awesome 6 Free';
-    font-weight: 900;
-    position: absolute;
-    right: 1.75rem;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: transform 0.3s ease;
-    color: var(--bs-primary);
-  }
-
-  .faq-question:hover {
-    background: var(--card-hover);
-  }
-
-  .faq-question.active::after {
-    transform: translateY(-50%) rotate(180deg);
-  }
-
-  .faq-answer {
-    padding: 1.75rem;
-    color: var(--text-muted);
-    border-top: 1px solid var(--bs-border-color);
-    line-height: 1.7;
-  }
-
-  .warning {
-    background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(251, 191, 36, 0.05));
-    border: 1px solid #f59e0b;
-    border-left: 4px solid #f59e0b;
-    border-radius: 12px;
-    padding: 1.75rem;
-    margin: 2rem 0;
-    position: relative;
-  }
-
-  .warning::before {
-    content: '\f071';
-    font-family: 'Font Awesome 6 Free';
-    font-weight: 900;
-    color: #f59e0b;
-    font-size: 1.3rem;
-    margin-right: 0.75rem;
-  }
-
-  .community-card {
-    text-decoration: none;
-    color: inherit;
-    transition: all 0.3s ease;
-  }
-
-  .community-card:hover {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .donation-section {
-    background: linear-gradient(135deg, rgba(65,105,225,0.1), rgba(148,0,211,0.1));
-    border-radius: 20px;
-    padding: 4rem;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .donation-section::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(65, 105, 225, 0.05) 0%, transparent 70%);
-    animation: rotate 20s linear infinite;
-    pointer-events: none;
-  }
-
-  @keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
-
-  .social-links a {
-    color: var(--text-muted);
-    font-size: 1.75rem;
-    margin: 0 1.25rem;
-    transition: all 0.3s ease;
-  }
-
-  .social-links a:hover {
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transform: translateY(-5px) scale(1.1);
-  }
-
-  /* Enhanced code styling */
-  code {
-    font-family: 'JetBrains Mono', 'Consolas', 'Monaco', 'Courier New', monospace !important;
-    background: var(--code-bg);
-    color: #e2e8f0;
-    border: 1px solid var(--code-border);
-    border-radius: 8px;
-    padding: 0.75rem 1rem;
-    display: block;
-    margin: 1.5rem 0;
-    white-space: pre-wrap;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    font-weight: 500;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  }
-
-  p code, li code, span.code {
-    display: inline !important;
-    padding: 0.25em 0.5em;
-    margin: 0 0.125em;
-    border-radius: 4px;
-    font-size: 0.85em;
-    background: var(--code-bg);
-    border: 1px solid var(--code-border);
-  }
-
-  /* FIXED: Better text visibility - All text should be white/light */
-  .text-muted {
-    color: var(--text-muted) !important;
-  }
-
-  p, li, .text {
-    color: var(--bs-body-color) !important;
-  }
-
-  .lead {
-    color: var(--text-muted) !important;
-  }
-
-  /* Mobile responsive improvements */
-  @media (max-width: 768px) {
-    body {
-      padding-top: 70px; /* Maintain header height */
-    }
-    
-    .hero-title {
-      font-size: 2.5rem;
-    }
-    
-    .section-title {
-      font-size: 2.25rem;
-    }
-    
-    .donation-section {
-      padding: 2.5rem;
-    }
-
-    .hero-subtitle {
-      font-size: 1.1rem;
-    }
-
-    .btn-gradient, .btn-outline-gradient {
-      padding: 0.75rem 1.5rem;
-    }
-
-    .navbar .container {
-      padding: 0 20px; /* Match old mobile padding */
-    }
-
-    .navbar-brand {
-      font-size: 1.1rem; /* Slightly larger on mobile */
-      max-width: calc(100vw - 120px);
-    }
-
-    .navbar-brand img {
-      width: 35px;
-      height: 35px;
-    }
-
-    .navbar-collapse {
-      background: var(--bs-card-bg);
-      padding: 10px 20px;
-      border-top: 1px solid var(--bs-border-color);
-      border-left: 2px solid;
-      border-image: var(--primary-gradient) 1;
-      box-shadow: -5px 5px 15px rgba(0,0,0,0.3);
-      margin-top: 10px;
-    }
-
-    .navbar-nav {
-      flex-direction: column;
-      gap: 0;
-    }
-
-    .navbar-nav .nav-link {
-      padding: 10px 0 !important;
-      font-size: 1.1rem;
-    }
-  }
-
-  /* FIXED: Small screens - further reduce brand size but keep inline */
-  @media (max-width: 576px) {
-    .navbar-brand {
-      font-size: 1rem; /* Keep readable */
-      max-width: calc(100vw - 100px);
-    }
-
-    .navbar-brand img {
-      width: 30px;
-      height: 30px;
-    }
-  }
-
-  /* FIXED: Very small screens - minimal but still inline */
-  @media (max-width: 480px) {
-    .navbar-brand {
-      font-size: 0.9rem; /* Keep readable */
-      max-width: calc(100vw - 80px);
-    }
-
-    .navbar-brand img {
-      width: 28px;
-      height: 28px;
-    }
-  }
-
-  .form-control {
-    background-color: var(--bs-card-bg);
-    border: 1px solid var(--bs-border-color);
-    color: white;
-    border-radius: 12px;
-    padding: 0.875rem 1.25rem;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
-  }
-
-  .form-control:focus {
-    background-color: var(--bs-card-bg);
-    border-color: var(--bs-primary);
-    color: white;
-    box-shadow: 0 0 0 0.25rem rgba(65, 105, 225, 0.25);
-    transform: translateY(-2px);
-  }
-
-  .form-control::placeholder {
-    color: var(--text-muted);
-  }
-
-  /* Enhanced animations */
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .hero-content > * {
-    animation: fadeInUp 0.8s ease-out;
-  }
-
-  .hero-content > *:nth-child(2) {
-    animation-delay: 0.2s;
-  }
-
-  .hero-content > *:nth-child(3) {
-    animation-delay: 0.4s;
-  }
-
-  /* Updated footer styling */
-  footer {
-    background: var(--bs-card-bg);
-    border-top: 1px solid var(--bs-border-color);
-    padding: 30px 0;
-    margin-top: auto; /* Push to bottom */
-  }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="icon" type="image/png" href="/assets/images/Gradient-Red-Logo-1.png">
   
-  /* Centered footer content */
-  .footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   
-  .social-links {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-  }
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  /* Documentation-specific styles */
-  .page-heading {
-    font-family: 'Orbitron', monospace;
-    color: var(--bs-primary);
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin: 0.5rem 0 2rem;
-    padding-bottom: 0.5rem;
-  }
-</style>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Orbitron', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            pbrp: {
+              red: '#d32f2f',
+              purple: '#9400D3',
+              dark: '#000000',
+              card: '#121212',
+              border: '#27272a'
+            }
+          },
+          backgroundImage: {
+            'gradient-primary': 'linear-gradient(135deg, #d32f2f 0%, #9400D3 100%)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body { background-color: #000000; color: #e4e4e7; }
+    
+    .text-gradient {
+      background: linear-gradient(135deg, #d32f2f, #9400D3);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .glass-nav {
+      background: rgba(5, 5, 5, 0.9); /* Slightly darker for better readability */
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    /* Markdown Styling */
+    .prose h1, .prose h2, .prose h3 { font-family: 'Orbitron', sans-serif; color: white; margin-top: 1.5em; margin-bottom: 0.5em; font-weight: 700; }
+    .prose p, .prose ul, .prose ol { color: #d4d4d8; margin-bottom: 1em; line-height: 1.6; }
+    .prose a { color: #d32f2f; transition: 0.2s; }
+    .prose a:hover { color: #ef4444; text-decoration: underline; }
+    .prose code { background: #18181b; padding: 0.2em 0.4em; border-radius: 0.3em; font-family: 'JetBrains Mono', monospace; color: #fca5a5; font-size: 0.85em; border: 1px solid #27272a; }
+    .prose pre { background: #121212; padding: 1em; border-radius: 0.5em; overflow-x: auto; border: 1px solid #27272a; margin-bottom: 1em; }
+    .prose pre code { background: transparent; padding: 0; color: #e4e4e7; border: none; }
+    .page-heading { @apply text-2xl font-display font-bold text-white border-l-4 border-pbrp-red pl-4 my-6; }
+  </style>
 </head>
-<body>
-  <!-- Updated Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="{{ '/' | relative_url }}">
-        <img src="/assets/images/Gradient-Red-Logo-1.png" alt="PBRP Logo">
-        <span>PitchBlack Recovery Project</span>
-      </a>
-      
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#devices">Devices</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/docs/">Docs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#donate">Donate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#faq">FAQ</a>
-          </li>
-        </ul>
+<body class="flex flex-col min-h-screen antialiased selection:bg-pbrp-red/30 selection:text-white">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full z-50 glass-nav transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo -->
+        <a href="{{ '/' | relative_url }}" class="flex items-center gap-3 group">
+          <img class="h-10 w-10 transition-transform group-hover:scale-110" src="/assets/images/Gradient-Red-Logo-1.png" alt="PBRP">
+          <span class="font-display font-bold text-lg md:text-xl tracking-wider text-gradient">PitchBlack Recovery Project</span>
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="hidden lg:block">
+          <div class="ml-10 flex items-baseline space-x-8">
+            <a href="{{ '/' | relative_url }}#home" class="text-gray-300 hover:text-white transition-colors">Home</a>
+            <a href="{{ '/' | relative_url }}#about" class="text-gray-300 hover:text-white transition-colors">About</a>
+            <a href="{{ '/' | relative_url }}#devices" class="text-gray-300 hover:text-white transition-colors">Devices</a>
+            <a href="/docs/" class="text-gray-300 hover:text-white transition-colors">Docs</a>
+            <a href="{{ '/' | relative_url }}#donate" class="text-pbrp-red hover:text-white font-bold transition-colors">Donate</a>
+            <a href="{{ '/' | relative_url }}#faq" class="text-gray-300 hover:text-white transition-colors">FAQ</a>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="-mr-2 flex lg:hidden">
+          <button type="button" id="mobile-menu-btn" class="p-2 rounded-md text-gray-400 hover:text-white hover:bg-white/10 transition-colors">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="hidden lg:hidden bg-black/95 backdrop-blur-xl border-b border-white/10 absolute w-full left-0" id="mobile-menu">
+      <div class="px-4 pt-2 pb-4 space-y-2">
+        <a href="{{ '/' | relative_url }}" class="text-gray-300 hover:text-white block px-3 py-3 rounded-lg hover:bg-white/5 transition-colors">Home</a>
+        <a href="{{ '/' | relative_url }}#devices" class="text-gray-300 hover:text-white block px-3 py-3 rounded-lg hover:bg-white/5 transition-colors">Devices</a>
+        <a href="/docs/" class="text-gray-300 hover:text-white block px-3 py-3 rounded-lg hover:bg-white/5 transition-colors">Docs</a>
+        <a href="{{ '/' | relative_url }}#donate" class="text-pbrp-red font-bold hover:text-white block px-3 py-3 rounded-lg hover:bg-white/5 transition-colors">Donate</a>
       </div>
     </div>
   </nav>
 
   <!-- Main Content -->
-  <main>
+  <main class="flex-grow pt-24 pb-12 px-4 sm:px-6 lg:px-8 w-full max-w-7xl mx-auto" onclick="closeMobileMenu()">
     {{ content }}
   </main>
 
-  <!-- Updated Footer (centered content) -->
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <p>© 2024 PitchBlack Recovery Project</p>
-        <div class="social-links">
-          <a href="https://github.com/PitchBlackRecoveryProject" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://t.me/pbrpcom" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-telegram"></i>
-          </a>
-        </div>
+  <!-- Footer -->
+  <footer class="border-t border-white/10 bg-zinc-900/50 py-12 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col items-center">
+      <div class="flex space-x-8 mb-6">
+        <a href="https://github.com/PitchBlackRecoveryProject" class="text-gray-500 hover:text-white text-2xl transition-all hover:scale-110">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://t.me/pbrpcom" class="text-gray-500 hover:text-blue-400 text-2xl transition-all hover:scale-110">
+          <i class="fab fa-telegram"></i>
+        </a>
       </div>
+      <p class="text-center text-gray-500 text-sm">
+        &copy; 2018 - {{ site.time | date: '%Y' }} <span class="text-gray-300 font-bold">PitchBlack Recovery Project</span>.
+        <br>Maintained with <i class="fas fa-heart text-pbrp-red mx-1"></i> by the community.
+      </p>
     </div>
   </footer>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  
   <script>
-    // Global redirect handler for downloads URLs
+    // --- Mobile Menu Logic ---
+    const btn = document.getElementById('mobile-menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    const icon = btn.querySelector('i');
+
+    function toggleMenu() {
+      const isHidden = menu.classList.contains('hidden');
+      if (isHidden) {
+        menu.classList.remove('hidden');
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
+      } else {
+        closeMobileMenu();
+      }
+    }
+
+    function closeMobileMenu() {
+      if (!menu.classList.contains('hidden')) {
+        menu.classList.add('hidden');
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      }
+    }
+
+    // Toggle on button click
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation(); // Prevent triggering close on body click
+      toggleMenu();
+    });
+
+    // Close when clicking ANY link inside menu
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', closeMobileMenu);
+    });
+
+    // Close on Scroll
+    let lastScrollY = window.scrollY;
+    window.addEventListener('scroll', () => {
+      if (Math.abs(window.scrollY - lastScrollY) > 10) { // Small threshold
+        closeMobileMenu();
+        lastScrollY = window.scrollY;
+      }
+    });
+
+    // --- Redirect Logic ---
     (function() {
       const hash = window.location.hash;
-      
-      // Redirect #downloads to #devices
       if (hash === '#downloads') {
         window.location.replace(window.location.pathname + '#devices');
         return;
       }
     })();
-
-    // FAQ toggle functionality
-    document.querySelectorAll('.faq-question').forEach(question => {
-      question.addEventListener('click', () => {
-        const answer = question.nextElementSibling;
-        const isOpen = answer.classList.contains('show');
-        
-        // Close all other answers
-        document.querySelectorAll('.faq-answer').forEach(a => {
-          a.classList.remove('show');
-          a.style.display = 'none';
-        });
-        document.querySelectorAll('.faq-question').forEach(q => {
-          q.classList.remove('active');
-          q.setAttribute('aria-expanded', 'false');
-        });
-        
-        if (!isOpen) {
-          answer.classList.add('show');
-          answer.style.display = 'block';
-          question.classList.add('active');
-          question.setAttribute('aria-expanded', 'true');
-        }
-      });
-    });
-
-    // Device list toggle
-    document.querySelectorAll('.oem-toggle').forEach(button => {
-      button.addEventListener('click', () => {
-        const controls = button.getAttribute('aria-controls');
-        const list = document.getElementById(controls);
-        const expanded = button.getAttribute('aria-expanded') === 'true';
-        
-        if (expanded) {
-          button.setAttribute('aria-expanded', 'false');
-          list.style.display = 'none';
-        } else {
-          button.setAttribute('aria-expanded', 'true');
-          list.style.display = 'block';
-        }
-      });
-    });
-
-    // Enhanced search functionality
-    function filterDevices() {
-      const searchInput = document.getElementById('device-search').value.toLowerCase();
-      const oemSections = document.querySelectorAll('.oem-list > li');
-      
-      oemSections.forEach(oemSection => {
-        const oemToggle = oemSection.querySelector('.oem-toggle');
-        const deviceList = oemSection.querySelector('.device-list');
-        const deviceItems = oemSection.querySelectorAll('.device-item');
-        
-        let hasVisibleDevices = false;
-        
-        // Filter individual devices
-        deviceItems.forEach(item => {
-          const title = item.getAttribute('data-title').toLowerCase();
-          const codename = item.getAttribute('data-codename').toLowerCase();
-          
-          if (title.includes(searchInput) || codename.includes(searchInput)) {
-            item.style.display = '';
-            hasVisibleDevices = true;
-          } else {
-            item.style.display = 'none';
-          }
-        });
-        
-        // Show/hide OEM section based on whether it has visible devices
-        if (hasVisibleDevices || searchInput === '') {
-          oemSection.style.display = '';
-          
-          // If searching and has results, expand the section
-          if (searchInput !== '' && hasVisibleDevices) {
-            oemToggle.setAttribute('aria-expanded', 'true');
-            deviceList.style.display = 'block';
-          }
-        } else {
-          // Hide the entire OEM section if no devices match
-          oemSection.style.display = 'none';
-        }
-      });
-      
-      // If search is cleared, reset all sections to collapsed state
-      if (searchInput === '') {
-        oemSections.forEach(oemSection => {
-          const oemToggle = oemSection.querySelector('.oem-toggle');
-          const deviceList = oemSection.querySelector('.device-list');
-          
-          oemSection.style.display = '';
-          oemToggle.setAttribute('aria-expanded', 'false');
-          deviceList.style.display = 'none';
-        });
-      }
-    }
-
-    // Smooth scrolling for navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
-        }
-      });
-    });
-
-    // Close navbar when clicking outside or on nav links
-    const navbarCollapse = document.getElementById('navbarNav');
-    const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
-    
-    // Close navbar when clicking outside
-    document.addEventListener('click', function(event) {
-      const isNavbarToggle = event.target.closest('.navbar-toggler');
-      const isNavbarContent = event.target.closest('#navbarNav');
-      
-      // If clicking the toggle button, do nothing
-      if (isNavbarToggle) return;
-      
-      // If clicking inside navbar content, do nothing
-      if (isNavbarContent) return;
-      
-      // If navbar is open, close it
-      if (navbarCollapse.classList.contains('show')) {
-        bsCollapse.hide();
-      }
-    });
-
-    // Close navbar on scroll
-    let lastScrollTop = 0;
-    const SCROLL_THRESHOLD = 10; // pixels
-  
-   window.addEventListener('scroll', function() {
-    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-    
-    // Only trigger if navbar is currently open
-    if (navbarCollapse.classList.contains('show')) {
-      // Check if scroll distance is more than threshold
-      if (Math.abs(currentScroll - lastScrollTop) > SCROLL_THRESHOLD) {
-        bsCollapse.hide();
-      }
-    }
-    
-    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-  });
-
-    // Close navbar when clicking on nav links
-    document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
-      link.addEventListener('click', () => {
-        if (navbarCollapse.classList.contains('show')) {
-          bsCollapse.hide();
-        }
-      });
-    });
   </script>
 </body>
 </html>

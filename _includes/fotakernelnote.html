@@ -1,6 +1,16 @@
-<div class='page-heading'>Notes About Sony Devices:</div>
-<hr />
-<p class="text">The Xperia devices have a recovery-in-boot arrangement. This means that the recovery is booted using the regular kernel / boot image in the device. PBRP Team has worked with the FreeXperia device maintainers to come up with a way to extract the ramdisk from the FOTAKernel partition and use the ramdisk from that partition instead of the recovery that is included in the boot image of your device. This means that if you install current CM nightlies and flash PBPR to the FOTAKernel partition, you will be able to use PBPR instead of the CWM or CM recovery that normally comes in a CM boot image. Other boot images including stock kernels can be repacked to include this extraction utility to allow you to use PBPR from the FOTAKernel partition. This setup allows you to choose what recovery you want to have installed and allows you to update your recovery more easily. &nbsp;Unfortunately this setup requires that the boot image that you have installed include the ramdisk extraction utility. &nbsp;The source for this utility is here:</p>
-<p class="text"><a href="https://github.com/Dees-Troy/extract_elf_ramdisk">https://github.com/Dees-Troy/extract_elf_ramdisk</a></p>
-<p class="text">This setup means that you must have a kernel or boot image installed that will use the FOTAKernel method. This utility is designed to work in conjunction with the current methods that most AOSP ROMs, like OmniROM or CyanogenMod, will support. Some rare stock kernels may also support the FOTAKernel method.</p>
-<p class="text">What does all this mean? It means that PBPR may not work on your device unless you install other custom software as well. Check with your ROM developer to see what they support.</p>
+<div class="bg-purple-900/20 border border-purple-500/30 rounded-xl p-6 mb-6 shadow-lg not-prose">
+  <h3 class="text-xl font-display font-bold text-white mb-3 flex items-center gap-2">
+    <i class="fas fa-info-circle text-purple-400"></i> Sony FOTAKernel
+  </h3>
+  
+  <div class="text-sm text-gray-300 space-y-3 leading-relaxed">
+    <p>
+      Xperia devices use a unique <strong>FOTAKernel</strong> partition layout. PBRP uses this partition to function independently of the boot image.
+    </p>
+    <div class="bg-black/40 p-3 rounded border border-purple-500/20">
+      <p class="text-purple-200 text-xs">
+        <strong>Requirement:</strong> Your kernel/boot image must support the <code>extract_elf_ramdisk</code> utility to load recovery from FOTAKernel. Most Custom ROMs (Lineage/Omni) support this by default.
+      </p>
+    </div>
+  </div>
+</div>

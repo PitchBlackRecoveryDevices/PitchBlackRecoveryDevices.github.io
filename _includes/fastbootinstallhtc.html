@@ -1,34 +1,28 @@
-{% capture fastboot %}fastboot{% if page.fastbootvendor %} -i 0x{{ page.fastbootvendor }}{% endif %}{% endcapture %}
-<html>
-<div class='page-heading' id='fastboot-install'>Fastboot Install Method (No Root Required):</div>
-<a id='fastboot'></a>
-<hr />
+<div class="bg-zinc-900 border border-white/10 rounded-xl p-6 mb-6 shadow-lg not-prose">
+  <h3 class="text-xl font-display font-bold text-white mb-4 flex items-center gap-2 border-b border-white/5 pb-2">
+    <i class="fas fa-mobile text-pbrp-red"></i> HTC Install Method
+  </h3>
 
-<p class="text"><a href="http://developer.android.com/sdk/index.html#linux-bundle-size">You will need the platform-tools from the Android SDK on your computer.</a> Find the Android command line tools section on the page linked and install the SDK tools package. From the SDK Manager, download only the platform-tools to get adb and fastboot binaries.</p>
+  <div class="space-y-4">
+    <div>
+      <p class="text-gray-400 text-sm mb-2">1. Enter Download Mode:</p>
+      <div class="bg-black/50 border border-white/10 rounded p-3 font-mono text-sm text-red-400">
+        adb reboot download
+      </div>
+    </div>
 
-<p class="text">Windows users will need proper drivers installed on their computer. You can try the <a href="http://www.xda-developers.com/universal-naked-driver-solves-your-adb-driver-problems-on-windows/">Naked ADB drivers</a> or the <a href="https://adb.clockworkmod.com/">Universal ADB drivers</a> if you don't already have a working driver installed</p>
-
-<p class="text">On your device, go into Settings -> About and find the Build Number and tap on it 7 times to enable developer settings. Press back and go into Developer Options and enable USB debugging. From your computer, open a command prompt and type:</p>
-<p class="code">adb reboot download</p>
-<p class="text">You should now be in fastboot mode.</p>
-
-{% if page.fastbootunlock %}
-<p class="text">Your device needs to be unlocked before it can flash custom images. To unlock your device type:</p>
-<p class="code">{{ fastboot }} oem unlock</p>
-{% endif %}
-
-<p class="text">Download both the PBRP zip file (PBRP-*.zip) and image file (.img). Copy the image file into the same folder as your adb and fastboot binaries and rename it to pbrp.img.</p>
-
-<p class="text"><strong>Preferred Installation Method:</strong></p>
-<p class="text">Temporarily boot the downloaded image using the following command:</p>
-<p class="code">{{ fastboot }} boot pbrp.img</p>
-
-<p class="text">Once booted into PBRP, copy the PBRP zip file to your device storage (internal storage, SD card, or USB OTG). Then navigate to Install -> Browse to your zip file -> Swipe to flash. This will permanently install PBRP to your device.</p>
-
-<p class="text"><strong>Alternative Method (Direct Flash):</strong></p>
-<p class="text">If the preferred method doesn't work, you can flash directly:</p>
-<p class="code">{{ fastboot }} flash recovery pbrp.img</p>
-<p class="code">{{ fastboot }} reboot</p>
-
-<p class="text">Note: Many devices will replace your custom recovery automatically during first boot. To prevent this, use <a href="http://www.google.com">Google</a> to find the proper key combo to enter recovery. After typing <span class="code">{{ fastboot }} reboot</span>, hold the key combo and boot to PBRP. Once PBRP is booted, PBRP will patch the stock ROM to prevent the stock ROM from replacing PBRP. If you don't follow this step, you will have to repeat the install.</p>
-</html>
+    <div>
+      <p class="text-gray-400 text-sm mb-2">2. Flash Recovery:</p>
+      <div class="bg-black/50 border border-white/10 rounded p-3 font-mono text-sm text-red-400">
+        fastboot flash recovery pbrp.img
+      </div>
+    </div>
+    
+    <div>
+      <p class="text-gray-400 text-sm mb-2">3. Reboot:</p>
+      <div class="bg-black/50 border border-white/10 rounded p-3 font-mono text-sm text-red-400">
+        fastboot reboot
+      </div>
+    </div>
+  </div>
+</div>

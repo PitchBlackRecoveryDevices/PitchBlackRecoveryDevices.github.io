@@ -11,8 +11,6 @@ devicetree: "https://github.com/PitchBlackRecoveryProject/android_device_oneplus
 
 {% include disclaimer.html %}
 
-{% include supportstatus.html %}
-
 {% include download.html %}
 
 {% include pbrpinstall.html %}

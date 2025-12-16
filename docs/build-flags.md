@@ -4,153 +4,63 @@ title: "Build Flags - PitchBlack Recovery Project"
 permalink: /docs/build-flags/
 ---
 
-<!-- Build Flags Documentation -->
-<section class="py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <h1 class="page-heading gradient-text font-orbitron">Build Flags</h1>
-        
-        <div class="card mb-4">
-          <div class="card-body">
-            <p class="lead">This section provides custom PBRP Build Flags that can be used while building for devices. These flags are expected to be used inside <code>BoardConfig.mk</code> of your device tree.</p>
-          </div>
-        </div>
+<div class="max-w-4xl mx-auto py-12 px-4">
+  
+  <div class="mb-10">
+    <a href="/docs/" class="text-sm text-gray-500 hover:text-white mb-4 inline-block transition-colors"><i class="fas fa-arrow-left mr-2"></i> Back to Docs</a>
+    <h1 class="text-4xl font-display font-bold text-white mb-4 border-l-4 border-pbrp-purple pl-4">Build Flags</h1>
+    <p class="text-gray-400 text-lg">Custom flags to configure PBRP for your specific device tree in <code class="text-pbrp-red bg-white/10 px-2 py-0.5 rounded text-base">BoardConfig.mk</code>.</p>
+  </div>
 
-        <!-- PBRP GO Support -->
-        <div class="card mb-4">
-          <div class="card-header">
-            <h2 class="h4 mb-0 gradient-text">PBRP GO Support <span class="text-muted">(DEPRECATED in 3.0.0)</span></h2>
-          </div>
-          <div class="card-body">
-            <p>PBRP GO is a lite version of the real PBRP for devices like MTK which have limited recovery partition size. The recovery built will only support limited themes.</p>
-            
-            <div class="warning">
-              <strong>Note:</strong> This feature has been deprecated in PBRP 3.0.0 and later versions.
-            </div>
-            
-            <h5 class="mt-4 mb-3">Usage:</h5>
-            <code>PB_GO := TRUE</code>
-          </div>
-        </div>
+  <div class="space-y-6">
 
-        <!-- Disable dm-verity -->
-        <div class="card mb-4">
-          <div class="card-header">
-            <h2 class="h4 mb-0 gradient-text">Disable dm-verity by Default</h2>
-          </div>
-          <div class="card-body">
-            <p>dm-verity is enabled by default in PBRP. This build flag disables dm-verity by default, which can be useful for devices that have issues with dm-verity verification.</p>
-            
-            <h5 class="mt-4 mb-3">Usage:</h5>
-            <code>PB_DISABLE_DEFAULT_DM_VERITY := true</code>
-            
-            <div class="mt-3">
-              <p><strong>When to use:</strong> Use this flag when your device has dm-verity issues that prevent proper booting after system modifications.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Force DD Flash -->
-        <div class="card mb-4">
-          <div class="card-header">
-            <h2 class="h4 mb-0 gradient-text">Force Use of dd for Flashing Recovery</h2>
-          </div>
-          <div class="card-body">
-            <p>There are many old devices (like mt65xx variants) which follow traditional approach to flash recovery which can cause issues while flashing. This is an <strong>EXPERIMENTAL</strong> flag, enable only if you are facing the same kind of issue.</p>
-            
-            <div class="warning">
-              <strong>Warning:</strong> This is an experimental flag. Only enable if you're experiencing flashing issues with traditional methods.
-            </div>
-            
-            <h5 class="mt-4 mb-3">Usage:</h5>
-            <code>PB_FORCE_DD_FLASH := TRUE</code>
-            
-            <div class="mt-3">
-              <p><strong>When to use:</strong> Use this flag for older MediaTek devices (mt65xx variants) that have issues with standard recovery flashing methods.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Official/Beta Build -->
-        <div class="card mb-4">
-          <div class="card-header">
-            <h2 class="h4 mb-0 gradient-text">Official and Beta Build Flags</h2>
-          </div>
-          <div class="card-body">
-            <p>These flags are used to mark builds as official or beta releases, which affects the build identification and branding.</p>
-            
-            <h5 class="mt-4 mb-3">Usage:</h5>
-            <div class="row">
-              <div class="col-md-6">
-                <h6>Official Build:</h6>
-                <code>PB_OFFICIAL := true</code>
-              </div>
-              <div class="col-md-6">
-                <h6>Beta Build:</h6>
-                <code>BETA_BUILD := true</code>
-              </div>
-            </div>
-            
-            <div class="mt-3">
-              <p><strong>Note:</strong> Use <code>PB_OFFICIAL := true</code> for official releases and <code>BETA_BUILD := true</code> for beta builds.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Specific Torch Path -->
-        <div class="card mb-4">
-          <div class="card-header">
-            <h2 class="h4 mb-0 gradient-text">Specific Torch Path</h2>
-          </div>
-          <div class="card-body">
-            <p>For devices that require a specific torch/flashlight path in PBRP, use this flag to define the correct system path.</p>
-            
-            <h5 class="mt-4 mb-3">Usage:</h5>
-            <code>PB_TORCH_PATH := /sys/class/leds/flashlight</code>
-            
-            <div class="mt-3">
-              <p><strong>Example paths:</strong></p>
-              <ul>
-                <li><code>/sys/class/leds/flashlight</code> - Common flashlight path</li>
-                <li><code>/sys/class/leds/torch-light0</code> - Alternative torch path</li>
-                <li><code>/sys/class/leds/led:flash_0</code> - Another common path</li>
-              </ul>
-              
-              <p><strong>When to use:</strong> Use this flag when the default torch implementation doesn't work on your device, and you need to specify a custom path for the flashlight functionality.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Additional Information -->
-        <div class="card">
-          <div class="card-header">
-            <h2 class="h4 mb-0 gradient-text">Additional Information</h2>
-          </div>
-          <div class="card-body">
-            <h5>Implementation Guidelines:</h5>
-            <ul>
-              <li>Add these flags to your device's <code>BoardConfig.mk</code> file</li>
-              <li>Flags should be placed before any conditional statements that might depend on them</li>
-              <li>Test thoroughly when using experimental flags</li>
-              <li>Document any custom flags used in your device tree README</li>
-            </ul>
-            
-            <h5 class="mt-4">Example BoardConfig.mk snippet:</h5>
-            <pre><code># PBRP Build Flags
-PB_OFFICIAL := true
-PB_DISABLE_DEFAULT_DM_VERITY := true
-PB_TORCH_PATH := /sys/class/leds/flashlight
-
-# Other device configurations...
-TARGET_ARCH := arm64</code></pre>
-            
-            <div class="mt-4">
-              <p><strong>Need Help?</strong> If you're unsure about which flags to use for your device, consult with the PBRP community on <a href="https://t.me/pbrpcom" target="_blank" rel="noopener noreferrer">Telegram</a> or check existing device trees on <a href="https://github.com/PitchBlackRecoveryProject" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
-            </div>
-          </div>
-        </div>
+    <!-- Flag Item -->
+    <div class="bg-zinc-900 border border-white/10 rounded-xl p-6 hover:border-white/20 transition-colors">
+      <div class="flex justify-between items-start mb-4">
+        <h3 class="text-xl font-bold text-white">Official Build</h3>
+        <span class="px-2 py-1 rounded text-xs font-bold bg-green-500/20 text-green-400 border border-green-500/20">RECOMMENDED</span>
+      </div>
+      <p class="text-gray-400 mb-4">Marks the build as an Official release. This affects versioning string and branding.</p>
+      <div class="bg-black rounded-lg border border-white/10 p-4 font-mono text-sm text-gray-300 overflow-x-auto">
+        PB_OFFICIAL := true
       </div>
     </div>
+
+    <!-- Flag Item -->
+    <div class="bg-zinc-900 border border-white/10 rounded-xl p-6 hover:border-white/20 transition-colors">
+      <div class="flex justify-between items-start mb-4">
+        <h3 class="text-xl font-bold text-white">Disable Default DM-Verity</h3>
+        <span class="px-2 py-1 rounded text-xs font-bold bg-blue-500/20 text-blue-400 border border-blue-500/20">OPTIONAL</span>
+      </div>
+      <p class="text-gray-400 mb-4">Disables dm-verity checks by default. useful for devices that fail to boot after modification.</p>
+      <div class="bg-black rounded-lg border border-white/10 p-4 font-mono text-sm text-gray-300 overflow-x-auto">
+        PB_DISABLE_DEFAULT_DM_VERITY := true
+      </div>
+    </div>
+
+    <!-- Flag Item -->
+    <div class="bg-zinc-900 border border-white/10 rounded-xl p-6 hover:border-white/20 transition-colors">
+      <div class="flex justify-between items-start mb-4">
+        <h3 class="text-xl font-bold text-white">Custom Torch Path</h3>
+        <span class="px-2 py-1 rounded text-xs font-bold bg-yellow-500/20 text-yellow-400 border border-yellow-500/20">DEVICE SPECIFIC</span>
+      </div>
+      <p class="text-gray-400 mb-4">If the flashlight toggle doesn't work, you may need to specify the correct sysfs path.</p>
+      <div class="bg-black rounded-lg border border-white/10 p-4 font-mono text-sm text-gray-300 overflow-x-auto">
+        PB_TORCH_PATH := /sys/class/leds/flashlight
+      </div>
+    </div>
+
+    <!-- Flag Item (Deprecated) -->
+    <div class="bg-zinc-900/50 border border-white/5 rounded-xl p-6 opacity-75">
+      <div class="flex justify-between items-start mb-4">
+        <h3 class="text-lg font-bold text-gray-400 line-through">PBRP GO Support</h3>
+        <span class="px-2 py-1 rounded text-xs font-bold bg-red-500/20 text-red-400 border border-red-500/20">DEPRECATED</span>
+      </div>
+      <p class="text-gray-500 mb-4">Was used for low-memory devices. Removed in PBRP 3.0.0+.</p>
+      <div class="bg-black/50 rounded-lg border border-white/5 p-4 font-mono text-sm text-gray-600 overflow-x-auto select-none">
+        PB_GO := TRUE
+      </div>
+    </div>
+
   </div>
-</section>
+</div>

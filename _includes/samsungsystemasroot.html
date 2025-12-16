@@ -1,10 +1,23 @@
-<div class='page-heading'>This device uses system-as-root in an A-only partition configuration.</div>
-<hr />
+<div class="bg-red-900/20 border-l-4 border-red-600 p-6 rounded-r-xl mb-6 not-prose">
+  <h3 class="text-xl font-display font-bold text-white mb-3 flex items-center gap-2">
+    <i class="fas fa-exclamation-triangle text-red-500"></i> Samsung System-as-Root
+  </h3>
+  
+  <div class="space-y-4 text-sm text-gray-300 leading-relaxed">
+    <p>
+      This device uses <strong>System-as-Root</strong> with A-only partitions. Magisk and Recovery share the same partition.
+    </p>
+    
+    <div class="bg-black/50 p-3 rounded border border-red-500/30">
+      <p class="text-red-200 font-bold mb-1">Booting Logic:</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>Power + Vol Up:</strong> Boots to Magisk/PBRP (Recovery)</li>
+        <li><strong>Power only:</strong> Boots to Stock System (No Root)</li>
+      </ul>
+    </div>
 
-<p class="text">If you intend to root your ({{ page.codename }}) device, be advised that Magisk will be installed to the <tt>recovery</tt> partition, not the usual <tt>boot</tt> partition. Both PBPR and Magisk-rooted Android boot using the recovery kernel, with the device's hardware keys used to choose between PBPR and Android at boot time.</p>
-
-<p class="text">You are therefore strongly advised to first <a href="https://topjohnwu.github.io/Magisk/install.html#samsung-system-as-root">root your device with Magisk</a> and then pre-root a PBPR image before flashing it to recovery. The usual path of installing PBPR prior to rooting is problematic on this device, because the Magisk installer does not support installation to recovery from PBPR. Furthermore, prior rooting of the device with Magisk carries the significant advantage of disabling various device protection mechanisms that you will otherwise need to take care of manually.</p>
-
-<p class="text">If you wish to install PBPR without rooting, there are numerous pitfalls to consider. For example, a stock device is protected by Android Verified Boot. This is implemented as a <tt>vbmeta</tt> partition that contains cryptographic digests for verifying the integrity of <tt>boot.img</tt>, <tt>recovery.img</tt> and other partitions/images. Flashing PBPR without first flashing a <tt>vbmeta</tt> image with verity disabled will render your device unable to boot.</p>
-
-<p class="text">Please bear all of the above in mind when considering the installation methods listed below, and refer to the device's PBPR support thread on XDA for detailed information about installation and the associated hazards. Details of the firmware version(s) with which the current PBPR image's kernel is compatible can be found in the PBPR changelog for this device.</p>
+    <p>
+      <strong>Recommendation:</strong> Root your device with Magisk <em>first</em>, then pre-root the PBRP image before flashing it to recovery.
+    </p>
+  </div>
+</div>

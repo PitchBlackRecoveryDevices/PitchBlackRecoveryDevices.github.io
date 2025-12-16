@@ -1,9 +1,11 @@
-<div class='page-heading'>This device uses Android Verified Boot (AVB)</div>
-<hr />
-<p class="text">This means that installing PBPR or swiping to allow system modifications will prevent you from being able to boot. To bypass AVB's boot prevention, you will have to disable it or install a custom ROM that ships with disabled AVB.</p>
-
-To disable AVB via fastboot, grab the vbmeta image from the ROM you are on, and flash it with the following command:
-
-<code>fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img</code>
-
-AVB should be now disabled on your device.
+<div class="bg-blue-900/20 border-l-4 border-blue-500 p-4 rounded-r-lg my-6 not-prose">
+  <h4 class="text-blue-400 font-bold mb-2 flex items-center gap-2">
+    <i class="fas fa-shield-alt"></i> AVB Enabled
+  </h4>
+  <p class="text-blue-100/80 text-sm leading-relaxed mb-3">
+    This device uses Android Verified Boot. You must disable verity to boot custom recovery/ROMs.
+  </p>
+  <div class="bg-black/40 p-3 rounded border border-white/5 font-mono text-xs text-gray-300 break-all">
+    fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img
+  </div>
+</div>

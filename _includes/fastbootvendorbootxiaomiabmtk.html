@@ -1,30 +1,34 @@
-<div class='page-heading'>Fastboot Install Method (No Root Required):</div>
-<hr />
+<div class="bg-zinc-900 border border-white/10 rounded-xl p-6 mb-6 shadow-lg not-prose">
+  <h3 class="text-xl font-display font-bold text-white mb-4 flex items-center gap-2 border-b border-white/5 pb-2">
+    <i class="fas fa-microchip text-purple-500"></i> Fastboot Install (Vendor Boot)
+  </h3>
 
-<div class="warning">
-WARNING: If you accidentally flash PBRP to your device using fastboot instead of temporarily booting the image, you will need to download the latest factory image for your device and reflash the vendor_boot image.
+  <div class="bg-purple-500/10 border-l-4 border-purple-500 p-3 mb-6 rounded-r">
+    <p class="text-purple-200 text-xs">
+      <strong>Newer Devices:</strong> This device stores recovery in the <code>vendor_boot</code> partition (Android 12+ GKI).
+    </p>
+  </div>
+
+  <div class="space-y-4">
+    <div>
+      <p class="text-gray-400 text-sm mb-2">1. Reboot to Bootloader:</p>
+      <div class="bg-black/50 border border-white/10 rounded p-3 font-mono text-sm text-red-400">
+        adb reboot bootloader
+      </div>
+    </div>
+
+    <div>
+      <p class="text-gray-400 text-sm mb-2">2. Flash Recovery to <strong>Vendor Boot</strong> partition:</p>
+      <div class="bg-black/50 border border-white/10 rounded p-3 font-mono text-sm text-red-400">
+        fastboot flash vendor_boot pbrp.img
+      </div>
+    </div>
+    
+    <div>
+      <p class="text-gray-400 text-sm mb-2">3. Reboot to Recovery:</p>
+      <div class="bg-black/50 border border-white/10 rounded p-3 font-mono text-sm text-red-400">
+        fastboot reboot recovery
+      </div>
+    </div>
+  </div>
 </div>
-
-<p class="text"><a href="https://developer.android.com/studio/releases/platform-tools">You will need the platform-tools from the Android SDK on your computer.</a> Download the platform-tools as per your operating system.</p>
-
-<p class="text">Windows users will need proper drivers installed on their computer. You can try the <a href="https://forum.xda-developers.com/android/software-hacking/live-iso-adb-fastboot-driver-issues-t3526755" target=_blank>simple FWUL adb/fastboot ISO</a> or the <a href="http://www.xda-developers.com/universal-naked-driver-solves-your-adb-driver-problems-on-windows/">Naked ADB drivers</a> or the <a href="https://adb.clockworkmod.com/">Universal ADB drivers</a> if you don't already have a working driver installed</p>
-
-<p class="text">Download both the PBRP zip file (PBRP-*.zip) and image file (.img). Copy the image file into the same folder as your platform-tools and rename it to pbrp.img.</p>
-
-<p class="text">Now reboot to fastboot/bootloader mode by using adb or manual key combos (Use Google to find that if you are not sure). To use adb to reboot, use the following command:</p>
-<code>adb reboot bootloader</code>
-
-<p class="text"><strong>Preferred Installation Method:</strong></p>
-<p class="text">Temporarily boot the downloaded image using the following command:</p>
-<code>fastboot boot pbrp.img</code>
-
-<p class="text">Once booted into PBRP, copy the PBRP zip file to your device storage (internal storage, SD card, or USB OTG). Then navigate to Install -> Browse to your zip file -> Swipe to flash. This will permanently install PBRP to your device.</p>
-
-<p class="text"><strong>Alternative Installation Method (Direct Flash to Vendor Boot):</strong></p>
-<p class="text">Flash the downloaded image using the following command:</p>
-<code>fastboot flash vendor_boot pbrp.img</code>
-
-<p class="text">Reboot to recovery (you can use key combinations also)</p>
-<code>fastboot reboot recovery</code>
-
-<p class="text"><strong>For Direct Flash Method:</strong> Once booted, put your stock boot image in Internal storage, MicroSD card or USB-OTG then Flash stock boot image in boot partition and tick (Flash to both slots), after that navigate to the Advanced > Flash Current PBRP option. This will install the PBRP image you just booted permanently to the device.</p>

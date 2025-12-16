@@ -1,0 +1,33 @@
+---
+layout: default
+title: "404 - Partition Not Found"
+permalink: /404.html
+---
+
+<div class="min-h-[70vh] flex flex-col items-center justify-center text-center px-4 relative overflow-hidden">
+  
+  <!-- Background Glow -->
+  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-pbrp-red/10 rounded-full blur-[100px] -z-10"></div>
+
+  <!-- Glitchy 404 Text -->
+  <div class="relative mb-8">
+    <h1 class="text-9xl font-display font-black text-white opacity-10 select-none">404</h1>
+    <div class="absolute inset-0 flex items-center justify-center">
+      <i class="fas fa-biohazard text-6xl text-pbrp-red animate-pulse"></i>
+    </div>
+  </div>
+
+  <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-4">
+    System <span class="text-pbrp-red">Halted</span>.
+  </h2>
+  
+  <p class="text-gray-400 max-w-md mx-auto mb-10 text-lg leading-relaxed">
+    The partition you are trying to mount does not exist or has been wiped. 
+    Let's get you back to safety.
+  </p>
+
+  <a href="{{ '/' | relative_url }}" class="px-8 py-3 rounded-full bg-gradient-primary text-white font-bold shadow-lg hover:scale-105 transition-transform flex items-center gap-2">
+    <i class="fas fa-power-off"></i> Reboot System (Home)
+  </a>
+
+</div>
