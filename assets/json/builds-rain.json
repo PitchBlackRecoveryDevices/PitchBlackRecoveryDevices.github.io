@@ -2,10 +2,10 @@
   "latest": {
     "version": "4.0",
     "build_type": "OFFICIAL",
-    "date": "2025-12-17",
-    "download_link": "https://sourceforge.net/projects/pbrp/files/fog/boot.img/download",
+    "date": "2025-12-18",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/fog/PBRP-fog-4.0-20251218-2016-OFFICIAL.zip/download",
     "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_fog-pbrp/releases/tag/4.0",
-    "changelog": " - Add EROFS support (untested)  - Update default/built-in kernel"
+    "changelog": "- Add EROFS support (untested) \n- Update default/built-in kernel"
   },
   "older_builds": [
     {
