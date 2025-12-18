@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2023-04-01",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/bladerunner/PBRP-bladerunner-4.0-20230401-1158-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

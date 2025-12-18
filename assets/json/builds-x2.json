@@ -1,0 +1,116 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2020-08-12",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PBRP-x2-3.0.0-20200812-0547-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-31",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PBRP-x2-3.0.0-20200731-0644-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-31",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PBRP-x2-3.0.0-20200731-0620-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PBRP-x2-3.0.0-20200728-2149-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PBRP-x2-3.0.0-20200728-1821-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-26",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PBRP-x2-2.9.1-20200726-2020-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PBRP-x2-2.9.1-20200725-0604-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PitchBlack-x2-2.9.1-20200714-1040-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PitchBlack-x2-2.9.1-20200714-1025-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PitchBlack-x2-2.9.1-20200714-0921-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PitchBlack-x2-2.9.1-20200619-1435-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PitchBlack-x2-2.9.1-20200609-1021-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-05-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PitchBlack-x2-2.9.1-20200511-0753-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-27",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/x2/PitchBlack-x2-2.9.0-20200427-1218-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

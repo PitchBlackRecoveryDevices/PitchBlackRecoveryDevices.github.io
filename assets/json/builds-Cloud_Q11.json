@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-05-14",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/Cloud_Q11/PBRP-Cloud_Q11-3.1.0-20210514-1502-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

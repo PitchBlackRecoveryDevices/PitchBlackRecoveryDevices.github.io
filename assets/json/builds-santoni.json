@@ -1,0 +1,108 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2020-09-27",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PBRP-santoni-3.0.0-20200927-0549-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-santoni-2.9.1-20200609-0147-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-08",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-santoni-2.9.1-20200608-1019-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-07-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-santoni-2.9.0-20190724-0525-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-05-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-santoni-2.9.0-20190528-0626-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-10-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-santoni-2.9.0-20181011-0320-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-08-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-santoni-2.8.1-20180825-0146-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-07-10",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-santoni-2.8.1-20180710-1230-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-santoni-2.8.0-20180620-1527-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7.3",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-santoni-2.7.3-20180606-0512-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7.2",
+      "build_type": "OFFICIAL",
+      "date": "2018-05-27",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-santoni-2.7.2-20180527-0967-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7",
+      "build_type": "OFFICIAL",
+      "date": "2018-04-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-santoni-2.7-20180420-1402-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.6",
+      "build_type": "OFFICIAL",
+      "date": "2018-03-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/santoni/PitchBlack-TWRP-2.6-SANTONI.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

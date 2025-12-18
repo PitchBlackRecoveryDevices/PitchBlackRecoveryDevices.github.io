@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": "2.9.0",
+    "build_type": "OFFICIAL",
+    "date": "2019-05-01",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/Z010D/PitchBlack-Z010D-2.9.0-20190501-0739-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-01-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/Z010D/PitchBlack-Z010D-2.9.0-20190114-1404-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-03-28",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/oneplus3/PBRP-oneplus3-3.1.0-20210328-2039-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/oneplus3/PBRP-oneplus3-3.1.0-20210328-2034-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-12-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/oneplus3/PBRP-oneplus3-3.0.0-20201224-0529-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

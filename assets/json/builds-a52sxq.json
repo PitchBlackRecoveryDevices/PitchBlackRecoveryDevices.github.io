@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2024-02-21",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/a52sxq/PBRP-a52sxq-4.0-20240221-1756-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

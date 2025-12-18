@@ -1,0 +1,44 @@
+{
+  "latest": {
+    "version": "3.2.0",
+    "build_type": "OFFICIAL",
+    "date": "2022-06-25",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/dora/PBRP-dora-3.2.0-20220625-0306-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-07",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/dora/PBRP-dora-3.1.0-20210607-0905-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/dora/PBRP-dora-3.0.0-20200728-2057-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/dora/PBRP-dora-3.0.0-20200728-2024-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-08",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/dora/PitchBlack-dora-2.9.1-20200608-1720-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

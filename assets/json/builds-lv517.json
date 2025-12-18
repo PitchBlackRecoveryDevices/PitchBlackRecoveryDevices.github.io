@@ -1,0 +1,28 @@
+{
+  "latest": {
+    "version": "2.9.0",
+    "build_type": "OFFICIAL",
+    "date": "2019-02-07",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/lv517/PitchBlack-lv517-2.9.0-20190207-1755-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-02-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/lv517/PitchBlack-lv517-2.9.0-20190205-2218-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-02-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/lv517/PitchBlack-lv517-2.9.0-20190205-0154-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "BETA",
+    "date": "2021-06-06",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PBRP-violet-3.1.0-20210606-1231-BETA.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PBRP-violet-3.1.0-20210606-1223-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "BETA",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PBRP-violet-3.1.0-20210328-2015-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PBRP-violet-3.1.0-20210328-1859-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PBRP-violet-3.0.0-20210323-1326-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2021-03-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PBRP-violet-3.0.0-20210323-1224-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-01-10",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PBRP-violet-3.0.0-20210110-1252-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-01-03",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PBRP-violet-3.0.0-20210103-1424-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-31",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PBRP-violet-3.0.0-20200731-1507-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PitchBlack-violet-2.9.1-20200609-1007-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PitchBlack-violet-2.9.1-20200609-1003-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-15",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PitchBlack-violet-2.9.1-20200415-0418-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-13",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PitchBlack-violet-2.9.1-20200413-1100-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PitchBlack-violet-2.9.1-20200409-0808-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-07-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/violet/PitchBlack-violet-2.9.0-20190724-2245-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

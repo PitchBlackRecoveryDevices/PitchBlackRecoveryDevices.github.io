@@ -1,0 +1,76 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-05-11",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/land/PBRP-land-3.1.0-20210511-1059-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-09-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/land/PBRP-land-3.0.0-20200906-1200-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-17",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/land/PitchBlack-land-2.9.1-20200617-1210-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-07",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/land/PitchBlack-land-2.9.1-20200407-0959-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-02-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/land/PitchBlack-land-2.9.0-20200223-0429-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-08-27",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/land/PitchBlack-land-2.8.1-20180827-0129-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-07-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/land/PitchBlack-land-2.8.1-20180725-0414-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/land/PitchBlack-land-2.8.0-20180620-1016-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.6",
+      "build_type": "OFFICIAL",
+      "date": "2018-04-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/land/PitchBlack-land-2.6-20180403-0311.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

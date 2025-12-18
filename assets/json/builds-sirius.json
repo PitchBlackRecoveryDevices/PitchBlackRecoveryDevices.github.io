@@ -1,0 +1,60 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-07-13",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/sirius/PBRP-sirius-3.1.0-20210713-0726-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/sirius/PBRP-sirius-3.1.0-20210606-1227-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-05-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/sirius/PBRP-sirius-3.1.0-20210520-0147-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-05-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/sirius/PBRP-sirius-3.1.0-20210514-1640-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-04-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/sirius/PBRP-sirius-3.1.0-20210428-1301-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-02-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/sirius/PBRP-sirius-3.0.0-20210205-1008-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-11-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/sirius/PBRP-sirius-3.0.0-20201106-0413-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

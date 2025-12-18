@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-06-24",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/garlic/PBRP-garlic-3.1.0-20210624-1202-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

@@ -1,0 +1,140 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-06-07",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PBRP-mido-3.1.0-20210607-1404-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-04-02",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PBRP-mido-3.1.0-20210402-1410-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-10",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PBRP-mido-3.0.0-20210310-1136-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-10-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PBRP-mido-3.0.0-20201024-1450-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PBRP-mido-3.0.0-20200729-1031-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-10",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-mido-2.9.1-20200610-0606-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-13",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-mido-2.9.0-20190413-0028-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-10-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-mido-2.9.0-20181024-1329-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-10-07",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-mido-2.9.0-20181007-2003-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-08-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-mido-2.8.1-20180825-1730-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-07-16",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-mido-2.8.1-20180716-0404-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-07-10",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-mido-2.8.1-20180710-1134-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-mido-2.8.0-20180619-0829-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7.3",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-mido-2.7.3-20180606-1732-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7.2",
+      "build_type": "OFFICIAL",
+      "date": "2018-05-27",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-mido-2.7.2-20180527-0709-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7",
+      "build_type": "OFFICIAL",
+      "date": "2018-04-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-mido-2.7-20180418-1243-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.6",
+      "build_type": "OFFICIAL",
+      "date": "2018-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mido/PitchBlack-TWRP-2.6-MIDO.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

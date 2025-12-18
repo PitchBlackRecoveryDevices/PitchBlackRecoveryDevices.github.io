@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-05-21",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1801/PBRP-RMX1801-3.1.0-20210521-0835-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

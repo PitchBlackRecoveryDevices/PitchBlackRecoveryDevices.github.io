@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2023-08-11",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/fleur/PBRP-fleur-4.0-20230811-0528-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

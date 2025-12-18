@@ -1,0 +1,68 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2023-04-03",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/miatoll/PBRP-miatoll-4.0-20230403-0448-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-11-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/miatoll/PBRP-miatoll-3.1.0-20211119-1902-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-11-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/miatoll/PBRP-miatoll-3.1.0-20211119-1900-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-11-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/miatoll/PBRP-miatoll-3.1.0-20211118-0329-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-30",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/miatoll/PBRP-miatoll-3.1.0-20210330-1801-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/miatoll/PBRP-miatoll-3.1.0-20210329-0431-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2020-11-01",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/miatoll/PBRP-miatoll-3.0.0-20201101-1929-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2020-10-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/miatoll/PBRP-miatoll-3.0.0-20201014-2310-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

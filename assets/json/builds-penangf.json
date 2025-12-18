@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "Image",
+    "build_type": "IMG",
+    "date": "2025-04-16",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/penangf/vendor_boot.img/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

@@ -1,0 +1,36 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-07-25",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/cereus/PBRP-cereus-3.1.0-20210725-1336-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-04-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/cereus/PBRP-cereus-3.1.0-20210406-0906-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-02-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/cereus/PBRP-cereus-3.0.0-20210204-1513-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-10-30",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/cereus/PBRP-cereus-3.0.0-20201030-0913-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

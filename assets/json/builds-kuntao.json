@@ -1,0 +1,28 @@
+{
+  "latest": {
+    "version": "2.9.0",
+    "build_type": "OFFICIAL",
+    "date": "2019-06-01",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/kuntao/PitchBlack-kuntao-2.9.0-20190601-1406-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-01-01",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kuntao/PitchBlack-kuntao-2.9.0-20190101-1240-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-11-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kuntao/PitchBlack-kuntao-2.9.0-20181125-0559-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2023-02-25",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/z3s/PBRP-z3s-4.0-20230225-0212-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2023-02-03",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/z3s/PBRP-z3s-4.0-20230203-0800-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-11-20",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/m20lte/PBRP-m20lte-3.1.0-20211120-0936-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

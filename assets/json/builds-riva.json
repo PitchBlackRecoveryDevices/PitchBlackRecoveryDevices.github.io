@@ -1,0 +1,172 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-07-08",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-3.1.0-20210708-1753-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-05-21",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-3.1.0-20210521-1132-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-05-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-3.1.0-20210514-1556-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "BETA",
+      "date": "2021-04-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-3.1.0-20210419-1310-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-3.1.0-20210328-2155-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-01-26",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-3.0.0-20210126-1204-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-11-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-3.0.0-20201104-1216-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-10-12",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-3.0.0-20201012-0207-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-09-08",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-3.0.0-20200908-1609-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-09-08",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-3.0.0-20200908-1528-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-3.0.0-20200728-2116-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PBRP-riva-2.9.1-20200725-0608-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PitchBlack-riva-2.9.1-20200606-1358-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PitchBlack-riva-2.9.1-20200606-1327-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PitchBlack-riva-2.9.1-20200606-1318-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PitchBlack-riva-2.9.1-20200605-2303-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PitchBlack-riva-2.9.1-20200605-2257-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PitchBlack-riva-2.9.1-20200605-2240-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PitchBlack-riva-2.9.1-20200605-2232-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-05-13",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PitchBlack-riva-2.9.1-20200513-2103-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-07-22",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/riva/PitchBlack-riva-2.9.0-20190722-1103-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-09-27",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PBRP-beryllium-3.1.0-20210927-1719-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PBRP-beryllium-3.1.0-20210606-0548-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-12-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PBRP-beryllium-3.0.0-20201218-1028-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PBRP-beryllium-3.0.0-20200728-2112-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-10",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PitchBlack-beryllium-2.9.1-20200610-1452-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PitchBlack-beryllium-2.9.1-20200411-0512-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PitchBlack-beryllium-2.9.1-20200409-1054-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-07-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PitchBlack-beryllium-2.9.0-20190705-1053-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-06-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PitchBlack-beryllium-2.9.0-20190628-1200-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-05-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PitchBlack-beryllium-2.9.0-20190520-0549-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-12-31",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PitchBlack-beryllium-2.9.0-20181231-2008-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-12-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/beryllium/PitchBlack-beryllium-2.9.0-20181225-0547-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

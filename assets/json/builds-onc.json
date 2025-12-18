@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2020-12-23",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/onc/PBRP-onc-3.0.0-20201223-1648-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-09-27",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/onc/PBRP-onc-3.0.0-20200927-1214-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

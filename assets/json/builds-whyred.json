@@ -1,0 +1,108 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2022-03-20",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PBRP-whyred-3.1.0-20220320-1757-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PBRP-whyred-3.1.0-20210329-0745-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-02-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PBRP-whyred-3.0.0-20210228-1714-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-11-15",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PBRP-whyred-3.0.0-20201115-1339-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-08-01",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PBRP-whyred-3.0.0-20200801-1730-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PitchBlack-whyred-2.9.1-20200409-0643-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PitchBlack-whyred-2.9.1-20200406-1515-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-07-13",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PitchBlack-whyred-2.9.0-20190713-0929-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-05-01",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PitchBlack-whyred-2.9.0-20190501-1030-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PitchBlack-whyred-2.9.0-20190411-0840-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-01-26",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PitchBlack-whyred-2.9.0-20190126-0046-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-01-21",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PitchBlack-whyred-2.9.0-20190121-0051-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-01-01",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/whyred/PitchBlack-whyred-2.9.0-20190101-1632-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

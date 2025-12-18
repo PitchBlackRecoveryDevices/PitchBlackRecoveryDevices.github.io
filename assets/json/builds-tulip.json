@@ -1,0 +1,84 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2023-07-21",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/tulip/PBRP-tulip-4.0-20230721-0336-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2022-01-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/tulip/PBRP-tulip-3.1.0-20220123-1308-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-11-27",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/tulip/PBRP-tulip-3.1.0-20211127-0722-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-07-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/tulip/PBRP-tulip-3.1.0-20210714-0242-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-17",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/tulip/PBRP-tulip-3.1.0-20210617-0251-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-07-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/tulip/PitchBlack-tulip-2.9.0-20190729-1626-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-01",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/tulip/PitchBlack-tulip-2.9.0-20190401-1025-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-01-27",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/tulip/PitchBlack-tulip-2.9.0-20190127-0019-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-01-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/tulip/PitchBlack-tulip-2.9.0-20190118-0218-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-12-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/tulip/PitchBlack-tulip-2.9.0-20181211-1618-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

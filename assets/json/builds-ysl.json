@@ -1,0 +1,36 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2020-07-29",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/ysl/PBRP-ysl-3.0.0-20200729-0735-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ysl/PBRP-ysl-2.9.1-20200729-0708-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-07",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ysl/PitchBlack-ysl-2.9.1-20200707-0610-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-08",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ysl/PitchBlack-ysl-2.9.1-20200608-1826-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

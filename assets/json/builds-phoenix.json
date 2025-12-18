@@ -1,0 +1,116 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2024-01-12",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-4.0-20240112-0828-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2023-03-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-4.0-20230319-2143-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.1.0-20210625-1626-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-05-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.1.0-20210519-0524-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "BETA",
+      "date": "2021-04-08",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.1.0-20210408-1224-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-30",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.1.0-20210330-2019-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.1.0-20210329-1539-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.1.0-20210329-0726-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.1.0-20210328-1919-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2020-11-15",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.0.0-20201115-2325-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2020-11-07",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.0.0-20201107-0053-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2020-10-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.0.0-20201019-0155-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2020-10-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.0.0-20201014-2119-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2020-10-12",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/phoenix/PBRP-phoenix-3.0.0-20201012-2232-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

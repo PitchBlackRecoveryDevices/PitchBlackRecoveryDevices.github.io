@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "2.9.1",
+    "build_type": "OFFICIAL",
+    "date": "2020-05-21",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/ime/PitchBlack-ime-2.9.1-20200521-1342-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

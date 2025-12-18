@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": "Image",
+    "build_type": "IMG",
+    "date": "2019-02-13",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/daisy/recovery.img/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-02-12",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/daisy/PitchBlack-daisy-2.9.0-20190212-1857-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

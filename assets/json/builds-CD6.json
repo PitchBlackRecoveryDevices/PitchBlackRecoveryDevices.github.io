@@ -1,0 +1,36 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-10-20",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/CD6/PBRP-CD6-3.1.0-20211020-0616-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-08-30",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/CD6/PBRP-CD6-3.1.0-20210830-0306-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-08-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/CD6/PBRP-CD6-3.1.0-20210829-2005-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-08-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/CD6/PBRP-CD6-3.1.0-20210829-1614-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

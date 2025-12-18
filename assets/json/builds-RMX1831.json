@@ -1,0 +1,36 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-07-13",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1831/PBRP-RMX1831-3.1.0-20210713-0531-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1831/PBRP-RMX1831-3.1.0-20210328-1855-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-01-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1831/PBRP-RMX1831-3.0.0-20210111-1633-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-12-10",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1831/PBRP-RMX1831-3.0.0-20201210-1006-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

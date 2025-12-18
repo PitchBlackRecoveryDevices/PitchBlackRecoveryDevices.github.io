@@ -1,0 +1,28 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2025-02-06",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/selene/PBRP-selene-4.0-20250206-0444-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2024-04-26",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/selene/PBRP-selene-4.0-20240426-1905-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2024-03-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/selene/PBRP-selene-4.0-20240323-0203-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

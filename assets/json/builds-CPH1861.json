@@ -1,0 +1,52 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-06-18",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/CPH1861/PBRP-CPH1861-3.1.0-20210618-2236-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/CPH1861/PBRP-CPH1861-3.1.0-20210329-0424-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-12-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/CPH1861/PBRP-CPH1861-3.0.0-20201209-1042-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/CPH1861/PBRP-CPH1861-3.0.0-20200729-0641-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/CPH1861/PBRP-CPH1861-3.0.0-20200729-0631-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-08",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/CPH1861/PitchBlack-CPH1861-2.9.1-20200708-1223-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

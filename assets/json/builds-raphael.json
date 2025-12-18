@@ -1,0 +1,36 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2020-07-28",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/raphael/PBRP-raphael-3.0.0-20200728-2126-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/raphael/PitchBlack-raphael-2.9.1-20200606-0847-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-05-31",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/raphael/PitchBlack-raphael-2.9.1-20200531-0325-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-05-03",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/raphael/PitchBlack-raphael-2.9.1-20200503-1853-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

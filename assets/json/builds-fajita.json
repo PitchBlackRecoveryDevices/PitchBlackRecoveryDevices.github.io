@@ -1,0 +1,60 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2022-12-25",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/fajita/PBRP-fajita-4.0-20221225-1625-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-05-15",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/fajita/PBRP-fajita-3.1.0-20210515-0952-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/fajita/PBRP-fajita-3.1.0-20210328-1904-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/fajita/PBRP-fajita-3.0.0-20210320-1844-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/fajita/PBRP-fajita-3.0.0-20210318-1855-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-12-17",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/fajita/PBRP-fajita-3.0.0-20201217-1814-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-12-12",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/fajita/PBRP-fajita-3.0.0-20201212-0904-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

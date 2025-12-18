@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "2.6",
+    "build_type": "OFFICIAL",
+    "date": "2018-04-03",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/P1m/PitchBlack-P1m-2.6-20180403-1345-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

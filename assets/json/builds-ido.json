@@ -1,0 +1,84 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2020-08-04",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/ido/PBRP-ido-3.0.0-20200804-1256-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-30",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ido/PBRP-ido-3.0.0-20200730-0808-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ido/PitchBlack-ido-2.9.1-20200609-0250-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-05-08",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ido/PitchBlack-ido-2.9.1-20200508-1311-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-10-07",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ido/PitchBlack-ido-2.9.0-20181007-1432-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-09-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ido/PitchBlack-ido-2.8.1-20180909-0351-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-07-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ido/PitchBlack-ido-2.8.1-20180719-0523-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ido/PitchBlack-ido-2.8.0-20180628-0148-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-04-30",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ido/PitchBlack-ido-2.7.1-20180430-1401-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7",
+      "build_type": "OFFICIAL",
+      "date": "2018-04-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/ido/PitchBlack-ido-2.7-20180428-1502-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

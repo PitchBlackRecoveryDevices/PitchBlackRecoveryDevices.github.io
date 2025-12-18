@@ -1,0 +1,60 @@
+{
+  "latest": {
+    "version": "2.9.1",
+    "build_type": "OFFICIAL",
+    "date": "2020-06-14",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/kenzo/PitchBlack-kenzo-2.9.1-20200614-1327-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-10-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kenzo/PitchBlack-kenzo-2.9.0-20181011-1108-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-09-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kenzo/PitchBlack-kenzo-2.8.1-20180909-0467-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-07-12",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kenzo/PitchBlack-kenzo-2.8.1-20180712-0125-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kenzo/PitchBlack-kenzo-2.8.0-20180620-1650-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7.3",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kenzo/PitchBlack-kenzo-2.7.3-20180606-1422-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.6",
+      "build_type": "OFFICIAL",
+      "date": "2018-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kenzo/PitchBlack-TWRP-2.6-KenzoKate.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2022-06-01",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1901/PBRP-RMX1901-3.1.0-20220601-0754-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1901/PBRP-RMX1901-3.1.0-20210329-0317-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-17",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1901/PBRP-RMX1901-3.0.0-20210317-1449-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-12-21",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1901/PBRP-RMX1901-3.0.0-20201221-0556-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1901/PBRP-RMX1901-3.0.0-20200729-0626-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1901/PitchBlack-RMX1901-2.9.1-20200625-0822-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

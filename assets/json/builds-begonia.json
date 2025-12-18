@@ -1,0 +1,52 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2020-09-25",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/begonia/PBRP-begonia-3.0.0-20200925-0813-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/begonia/PBRP-begonia-3.0.0-20200728-2117-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-26",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/begonia/PBRP-begonia-2.9.1-20200726-1030-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/begonia/PitchBlack-begonia-2.9.1-20200720-1538-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-22",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/begonia/PitchBlack-begonia-2.9.1-20200622-1540-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-16",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/begonia/PitchBlack-begonia-2.9.1-20200616-0736-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

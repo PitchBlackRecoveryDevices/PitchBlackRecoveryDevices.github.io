@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-07-13",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/markw/PBRP-markw-3.1.0-20210713-1203-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-17",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/markw/PBRP-markw-3.1.0-20210617-0458-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

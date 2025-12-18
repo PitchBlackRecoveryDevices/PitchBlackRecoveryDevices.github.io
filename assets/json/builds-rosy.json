@@ -1,0 +1,76 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-09-25",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/rosy/PBRP-rosy-3.1.0-20210925-1642-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-08-15",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rosy/PBRP-rosy-3.1.0-20210815-1123-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-07-12",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rosy/PBRP-rosy-3.1.0-20210712-1025-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rosy/PBRP-rosy-3.1.0-20210329-0307-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rosy/PBRP-rosy-3.0.0-20210323-0950-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2021-03-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rosy/PBRP-rosy-3.0.0-20210323-0542-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-21",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rosy/PBRP-rosy-3.0.0-20210321-0348-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-02-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rosy/PBRP-rosy-3.0.0-20210205-0727-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-02-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rosy/PitchBlack-rosy-2.9.0-20190219-0813-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

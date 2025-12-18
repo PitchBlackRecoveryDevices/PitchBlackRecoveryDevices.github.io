@@ -1,0 +1,60 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2024-06-21",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/m52xq/PBRP-m52xq-4.0-20240621-1446-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "BETA",
+      "date": "2024-04-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/m52xq/PBRP-m52xq-4.0-20240405-1128-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2024-02-21",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/m52xq/PBRP-m52xq-4.0-20240221-1959-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2024-02-07",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/m52xq/PBRP-m52xq-4.0-20240207-1311-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2024-02-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/m52xq/PBRP-m52xq-4.0-20240206-1418-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2024-02-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/m52xq/PBRP-m52xq-4.0-20240205-1515-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2024-02-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/m52xq/PBRP-m52xq-4.0-20240204-1626-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

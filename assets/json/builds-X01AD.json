@@ -1,0 +1,140 @@
+{
+  "latest": {
+    "version": "3.2.0",
+    "build_type": "OFFICIAL",
+    "date": "2022-06-12",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.2.0-20220612-1602-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2022-02-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.1.0-20220211-1416-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-12-15",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.1.0-20211215-1647-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-05-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.1.0-20210519-0507-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-05-07",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.1.0-20210507-2341-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.1.0-20210328-1856-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.0.0-20210323-1237-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-02",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.0.0-20210302-0030-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-02-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.0.0-20210204-1659-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-12-22",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.0.0-20201222-0334-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-11-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.0.0-20201123-1734-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-11-22",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PBRP-X01AD-3.0.0-20201122-2233-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-06-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PitchBlack-X01AD-2.9.0-20190605-1123-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-06-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PitchBlack-X01AD-2.9.0-20190605-1100-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-05-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PitchBlack-X01AD-2.9.0-20190520-0333-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-05-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PitchBlack-X01AD-2.9.0-20190518-1349-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-05-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X01AD/PitchBlack-X01AD-2.9.0-20190518-1206-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

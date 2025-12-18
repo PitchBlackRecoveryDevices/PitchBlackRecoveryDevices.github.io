@@ -1,0 +1,100 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2022-12-25",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/PBRP-enchilada-4.0-20221225-1615-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-05-15",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/PBRP-enchilada-3.1.0-20210515-0953-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/PBRP-enchilada-3.1.0-20210328-1858-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/PBRP-enchilada-3.0.0-20210320-1834-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/PBRP-enchilada-3.0.0-20210318-1818-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-02-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/PBRP-enchilada-3.0.0-20210205-0833-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-12-17",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/PBRP-enchilada-3.0.0-20201217-1848-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-12-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/PBRP-enchilada-3.0.0-20201209-0533-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-12-07",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/PBRP-enchilada-3.0.0-20201207-0532-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "Image",
+      "build_type": "IMG",
+      "date": "2019-06-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/recovery.img/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-06-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/PitchBlack-enchilada-2.9.0-20190623-0846-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-02-12",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/enchilada/PitchBlack-enchilada-2.9.0-20190212-2016-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

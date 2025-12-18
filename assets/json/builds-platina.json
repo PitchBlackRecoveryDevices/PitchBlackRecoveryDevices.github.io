@@ -1,0 +1,28 @@
+{
+  "latest": {
+    "version": "2.9.0",
+    "build_type": "OFFICIAL",
+    "date": "2019-05-13",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/platina/PitchBlack-platina-2.9.0-20190513-0023-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-17",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/platina/PitchBlack-platina-2.9.0-20190417-1057-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-02-03",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/platina/PitchBlack-platina-2.9.0-20190203-0123-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "latest": {
+    "version": "2.9.1",
+    "build_type": "OFFICIAL",
+    "date": "2020-04-11",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/C106/PitchBlack-C106-2.9.1-20200411-1012-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/C106/PitchBlack-C106-2.9.0-20190419-0837-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/C106/PitchBlack-C106-2.9.0-20190419-0804-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-01",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/C106/PitchBlack-C106-2.9.0-20190401-1220-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-03-30",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/C106/PitchBlack-C106-2.9.0-20190330-1330-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-01-17",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/C106/PitchBlack-C106-2.9.0-20190117-1559-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

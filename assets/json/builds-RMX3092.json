@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2022-01-31",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/RMX3092/PBRP-RMX3092-3.1.0-20220131-0702-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-10-13",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX3092/PBRP-RMX3092-3.1.0-20211013-1744-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

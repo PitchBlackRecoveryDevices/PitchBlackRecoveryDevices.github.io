@@ -1,0 +1,76 @@
+{
+  "latest": {
+    "version": "3.2.0",
+    "build_type": "OFFICIAL",
+    "date": "2022-06-25",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1941/PBRP-RMX1941-3.2.0-20220625-1754-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.2.0",
+      "build_type": "OFFICIAL",
+      "date": "2022-06-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1941/PBRP-RMX1941-3.2.0-20220625-1550-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-07-13",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1941/PBRP-RMX1941-3.1.0-20210713-1708-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-07",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1941/PBRP-RMX1941-3.1.0-20210607-1902-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1941/PBRP-RMX1941-3.1.0-20210328-1927-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1941/PBRP-RMX1941-3.0.0-20210309-1836-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-02-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1941/PBRP-RMX1941-3.0.0-20210214-2119-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-08-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1941/PBRP-RMX1941-3.0.0-20200823-1605-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-08-02",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1941/PBRP-RMX1941-3.0.0-20200802-0544-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

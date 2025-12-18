@@ -1,0 +1,28 @@
+{
+  "latest": {
+    "version": "2.9.0",
+    "build_type": "OFFICIAL",
+    "date": "2019-02-05",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/wayne/PitchBlack-wayne-2.9.0-20190205-0214-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-01-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/wayne/PitchBlack-wayne-2.9.0-20190119-1356-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-11-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/wayne/PitchBlack-wayne-2.9.0-20181106-0457-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

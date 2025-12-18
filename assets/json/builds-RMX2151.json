@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2023-09-03",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/RMX2151/PBRP-RMX2151-4.0-20230903-0927-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "BETA",
+      "date": "2023-08-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX2151/PBRP-RMX2151-4.0-20230828-0402-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

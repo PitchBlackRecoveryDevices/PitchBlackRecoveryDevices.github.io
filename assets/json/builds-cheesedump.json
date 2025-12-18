@@ -1,0 +1,28 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2024-08-11",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/cheesedump/PBRP-cheesedump-4.0-20240811-1759-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2024-04-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/cheesedump/PBRP-cheesedump-4.0-20240414-2213-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2024-02-13",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/cheesedump/PBRP-cheesedump-4.0-20240213-1653-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

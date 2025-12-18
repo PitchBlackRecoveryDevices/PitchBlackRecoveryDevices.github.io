@@ -1,0 +1,36 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2020-07-29",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/jasmine_sprout/PBRP-jasmine_sprout-3.0.0-20200729-0501-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "Image",
+      "build_type": "IMG",
+      "date": "2019-06-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/jasmine_sprout/recovery.img/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-06-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/jasmine_sprout/PitchBlack-jasmine_sprout-2.9.0-20190624-0913-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-02",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/jasmine_sprout/PitchBlack-jasmine_sprout-2.9.0-20190402-1746-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

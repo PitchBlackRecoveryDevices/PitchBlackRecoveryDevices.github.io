@@ -1,0 +1,164 @@
+{
+  "latest": {
+    "version": "2.9.0",
+    "build_type": "OFFICIAL",
+    "date": "2019-11-13",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20191113-1425-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-10-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20191018-2057-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-16",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20190416-1420-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-10",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20190410-1422-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20190405-0714-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20190328-1200-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20190328-0931-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-12-12",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20181212-1551-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-12-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20181211-0659-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-11-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20181118-1600-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-10-27",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20181027-1752-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-10-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.9.0-20181009-1257-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-07-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.8.1-20180704-1249-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.8.0-20180619-0739-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7.3",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.7.3-20180606-1806-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7.2",
+      "build_type": "OFFICIAL",
+      "date": "2018-05-21",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.7.2-20180521-1814-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7",
+      "build_type": "OFFICIAL",
+      "date": "2018-05-02",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.7-20180502-0619-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7",
+      "build_type": "OFFICIAL",
+      "date": "2018-04-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.7-20180414-1337-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7",
+      "build_type": "OFFICIAL",
+      "date": "2018-04-13",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-mobee01a-2.7-20180413-1948-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.6",
+      "build_type": "OFFICIAL",
+      "date": "2018-03-30",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/mobee01a/PitchBlack-TWRP-2.6-mobee01a.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

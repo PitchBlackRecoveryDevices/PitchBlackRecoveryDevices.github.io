@@ -1,0 +1,36 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-05-24",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/RMX2050/PBRP-RMX2050-3.1.0-20210524-1717-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-04-12",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX2050/PBRP-RMX2050-3.1.0-20210412-1136-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX2050/PBRP-RMX2050-3.1.0-20210328-1940-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX2050/PBRP-RMX2050-3.0.0-20210324-0928-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

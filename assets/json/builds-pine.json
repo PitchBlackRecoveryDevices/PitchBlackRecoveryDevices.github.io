@@ -1,0 +1,60 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-05-23",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/pine/PBRP-pine-3.1.0-20210523-1748-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-01-22",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/pine/PBRP-pine-3.0.0-20210122-1642-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/pine/PBRP-pine-3.0.0-20200728-2049-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/pine/PBRP-pine-2.9.1-20200728-1814-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/pine/PitchBlack-pine-2.9.1-20200723-1418-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/pine/PitchBlack-pine-2.9.1-20200720-1522-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-22",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/pine/PitchBlack-pine-2.9.1-20200622-1819-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

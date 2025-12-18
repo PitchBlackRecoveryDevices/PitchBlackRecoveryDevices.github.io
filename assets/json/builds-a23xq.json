@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2024-02-19",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/a23xq/PBRP-a23xq-4.0-20240219-0750-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

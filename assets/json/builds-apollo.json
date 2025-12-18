@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-04-04",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/apollo/PBRP-apollo-3.1.0-20210404-1937-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

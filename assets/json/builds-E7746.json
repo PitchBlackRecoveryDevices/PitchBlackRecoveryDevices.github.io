@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "BETA",
+    "date": "2021-01-30",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/E7746/PBRP-E7746-3.0.0-20210130-0808-BETA.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

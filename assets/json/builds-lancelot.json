@@ -1,0 +1,36 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "BETA",
+    "date": "2020-10-20",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/lancelot/PBRP-lancelot-3.0.0-20201020-1008-BETA.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2020-10-15",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/lancelot/PBRP-lancelot-3.0.0-20201015-1802-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2020-10-13",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/lancelot/PBRP-lancelot-3.0.0-20201013-2318-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2020-10-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/lancelot/PBRP-lancelot-3.0.0-20201011-1907-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

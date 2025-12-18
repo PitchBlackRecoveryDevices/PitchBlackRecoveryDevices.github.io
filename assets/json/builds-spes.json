@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2023-04-05",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/spes/PBRP-spes-4.0-20230405-0105-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2023-01-22",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/spes/PBRP-spes-4.0-20230122-2308-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2025-12-17",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/fog/boot.img/download",
+    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_xiaomi_fog-pbrp/releases/tag/4.0",
+    "changelog": " - Add EROFS support (untested)  - Update default/built-in kernel"
+  },
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2025-08-30",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/fog/PBRP-fog-4.0-20250830-1116-OFFICIAL.zip/download",
+      "changelog": "Updated kernel +Sync latest changes in the tree"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2025-06-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/fog/PBRP-fog-4.0-20250622-2258-OFFICIAL.zip/download",
+      "changelog": "- Support nonsdcardfs"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2025-06-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/fog/PBRP-fog-4.0-20250604-1732-OFFICIAL.zip/download",
+      "changelog": "Sync Latest Source"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2025-02-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/fog/PBRP-fog-4.0-20250224-0437-OFFICIAL.zip/download",
+      "changelog": "- Add sdcardfs filesystem support"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2025-01-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/fog/PBRP-fog-4.0-20250104-0844-OFFICIAL.zip/download",
+      "changelog": "- Initial Release"
+    }
+  ]
+}

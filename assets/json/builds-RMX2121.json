@@ -1,0 +1,28 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2022-01-09",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/RMX2121/PBRP-RMX2121-3.1.0-20220109-0544-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-10-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX2121/PBRP-RMX2121-3.1.0-20211004-0805-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX2121/PBRP-RMX2121-3.1.0-20210620-1358-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

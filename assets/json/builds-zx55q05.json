@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "2.9.0",
+    "build_type": "OFFICIAL",
+    "date": "2019-07-05",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/zx55q05/PitchBlack-zx55q05-2.9.0-20190705-0502-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

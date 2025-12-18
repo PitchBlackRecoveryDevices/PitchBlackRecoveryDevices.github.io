@@ -1,0 +1,132 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "BETA",
+    "date": "2023-03-20",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PBRP-X00T-4.0-20230320-1129-BETA.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2023-03-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PBRP-X00T-4.0-20230319-2146-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "BETA",
+      "date": "2021-08-15",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PBRP-X00T-3.1.0-20210815-1123-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-30",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PBRP-X00T-3.0.0-20200730-0649-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PBRP-X00T-3.0.0-20200729-0812-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PBRP-X00T-2.9.1-20200729-0728-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-29",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PBRP-X00T-2.9.1-20200729-0627-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PBRP-X00T-2.9.1-20200725-0559-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-27",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PitchBlack-X00T-2.9.1-20200627-1717-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PitchBlack-X00T-2.9.1-20200609-0536-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-26",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PitchBlack-X00T-2.9.1-20200426-1810-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-03-03",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PitchBlack-X00T-2.9.0-20200303-1506-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-08-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PitchBlack-X00T-2.9.0-20190809-0323-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-06-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PitchBlack-X00T-2.9.0-20190628-1212-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PitchBlack-X00T-2.9.0-20190424-1744-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-01-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/X00T/PitchBlack-X00T-2.9.0-20190124-1750-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

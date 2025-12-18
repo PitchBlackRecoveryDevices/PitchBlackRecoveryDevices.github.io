@@ -1,0 +1,28 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2023-09-17",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/sweet/PBRP-sweet-4.0-20230917-1245-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2023-08-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/sweet/PBRP-sweet-4.0-20230804-1209-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2023-03-13",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/sweet/PBRP-sweet-4.0-20230313-0839-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

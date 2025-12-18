@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-10-07",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/juice/PBRP-juice-3.1.0-20211007-1519-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/juice/PBRP-juice-3.1.0-20210611-1144-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

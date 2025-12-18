@@ -1,0 +1,68 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2023-02-05",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/rmx2020/PBRP-rmx2020-4.0-20230205-0459-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "BETA",
+      "date": "2022-01-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rmx2020/PBRP-rmx2020-3.1.0-20220109-1201-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-09-03",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rmx2020/PBRP-rmx2020-3.1.0-20210903-0832-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-08-10",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rmx2020/PBRP-rmx2020-3.1.0-20210810-0611-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rmx2020/PBRP-rmx2020-3.1.0-20210611-1734-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.1.0",
+      "build_type": "BETA",
+      "date": "2021-03-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rmx2020/PBRP-rmx2020-3.1.0-20210328-1955-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2021-02-02",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rmx2020/PBRP-rmx2020-3.0.0-20210202-0741-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2021-01-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rmx2020/PBRP-rmx2020-3.0.0-20210128-2349-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

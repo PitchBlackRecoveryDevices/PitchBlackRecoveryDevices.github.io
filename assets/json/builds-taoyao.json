@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2022-12-21",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/taoyao/PBRP-taoyao-4.0-20221221-1147-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

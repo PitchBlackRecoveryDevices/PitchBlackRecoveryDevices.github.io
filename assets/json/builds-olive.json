@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-08-20",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/olive/PBRP-olive-3.1.0-20210820-2120-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-13",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/olive/PitchBlack-olive-2.9.1-20200413-1603-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

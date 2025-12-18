@@ -1,0 +1,20 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2020-12-10",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1811/PBRP-RMX1811-3.0.0-20201210-1425-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-02-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX1811/PitchBlack-RMX1811-2.9.0-20200206-1752-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

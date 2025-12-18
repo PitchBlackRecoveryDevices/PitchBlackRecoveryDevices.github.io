@@ -1,0 +1,268 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-03-28",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PBRP-rolex-3.1.0-20210328-2119-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.0.0",
+      "build_type": "BETA",
+      "date": "2020-10-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PBRP-rolex-3.0.0-20201011-1224-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PBRP-rolex-2.9.1-20200728-1815-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.1-20200614-0632-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.1-20200614-0601-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.1-20200614-0516-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-08",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.1-20200608-1014-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-08",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.1-20200608-0930-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-05-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.1-20200514-1731-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-05-14",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.1-20200514-1703-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.1-20200424-1504-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-21",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.1-20200421-1459-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20200420-1623-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-12-31",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20191231-1821-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-10",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20190410-1437-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20190405-0724-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20190404-0741-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-04-01",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20190401-2008-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-01-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20190128-2147-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-12-31",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20181231-1951-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-12-12",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20181212-1600-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-12-11",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20181211-1623-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-11-25",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20181125-0357-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-10-12",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20181012-1407-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-10-09",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.9.0-20181009-0346-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-08-03",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.8.1-20180803-1625-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-07-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.8.1-20180718-0473-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-07-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.8.1-20180704-1236-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.1",
+      "build_type": "OFFICIAL",
+      "date": "2018-07-03",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.8.1-20180703-1244-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.8.0",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-19",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.8.0-20180619-0830-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7.3",
+      "build_type": "OFFICIAL",
+      "date": "2018-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.7.3-20180606-0452-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7",
+      "build_type": "OFFICIAL",
+      "date": "2018-04-24",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.7-20180424-0759-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.7",
+      "build_type": "OFFICIAL",
+      "date": "2018-04-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/rolex/PitchBlack-rolex-2.7-20180420-1243-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

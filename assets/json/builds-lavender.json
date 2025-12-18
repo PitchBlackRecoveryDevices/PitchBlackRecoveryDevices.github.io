@@ -1,0 +1,36 @@
+{
+  "latest": {
+    "version": "3.0.0",
+    "build_type": "OFFICIAL",
+    "date": "2020-07-29",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/lavender/PBRP-lavender-3.0.0-20200729-0616-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-04-18",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/lavender/PitchBlack-lavender-2.9.1-20200418-1424-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-02-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/lavender/PitchBlack-lavender-2.9.0-20200220-1234-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.0",
+      "build_type": "OFFICIAL",
+      "date": "2019-07-23",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/lavender/PitchBlack-lavender-2.9.0-20190723-2256-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

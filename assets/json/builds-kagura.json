@@ -1,0 +1,60 @@
+{
+  "latest": {
+    "version": "3.2.0",
+    "build_type": "OFFICIAL",
+    "date": "2022-06-25",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/kagura/PBRP-kagura-3.2.0-20220625-0345-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-06-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kagura/PBRP-kagura-3.1.0-20210606-1459-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-03-22",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kagura/PBRP-kagura-3.0.0-20210322-1937-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-02-05",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kagura/PBRP-kagura-3.0.0-20210205-1505-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kagura/PBRP-kagura-3.0.0-20200728-2056-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-07-28",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kagura/PBRP-kagura-3.0.0-20200728-2027-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "2.9.1",
+      "build_type": "OFFICIAL",
+      "date": "2020-06-08",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/kagura/PitchBlack-kagura-2.9.1-20200608-1808-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

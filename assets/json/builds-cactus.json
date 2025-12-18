@@ -1,0 +1,44 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "BETA",
+    "date": "2021-08-17",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/cactus/PBRP-cactus-3.1.0-20210817-0331-BETA.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "3.1.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-04-06",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/cactus/PBRP-cactus-3.1.0-20210406-0904-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2021-01-26",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/cactus/PBRP-cactus-3.0.0-20210126-1440-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-11-04",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/cactus/PBRP-cactus-3.0.0-20201104-1530-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "3.0.0",
+      "build_type": "OFFICIAL",
+      "date": "2020-11-03",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/cactus/PBRP-cactus-3.0.0-20201103-1820-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}

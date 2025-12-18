@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "3.1.0",
+    "build_type": "OFFICIAL",
+    "date": "2021-08-19",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/a70q/PBRP-a70q-3.1.0-20210819-0749-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": []
+}

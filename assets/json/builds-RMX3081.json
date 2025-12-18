@@ -1,0 +1,28 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2024-02-14",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/RMX3081/PBRP-RMX3081-4.0-20240214-1548-OFFICIAL.zip/download",
+    "github_release": null,
+    "changelog": "- Auto-fetched from SourceForge"
+  },
+  "older_builds": [
+    {
+      "version": "4.0",
+      "build_type": "BETA",
+      "date": "2024-01-20",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX3081/PBRP-RMX3081-4.0-20240120-1651-BETA.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    },
+    {
+      "version": "4.0",
+      "build_type": "OFFICIAL",
+      "date": "2023-02-02",
+      "download_link": "https://sourceforge.net/projects/pbrp/files/RMX3081/PBRP-RMX3081-4.0-20230202-1542-OFFICIAL.zip/download",
+      "github_release": null,
+      "changelog": "- Auto-fetched from SourceForge"
+    }
+  ]
+}
