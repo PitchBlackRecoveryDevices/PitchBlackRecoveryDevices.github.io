@@ -174,7 +174,7 @@ permalink: /official/
           
           <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
             <button type="button" id="submitTelegram" class="flex-1 sm:flex-none px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-bold transition-colors shadow-lg shadow-blue-900/20 flex items-center justify-center gap-2">
-              <i class="fab fa-telegram"></i> Copy & Open Telegram
+              <i class="fab fa-telegram"></i> Copy & Open Bot
             </button>
             <button type="button" id="submitGitHub" class="flex-1 sm:flex-none px-6 py-3 rounded-lg bg-zinc-800 border border-white/10 hover:bg-zinc-700 text-white font-bold transition-colors flex items-center justify-center gap-2">
               <i class="fab fa-github"></i> Create Issue
@@ -314,8 +314,8 @@ Build Information:
     if(validateStep(3)) {
       const text = generateApplicationText();
       navigator.clipboard.writeText(text).then(() => {
-          alert("Application text copied! Redirecting to Telegram...");
-          window.open('https://t.me/pbrpcom', '_blank');
+          alert("Application text copied! Redirecting to @PBRPHelperBot...");
+          window.open('http://t.me/PBRPHelperBot?start', '_blank');
       }).catch(err => {
           console.error(err);
           alert("Copy failed. Please manually copy the text.");
