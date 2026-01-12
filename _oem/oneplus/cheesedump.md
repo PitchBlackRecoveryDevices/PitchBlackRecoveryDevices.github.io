@@ -3,6 +3,7 @@ layout: device
 title: "OnePlus 5/5T"
 codename: cheesedump
 permalink: /cheesedump/
+redirect_from: /devices/oneplus/cheesedump/
 oem: oneplus
 supportstatus: Current
 maintainer: faoliveira78

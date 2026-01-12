@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Mi A2 Lite"
 codename: daisy
 permalink: /daisy/
+redirect_from: /devices/xiaomi/daisy/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

@@ -3,6 +3,7 @@ layout: device
 title: "TECNO POVA"
 codename: LD7
 permalink: /LD7/
+redirect_from: /devices/tecno/LD7/
 oem: TECNO
 supportstatus: Current
 maintainer: Punkzappa007

@@ -3,6 +3,7 @@ layout: device
 title: "OnePlus Nord"
 codename: avicii
 permalink: /avicii/
+redirect_from: /devices/oneplus/avicii/
 oem: oneplus
 supportstatus: Current
 maintainer: Sreeshankar K

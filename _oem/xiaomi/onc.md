@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 7/Y3"
 codename: onc
 permalink: /onc/
+redirect_from: /devices/xiaomi/onc/
 oem: xiaomi
 supportstatus: Current
 maintainer: Aryan Karan

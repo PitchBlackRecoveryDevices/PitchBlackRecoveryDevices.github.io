@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Mi Max 2"
 codename: oxygen
 permalink: /oxygen/
+redirect_from: /devices/xiaomi/oxygen/
 oem: xiaomi
 supportstatus: Current
 maintainer: Mahesh Technicals

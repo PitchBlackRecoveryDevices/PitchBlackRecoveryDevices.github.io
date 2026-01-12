@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi Note 3 Pro/SD"
 codename: kenzo
 permalink: /kenzo/
+redirect_from: /devices/xiaomi/kenzo/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

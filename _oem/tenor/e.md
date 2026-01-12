@@ -3,6 +3,7 @@ layout: device
 title: "Tenor E"
 codename: e
 permalink: /e/
+redirect_from: /devices/tenor/e/
 oem: tenor
 supportstatus: Current
 maintainer: PBRP Team

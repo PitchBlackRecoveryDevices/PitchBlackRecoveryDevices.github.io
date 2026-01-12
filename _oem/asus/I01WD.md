@@ -3,6 +3,7 @@ layout: device
 title: "ASUS ZenFone 6/6Z"
 codename: I01WD
 permalink: /I01WD/
+redirect_from: /devices/asus/I01WD/
 oem: ASUS
 supportstatus: Current
 maintainer: PBRP Team

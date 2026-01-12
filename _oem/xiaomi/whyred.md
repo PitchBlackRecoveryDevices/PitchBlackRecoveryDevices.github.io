@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi Note 5"
 codename: whyred
 permalink: /whyred/
+redirect_from: /devices/xiaomi/whyred/
 oem: xiaomi
 supportstatus: Current
 maintainer: Reza Adi Pangestu

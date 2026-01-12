@@ -3,6 +3,7 @@ layout: device
 title: "Nothing Phone (2)"
 codename: Pong
 permalink: /Pong/
+redirect_from: /devices/nothing/Pong/
 oem: nothing
 supportstatus: Current
 maintainer: PhatWalrus

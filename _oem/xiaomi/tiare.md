@@ -3,6 +3,7 @@ layout: device
 title: "Redmi Go"
 codename: tiare
 permalink: /tiare/
+redirect_from: /devices/xiaomi/tiare/
 oem: xiaomi
 supportstatus: Current
 maintainer: Aryan Sinha

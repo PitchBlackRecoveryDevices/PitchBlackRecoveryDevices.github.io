@@ -3,6 +3,7 @@ layout: device
 title: "OnePlus 3/3 T"
 codename: oneplus3
 permalink: /oneplus3/
+redirect_from: /devices/oneplus/oneplus3/
 oem: oneplus
 supportstatus: Current
 maintainer: dlasdl

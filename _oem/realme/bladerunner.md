@@ -3,6 +3,7 @@ layout: device
 title: "Realme X50 Pro"
 codename: bladerunner
 permalink: /bladerunner/
+redirect_from: /devices/realme/bladerunner/
 oem: realme
 supportstatus: Current
 maintainer: SathamHussainM

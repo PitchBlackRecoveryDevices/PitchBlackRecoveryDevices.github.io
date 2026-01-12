@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 9/9 Prime"
 codename: lancelot
 permalink: /lancelot/
+redirect_from: /devices/xiaomi/lancelot/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

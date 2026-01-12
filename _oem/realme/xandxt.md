@@ -3,6 +3,7 @@ layout: device
 title: "Realme X/XT"
 codename: xandxt
 permalink: /xandxt/
+redirect_from: /devices/realme/xandxt/
 oem: realme
 supportstatus: Current
 maintainer: SathamHussainM

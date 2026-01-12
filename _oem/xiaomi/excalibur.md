@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi Note 9 Pro Max"
 codename: excalibur
 permalink: /excalibur/
+redirect_from: /devices/xiaomi/excalibur/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

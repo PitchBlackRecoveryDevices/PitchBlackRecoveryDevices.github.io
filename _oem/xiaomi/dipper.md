@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Mi 8"
 codename: dipper
 permalink: /dipper/
+redirect_from: /devices/xiaomi/dipper/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi MI 8 Lite"
 codename: platina
 permalink: /platina/
+redirect_from: /devices/xiaomi/platina/
 oem: xiaomi
 supportstatus: Current
 maintainer: Reza Adi Pangestu

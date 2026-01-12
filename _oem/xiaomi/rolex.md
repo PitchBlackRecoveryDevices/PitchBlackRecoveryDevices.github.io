@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 4a"
 codename: rolex
 permalink: /rolex/
+redirect_from: /devices/xiaomi/rolex/
 oem: xiaomi
 supportstatus: Current
 maintainer: Mohd Faraz

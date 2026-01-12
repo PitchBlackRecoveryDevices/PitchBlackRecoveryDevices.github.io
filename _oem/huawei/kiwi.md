@@ -3,6 +3,7 @@ layout: device
 title: "Huawei Honor 5X"
 codename: kiwi
 permalink: /kiwi/
+redirect_from: /devices/huawei/kiwi/
 oem: huawei
 supportstatus: Current
 maintainer: PBRP Team

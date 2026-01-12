@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi K30/Poco X2"
 codename: phoenix
 permalink: /phoenix/
+redirect_from: /devices/xiaomi/phoenix/
 oem: xiaomi
 supportstatus: Current
 maintainer: Himanshu Raj

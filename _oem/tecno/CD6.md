@@ -3,6 +3,7 @@ layout: device
 title: "TECNO CAMON 15 Air"
 codename: CD6
 permalink: /CD6/
+redirect_from: /devices/tecno/CD6/
 oem: TECNO
 supportstatus: Current
 maintainer: Mikesew1320

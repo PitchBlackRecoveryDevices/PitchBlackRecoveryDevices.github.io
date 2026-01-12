@@ -2,6 +2,8 @@
 layout: device
 title: "Motorola G9"
 codename: guamp
+permalink: /guamp/
+redirect_from: /devices/motorola/guamp/
 oem: motorola
 supportstatus: Current
 maintainer: MD Raza (DelightReza)

@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi Note 7"
 codename: lavender
 permalink: /lavender/
+redirect_from: /devices/xiaomi/lavender/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

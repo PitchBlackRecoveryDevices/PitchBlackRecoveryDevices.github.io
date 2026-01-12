@@ -3,6 +3,7 @@ layout: device
 title: "OnePlus 6"
 codename: enchilada
 permalink: /enchilada/
+redirect_from: /devices/oneplus/enchilada/
 oem: oneplus
 supportstatus: Current
 maintainer: SIDDK

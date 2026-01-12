@@ -3,6 +3,7 @@ layout: device
 title: "YU Yureka Black"
 codename: garlic
 permalink: /garlic/
+redirect_from: /devices/yu/garlic/
 oem: yu
 supportstatus: Current
 maintainer: Pritish Joshi

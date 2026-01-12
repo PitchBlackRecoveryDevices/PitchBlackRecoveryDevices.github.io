@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 10C"
 codename: rain
 permalink: /rain/
+redirect_from: /devices/xiaomi/rain/
 oem: xiaomi
 supportstatus: Current
 maintainer: Romeo13card

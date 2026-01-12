@@ -3,6 +3,7 @@ layout: device
 title: "ASUS ZenFone Max M2"
 codename: X01AD
 permalink: /X01AD/
+redirect_from: /devices/asus/X01AD/
 oem: ASUS
 supportstatus: Current
 maintainer: Arka

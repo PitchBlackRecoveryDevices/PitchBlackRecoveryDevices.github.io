@@ -3,6 +3,7 @@ layout: device
 title: "Samsung Galaxy M20"
 codename: m20lte
 permalink: /m20lte/
+redirect_from: /devices/samsung/m20lte/
 oem: samsung
 supportstatus: Current
 maintainer: eun0115

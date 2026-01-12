@@ -3,6 +3,7 @@ layout: device
 title: "Samsung Galaxy S20 Ultra"
 codename: z3s
 permalink: /z3s/
+redirect_from: /devices/samsung/z3s/
 oem: samsung
 supportstatus: Current
 maintainer: Nico1704

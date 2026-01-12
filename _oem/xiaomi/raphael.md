@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi K20 Pro"
 codename: raphael
 permalink: /raphael/
+redirect_from: /devices/xiaomi/raphael/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

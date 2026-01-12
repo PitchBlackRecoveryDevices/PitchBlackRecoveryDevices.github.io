@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Mi 6X"
 codename: wayne
 permalink: /wayne/
+redirect_from: /devices/xiaomi/wayne/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

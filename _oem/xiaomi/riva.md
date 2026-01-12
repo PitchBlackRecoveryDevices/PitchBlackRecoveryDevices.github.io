@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 5A"
 codename: riva
 permalink: /riva/
+redirect_from: /devices/xiaomi/riva/
 oem: xiaomi
 supportstatus: Current
 maintainer: Erwin Abu Bakar Sidik

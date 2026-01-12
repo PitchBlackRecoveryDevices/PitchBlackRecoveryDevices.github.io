@@ -3,6 +3,7 @@ layout: device
 title: "Sony F8331"
 codename: kagura
 permalink: /kagura/
+redirect_from: /devices/sony/kagura/
 oem: sony
 supportstatus: Current
 maintainer: Erwin Abu Bakar Sidik

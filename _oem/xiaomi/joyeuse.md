@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi Note 9 Pro"
 codename: joyeuse
 permalink: /joyeuse/
+redirect_from: /devices/xiaomi/joyeuse/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

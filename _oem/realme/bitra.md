@@ -3,6 +3,7 @@ layout: device
 title: "Realme GT Neo 2"
 codename: bitra
 permalink: /bitra/
+redirect_from: /devices/realme/bitra/
 oem: realme
 supportstatus: Current
 maintainer: SathamHussainM

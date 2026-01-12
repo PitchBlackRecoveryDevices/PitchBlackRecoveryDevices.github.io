@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi Note 7 Pro"
 codename: violet
 permalink: /violet/
+redirect_from: /devices/xiaomi/violet/
 oem: xiaomi
 supportstatus: Current
 maintainer: Nipin NA (Joker-V2)

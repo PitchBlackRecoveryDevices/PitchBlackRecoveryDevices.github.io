@@ -2,6 +2,8 @@
 layout: device
 title: "Xiaomi Poco X3 NFC"
 codename: surya
+permalink: /surya/
+redirect_from: /devices/xiaomi/surya/
 oem: xiaomi
 supportstatus: Current
 maintainer: Erwin Abu Bakar Sidik

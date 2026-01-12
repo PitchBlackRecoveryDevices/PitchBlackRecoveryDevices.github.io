@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 8A Pro/Dual"
 codename: olivewood
 permalink: /olivewood/
+redirect_from: /devices/xiaomi/olivewood/
 oem: xiaomi
 supportstatus: Current
 maintainer: Aryan Sinha

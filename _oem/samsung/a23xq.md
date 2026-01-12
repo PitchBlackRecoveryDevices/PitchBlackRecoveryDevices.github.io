@@ -3,6 +3,7 @@ layout: device
 title: "Samsung Galaxy A23 (5G)"
 codename: a23xq
 permalink: /a23xq/
+redirect_from: /devices/samsung/a23xq/
 oem: samsung
 supportstatus: Current
 maintainer: edward0181

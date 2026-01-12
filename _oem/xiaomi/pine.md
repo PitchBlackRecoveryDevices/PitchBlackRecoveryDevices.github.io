@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 7A"
 codename: pine
 permalink: /pine/
+redirect_from: /devices/xiaomi/pine/
 oem: xiaomi
 supportstatus: Current
 maintainer: AOiSPdev

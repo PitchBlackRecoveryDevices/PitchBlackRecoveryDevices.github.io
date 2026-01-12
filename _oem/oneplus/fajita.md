@@ -3,6 +3,7 @@ layout: device
 title: "OnePlus 6T"
 codename: fajita
 permalink: /fajita/
+redirect_from: /devices/oneplus/fajita/
 oem: oneplus
 supportstatus: Current
 maintainer: SIDDK

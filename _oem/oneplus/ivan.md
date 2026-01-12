@@ -3,6 +3,7 @@ layout: device
 title: "OnePlus Nord CE 2 (5G)"
 codename: ivan
 permalink: /ivan/
+redirect_from: /devices/oneplus/ivan/
 oem: oneplus
 supportstatus: Current
 maintainer: NotGanesh

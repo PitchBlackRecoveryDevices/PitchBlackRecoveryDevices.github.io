@@ -3,6 +3,7 @@ layout: device
 title: "Moto G (5S) Plus"
 codename: sanders
 permalink: /sanders/
+redirect_from: /devices/motorola/sanders/
 oem: motorola
 supportstatus: Current
 maintainer: SathamHussainM

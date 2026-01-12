@@ -3,6 +3,7 @@ layout: device
 title: "Samsung Galaxy A52s (5G)"
 codename: a52sxq
 permalink: /a52sxq/
+redirect_from: /devices/samsung/a52sxq/
 oem: samsung
 supportstatus: Current
 maintainer: saadelasfur14

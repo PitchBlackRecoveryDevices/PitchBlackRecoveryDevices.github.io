@@ -2,6 +2,8 @@
 layout: device
 title: "Xiaomi Redmi Note 13 Pro 5G/Poco X6 5G"
 codename: garnet
+permalink: /garnet/
+redirect_from: /devices/xiaomi/garnet/
 oem: xiaomi
 supportstatus: Current
 maintainer: kibria5

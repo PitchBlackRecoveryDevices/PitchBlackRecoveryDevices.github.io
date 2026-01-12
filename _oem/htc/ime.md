@@ -3,6 +3,7 @@ layout: device
 title: "HTC U12+"
 codename: ime
 permalink: /ime/
+redirect_from: /devices/htc/ime/
 oem: htc
 supportstatus: Current
 maintainer: Jean F. Rivera Ramos

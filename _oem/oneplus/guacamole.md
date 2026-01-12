@@ -3,6 +3,7 @@ layout: device
 title: "OnePlus 7/7 Pro/7 Pro 5G"
 codename: guacamole
 permalink: /guacamole/
+redirect_from: /devices/oneplus/guacamole/
 oem: oneplus
 supportstatus: Current
 maintainer: Alexandria Cortez

@@ -2,6 +2,8 @@
 layout: device
 title: "OnePlus Pad 2"
 codename: caihong
+permalink: /caihong/
+redirect_from: /devices/oneplus/caihong/
 oem: oneplus
 supportstatus: Current
 maintainer: Himanshu Raj

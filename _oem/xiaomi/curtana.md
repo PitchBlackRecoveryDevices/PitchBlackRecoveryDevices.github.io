@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi Note 9S"
 codename: curtana
 permalink: /curtana/
+redirect_from: /devices/xiaomi/curtana/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

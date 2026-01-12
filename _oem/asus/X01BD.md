@@ -3,6 +3,7 @@ layout: device
 title: "ASUS ZenFone Max Pro M2"
 codename: X01BD
 permalink: /X01BD/
+redirect_from: /devices/asus/X01BD/
 oem: ASUS
 supportstatus: Current
 maintainer: legancy

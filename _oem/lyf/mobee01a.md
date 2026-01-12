@@ -3,6 +3,7 @@ layout: device
 title: "LYF Water 8"
 codename: mobee01a
 permalink: /mobee01a/
+redirect_from: /devices/lyf/mobee01a/
 oem: LYF
 supportstatus: Current
 maintainer: Mohd Faraz

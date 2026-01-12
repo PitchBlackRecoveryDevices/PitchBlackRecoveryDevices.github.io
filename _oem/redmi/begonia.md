@@ -3,6 +3,7 @@ layout: device
 title: "Redmi Note 8 Pro"
 codename: begonia
 permalink: /begonia/
+redirect_from: /devices/redmi/begonia/
 oem: redmi
 supportstatus: Current
 maintainer: Flamefusion

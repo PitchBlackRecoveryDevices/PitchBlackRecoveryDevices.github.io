@@ -3,6 +3,7 @@ layout: device
 title: "Samsung Galaxy S21 (5G) Snapdragon"
 codename: r9q
 permalink: /r9q/
+redirect_from: /devices/samsung/r9q/
 oem: samsung
 supportstatus: Current
 maintainer: edward0181

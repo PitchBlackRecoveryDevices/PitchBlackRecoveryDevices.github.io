@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 5"
 codename: rosy
 permalink: /rosy/
+redirect_from: /devices/xiaomi/rosy/
 oem: xiaomi
 supportstatus: Current
 maintainer: ElytrA8

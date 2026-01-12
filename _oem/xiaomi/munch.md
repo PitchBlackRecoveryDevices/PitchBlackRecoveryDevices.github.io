@@ -2,6 +2,8 @@
 layout: device
 title: "Xiaomi Poco F4"
 codename: munch
+permalink: /munch/
+redirect_from: /devices/xiaomi/munch/
 oem: xiaomi
 supportstatus: Current
 maintainer: Himanshu Raj

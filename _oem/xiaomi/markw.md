@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 4 Prime"
 codename: markw
 permalink: /markw/
+redirect_from: /devices/xiaomi/markw/
 oem: xiaomi
 supportstatus: Current
 maintainer: Qisthi Iskandar Haqiki

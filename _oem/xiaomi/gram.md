@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Poco M2 Pro"
 codename: gram
 permalink: /gram/
+redirect_from: /devices/xiaomi/gram/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 12"
 codename: fire
 permalink: /fire/
+redirect_from: /devices/xiaomi/fire/
 oem: xiaomi
 supportstatus: Current
 maintainer: YudhoPatrianto

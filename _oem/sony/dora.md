@@ -3,6 +3,7 @@ layout: device
 title: "Sony F8131"
 codename: dora
 permalink: /dora/
+redirect_from: /devices/sony/dora/
 oem: sony
 supportstatus: Current
 maintainer: Erwin Abu Bakar Sidik

@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 4X"
 codename: santoni
 permalink: /santoni/
+redirect_from: /devices/xiaomi/santoni/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

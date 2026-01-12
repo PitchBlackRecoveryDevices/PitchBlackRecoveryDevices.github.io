@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 6"
 codename: cereus
 permalink: /cereus/
+redirect_from: /devices/xiaomi/cereus/
 oem: xiaomi
 supportstatus: Current
 maintainer: Erwin Abu Bakar Sidik

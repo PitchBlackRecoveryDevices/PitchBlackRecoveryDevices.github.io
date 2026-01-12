@@ -2,6 +2,8 @@
 layout: device
 title: "Xiaomi Poco X3 Pro"
 codename: vayu
+permalink: /vayu/
+redirect_from: /devices/xiaomi/vayu/
 oem: xiaomi
 supportstatus: Current
 maintainer: Erwin Abu Bakar Sidik

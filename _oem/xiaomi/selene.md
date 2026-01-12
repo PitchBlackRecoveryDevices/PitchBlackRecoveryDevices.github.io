@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 10"
 codename: selene
 permalink: /selene/
+redirect_from: /devices/xiaomi/selene/
 oem: xiaomi
 supportstatus: Current
 maintainer: Hasan6034

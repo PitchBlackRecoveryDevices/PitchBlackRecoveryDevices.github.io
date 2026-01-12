@@ -3,6 +3,7 @@ layout: device
 title: "Miatoll"
 codename: miatoll
 permalink: /miatoll/
+redirect_from: /devices/xiaomi/miatoll/
 oem: xiaomi
 supportstatus: Current
 maintainer: SIDDK

@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Mi A2"
 codename: jasmine_sprout
 permalink: /jasmine_sprout/
+redirect_from: /devices/xiaomi/jasmine_sprout/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team

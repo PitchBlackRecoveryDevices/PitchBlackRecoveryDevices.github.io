@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi Note 6 Pro"
 codename: tulip
 permalink: /tulip/
+redirect_from: /devices/xiaomi/tulip/
 oem: xiaomi
 supportstatus: Current
 maintainer: IceBreaker2451

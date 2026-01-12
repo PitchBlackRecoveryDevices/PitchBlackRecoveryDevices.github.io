@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi Note 11"
 codename: spes
 permalink: /spes/
+redirect_from: /devices/xiaomi/spes/
 oem: xiaomi
 supportstatus: Current
 maintainer: Agatha

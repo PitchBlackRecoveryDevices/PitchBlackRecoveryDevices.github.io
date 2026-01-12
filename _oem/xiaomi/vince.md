@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 5 Plus"
 codename: vince
 permalink: /vince/
+redirect_from: /devices/xiaomi/vince/
 oem: xiaomi
 supportstatus: Current
 maintainer: r_k87 & Kry9toN

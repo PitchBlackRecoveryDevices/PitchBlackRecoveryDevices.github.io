@@ -3,6 +3,7 @@ layout: device
 title: "OnePlus 6/6T"
 codename: OP6xT
 permalink: /OP6xT/
+redirect_from: /devices/oneplus/OP6xT/
 oem: oneplus
 supportstatus: Current
 maintainer: SIDDK

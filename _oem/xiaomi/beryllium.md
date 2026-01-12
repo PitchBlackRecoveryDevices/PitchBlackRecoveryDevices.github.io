@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Pocophone F1"
 codename: beryllium
 permalink: /beryllium/
+redirect_from: /devices/xiaomi/beryllium/
 oem: xiaomi
 supportstatus: Current
 maintainer: Mohd Faraz

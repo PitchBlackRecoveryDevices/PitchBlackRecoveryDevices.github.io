@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 3"
 codename: ido
 permalink: /ido/
+redirect_from: /devices/xiaomi/ido/
 oem: xiaomi
 supportstatus: Current
 maintainer: Jubayer Ahmad Shvon

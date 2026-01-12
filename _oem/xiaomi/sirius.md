@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Mi 8 SE"
 codename: sirius
 permalink: /sirius/
+redirect_from: /devices/xiaomi/sirius/
 oem: xiaomi
 supportstatus: Current
 maintainer: Qisthi Iskandar Haqiki

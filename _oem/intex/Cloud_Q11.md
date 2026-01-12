@@ -3,6 +3,7 @@ layout: device
 title: "Intex Cloud Q11"
 codename: Cloud_Q11
 permalink: /Cloud_Q11/
+redirect_from: /devices/intex/Cloud_Q11/
 oem: intex
 supportstatus: Current
 maintainer: Aryan Karan

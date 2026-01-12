@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 8"
 codename: olive
 permalink: /olive/
+redirect_from: /devices/xiaomi/olive/
 oem: xiaomi
 supportstatus: Current
 maintainer: deadlylxrd

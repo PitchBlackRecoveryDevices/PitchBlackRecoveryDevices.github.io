@@ -3,6 +3,7 @@ layout: device
 title: "Xiaomi Redmi 3S/3X/Prime"
 codename: land
 permalink: /land/
+redirect_from: /devices/xiaomi/land/
 oem: xiaomi
 supportstatus: Current
 maintainer: PBRP Team
