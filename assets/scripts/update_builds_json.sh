@@ -214,6 +214,7 @@ layout: device
 title: "${T_NAME}"
 codename: ${T_CODE}
 permalink: /${T_CODE}/
+redirect_from: /devices/${VENDOR_LOWER}/${T_CODE}/
 oem: ${VENDOR}
 supportstatus: Current
 maintainer: ${T_MAINT}

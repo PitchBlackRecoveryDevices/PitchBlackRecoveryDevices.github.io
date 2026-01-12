@@ -125,6 +125,7 @@ layout: device
 title: "{device_name}"
 codename: {device_codename}
 permalink: /{device_codename}/
+redirect_from: /devices/{vendor_lower}/{device_codename}/
 oem: {vendor}
 supportstatus: Current
 maintainer: {maintainer}

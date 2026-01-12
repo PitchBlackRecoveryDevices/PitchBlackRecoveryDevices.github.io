@@ -11,6 +11,8 @@
    title: "{Device Name}"
    codename: {codename}
    oem: {OEM Name}
+   permalink: /{codename}/
+   redirect_from: /devices/{oem}/{codename}/
    supportstatus: Current/Discontinued
    maintainer: {Your GitHub Username/Name} # Without @
    ddof: "/dev/block/bootdevice/by-name/recovery"
