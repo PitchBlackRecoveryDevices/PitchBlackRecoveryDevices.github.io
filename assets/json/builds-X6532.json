@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2026-01-14",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/X6532/PBRP-X6532-4.0-20260114-1152-OFFICIAL.zip/download",
+    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_infinix_X6532-pbrp/releases/tag/4.0",
+    "changelog": "- Initial Official Release"
+  },
+  "older_builds": []
+}
