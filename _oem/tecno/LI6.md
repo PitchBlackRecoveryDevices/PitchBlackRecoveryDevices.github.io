@@ -15,3 +15,5 @@ devicetree: "https://github.com/PitchBlackRecoveryProject/android_device_tecno_L
 {% include download.html %}
 
 {% include pbrpinstall.html %}
+
+{% include fastbootvendorbootxiaomiabmtk.html %}
