@@ -1,0 +1,11 @@
+{
+  "latest": {
+    "version": "4.0",
+    "build_type": "OFFICIAL",
+    "date": "2026-01-31",
+    "download_link": "https://sourceforge.net/projects/pbrp/files/X6882/PBRP-X6882-4.0-20260130-1017-OFFICIAL.zip/download",
+    "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_infinix_X6882-pbrp/releases/tag/4.0",
+    "changelog": "- Sync Latest Source"
+  },
+  "older_builds": []
+}
