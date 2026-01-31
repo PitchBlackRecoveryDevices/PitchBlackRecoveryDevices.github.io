@@ -5,7 +5,7 @@
     "date": "2026-01-31",
     "download_link": "https://sourceforge.net/projects/pbrp/files/X6880/PBRP-X6880-4.0-20260130-1227-OFFICIAL.zip/download",
     "github_release": "https://github.com/PitchBlackRecoveryProject/android_device_infinix_X6880-pbrp/releases/tag/4.0",
-    "changelog": "- Sync Latest Source"
+    "changelog": "- Initial Official Release"
   },
   "older_builds": []
 }
