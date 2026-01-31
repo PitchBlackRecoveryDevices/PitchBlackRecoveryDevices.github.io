@@ -3,14 +3,12 @@ source "https://rubygems.org"
 # Jekyll
 gem "jekyll", "~> 4.3.0"
 
-# GitHub Pages compatibility
-gem "github-pages", group: :jekyll_plugins
-
 # Plugins
 group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-sitemap"
   gem "jekyll-feed"
+  gem "jekyll-seo-tag"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
